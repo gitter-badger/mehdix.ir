@@ -87,7 +87,7 @@
 <p>اگر به تنظیمات جکیل من نگاه کنید من <em>kramdown</em> رو به عنوان پارسر انتخاب کردم:</p>
 
 <div class="highlighter-coderay"><div class="CodeRay">
-  <div class="code"><pre><span class="line-numbers"><a href="#n1" name="n1">1</a></span><span style="color:#606">markdown</span>: <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#D20">kramdown</span></span>
+  <div class="code"><pre><span style="color:#606">markdown</span>: <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#D20">kramdown</span></span>
 </pre></div>
 </div>
 </div>
@@ -98,9 +98,9 @@
 <p>من مشکلی داشتم در نمایش افقی و مرکزی عکس‌ها. جکیل به صورت پیشفرض تصاویر رو سمت چپ (و وقتی راست‌چین شده باشه سمت راست) قرار می‌داد و این چیزی نبود که من می‌خواستم. و اما کدی که ژنراتور جکیل برای یک بلاک عکس تولید می‌کرد حاوی یک تگ <code>p</code> و یک تگ <code>img</code> داخل اون بود. به این صورت:</p>
 
 <div class="highlighter-coderay"><div class="CodeRay">
-  <div class="code"><pre><span class="line-numbers"><a href="#n1" name="n1">1</a></span><span style="color:#070;font-weight:bold">&lt;p&gt;</span>
-<span class="line-numbers"><a href="#n2" name="n2">2</a></span><span style="color:#070;font-weight:bold">&lt;img</span> <span style="color:#b48">href</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">alt</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#710">&quot;</span></span><span style="color:#070;font-weight:bold">/&gt;</span>
-<span class="line-numbers"><a href="#n3" name="n3">3</a></span><span style="color:#070;font-weight:bold">&lt;/p&gt;</span>
+  <div class="code"><pre><span style="color:#070;font-weight:bold">&lt;p&gt;</span>
+<span style="color:#070;font-weight:bold">&lt;img</span> <span style="color:#b48">href</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">alt</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#710">&quot;</span></span><span style="color:#070;font-weight:bold">/&gt;</span>
+<span style="color:#070;font-weight:bold">&lt;/p&gt;</span>
 </pre></div>
 </div>
 </div>
@@ -108,7 +108,7 @@
 <p>که این کد خروجی سینتکس زیر در کد من بود:</p>
 
 <div class="highlighter-coderay"><div class="CodeRay">
-  <div class="code"><pre><span class="line-numbers"><a href="#n1" name="n1">1</a></span>![image](URL)
+  <div class="code"><pre>![image](URL)
 </pre></div>
 </div>
 </div>
@@ -116,8 +116,8 @@
 <p>اشکال اینجا بود که تگ‌های تولید شده کلاس یا آی‌دی خاصی نداشتند که من بتونم میون انبوه کدهای تولید شده برای صفحه اونها رو پیدا کنم. اینجا بود که IAL به کمکم اومد. بعد از ثبت یک ایشو در جکیل و بعد یک ایشو در kramdown بالاخره به جواب رسیدم. به این صورت که من می‌تونم به فرمت زیر قبل از یک بلاک عکس (یا هر بلاک دیگری) یک کلاس دلخواه رو به تگ تولید شده نسبت بدم:</p>
 
 <div class="highlighter-coderay"><div class="CodeRay">
-  <div class="code"><pre><span class="line-numbers"><a href="#n1" name="n1">1</a></span>{: .center}
-<span class="line-numbers"><a href="#n2" name="n2">2</a></span>![image](URL)
+  <div class="code"><pre>{: .center}
+![image](URL)
 </pre></div>
 </div>
 </div>
@@ -125,9 +125,9 @@
 <p><code>center</code> در اینجا اسم دلخواهیه که من انتخاب کردم. بعد از این مرحله خروجی کد شد این:</p>
 
 <div class="highlighter-coderay"><div class="CodeRay">
-  <div class="code"><pre><span class="line-numbers"><a href="#n1" name="n1">1</a></span><span style="color:#070;font-weight:bold">&lt;p</span> <span style="color:#b48">class</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">center</span><span style="color:#710">&quot;</span></span><span style="color:#070;font-weight:bold">&gt;</span>
-<span class="line-numbers"><a href="#n2" name="n2">2</a></span><span style="color:#070;font-weight:bold">&lt;img</span> <span style="color:#b48">href</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">alt</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#710">&quot;</span></span><span style="color:#070;font-weight:bold">/&gt;</span>
-<span class="line-numbers"><a href="#n3" name="n3">3</a></span><span style="color:#070;font-weight:bold">&lt;/p&gt;</span>
+  <div class="code"><pre><span style="color:#070;font-weight:bold">&lt;p</span> <span style="color:#b48">class</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">center</span><span style="color:#710">&quot;</span></span><span style="color:#070;font-weight:bold">&gt;</span>
+<span style="color:#070;font-weight:bold">&lt;img</span> <span style="color:#b48">href</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">alt</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#710">&quot;</span></span><span style="color:#070;font-weight:bold">/&gt;</span>
+<span style="color:#070;font-weight:bold">&lt;/p&gt;</span>
 </pre></div>
 </div>
 </div>
@@ -135,9 +135,9 @@
 <p>ناگفته پیداست که حالا من می‌تونم در کد <code>css</code> براحتی استایل دلخواهم رو به این کلاس نسبت بدم:</p>
 
 <div class="highlighter-coderay"><div class="CodeRay">
-  <div class="code"><pre><span class="line-numbers"><a href="#n1" name="n1">1</a></span><span style="color:#B06;font-weight:bold">.center</span>{
-<span class="line-numbers"><a href="#n2" name="n2">2</a></span>    <span style="color:#606">text-align</span>: <span style="color:#088">center</span>;
-<span class="line-numbers"><a href="#n3" name="n3">3</a></span>}
+  <div class="code"><pre><span style="color:#B06;font-weight:bold">.center</span>{
+    <span style="color:#606">text-align</span>: <span style="color:#088">center</span>;
+}
 </pre></div>
 </div>
 </div>
@@ -145,15 +145,15 @@
 <p>چند مثال هم از مستندات خودشون:</p>
 
 <div class="highlighter-coderay"><div class="CodeRay">
-  <div class="code"><pre><span class="line-numbers"> <a href="#n1" name="n1">1</a></span>A simple paragraph with an ID attribute.
-<span class="line-numbers"> <a href="#n2" name="n2">2</a></span>{: #para-one}
-<span class="line-numbers"> <a href="#n3" name="n3">3</a></span>
-<span class="line-numbers"> <a href="#n4" name="n4">4</a></span>&gt; A blockquote with a title
-<span class="line-numbers"> <a href="#n5" name="n5">5</a></span>{:title=&quot;The blockquote title&quot;}
-<span class="line-numbers"> <a href="#n6" name="n6">6</a></span>{: #myid}
-<span class="line-numbers"> <a href="#n7" name="n7">7</a></span>
-<span class="line-numbers"> <a href="#n8" name="n8">8</a></span>{:.ruby}
-<span class="line-numbers"> <a href="#n9" name="n9">9</a></span>    Some code here
+  <div class="code"><pre>A simple paragraph with an ID attribute.
+{: #para-one}
+
+&gt; A blockquote with a title
+{:title=&quot;The blockquote title&quot;}
+{: #myid}
+
+{:.ruby}
+    Some code here
 </pre></div>
 </div>
 </div>
