@@ -688,3 +688,7 @@ blockquote p {
   border-right: none;
   padding-right: 6em;
   color: dimgrey; }
+
+/* Fix incorrect video sizes in post content (which messes the gradient lines */
+.post-content iframe {
+  width: 100%; }
