@@ -6,9 +6,260 @@
 </description>
     <link>http://mehdix.ir/</link>
     <atom:link href="http://mehdix.ir/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 02 Jan 2015 13:44:17 +0100</pubDate>
-    <lastBuildDate>Fri, 02 Jan 2015 13:44:17 +0100</lastBuildDate>
+    <pubDate>Thu, 08 Jan 2015 12:40:49 +0100</pubDate>
+    <lastBuildDate>Thu, 08 Jan 2015 12:40:49 +0100</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
+    
+      <item>
+        <title>حق دسترسی فایل‌ها در لینوکس به زبان ساده</title>
+        <description>&lt;p&gt;بارها برام پیش اومده که موقع تغییر فایل‌های لینوکس به خاطر مجوز اونها به مشکل خوردم. تصمیم گرفتم یکبار با دقت این مجوزها رو بخونم و به زبان ساده در وبلاگم بنویسم. البته این راهنما قرار نیست کامل باشه و بیشتر یک یادداشته برای مراجعات بعدی خودم.&lt;/p&gt;
+
+&lt;p&gt;اگر در یک ترمینال دستور &lt;code&gt;ls -l&lt;/code&gt; یا &lt;code&gt;ll&lt;/code&gt; رو تایپ کنیم چیزی شبیه به این می‌بینیم:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
+  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;mehdix@spielplatz:~/Desktop/perm$ ls -l
+total 4
+drwxrwxr-x 2 mehdix mehdix 4096 Jan  8 09:38 dir1
+-rw-rw-r-- 1 mehdix mehdix    0 Jan  8 09:38 file1
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;حق دسترسی و مالکیت دو موضوع تقریبا مستقل از هم هستند. ستون اول خروجی دستور بالا حق دسترسی روی فایل و پوشه موجود رو نشون می‌ده ولی ستون‌های سوم و چهارم حق مالکیت بر روی فایل‌ها رو نشون می‌ده. لازمه بگم که پوشه هم یک جور فایل است با این تفاوت که آدرس فایل‌های دیگر رو درون خودش نگه می‌داره (مراجعه کنید به &lt;code&gt;inode&lt;/code&gt;). در ادامه هر دو رو شرح می‌دیم.&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;مالکیت&lt;/h2&gt;
+&lt;p&gt;وقتی یک فایل یا پوشه رو با دستورات و اپراتورهای مختلف از جمله &lt;code&gt;mkdir&lt;/code&gt;  (بخوانید make directory) و &lt;code&gt;touch&lt;/code&gt; و &lt;code&gt;echo&lt;/code&gt; و &lt;code&gt;&amp;lt;&lt;/code&gt; و &lt;code&gt;&amp;lt;&amp;lt;&lt;/code&gt;  (این دو تا رو نمی‌دونم چطور بخونیم!) می‌سازیم مالکیت فایل تولیدی هم به ما داده می‌شه. در مثال بالا ستون سوم مالک رو نشون می‌ده و ستون چهارم هم گروه کاربری رو. معنی مالک در لینوکس مثل معنی اون در دنیای واقعی است. یعنی مالک تصمیم می‌گیره چه کسی به فایل اون بتونه «نگاه» کنه یا «دست بزنه». می‌تونید تصور کنید که پدر مالک ماشینه و اون تصمیم می‌گیره که اجازه بده که فرزندش به ماشین فقط نگاه کنه یا پشت فرمون هم بشینه.
+نکته مهم اینجا اینه که مالک یک فایل تصمیم می‌گیره که &lt;strong&gt;حق دسترسی‌های&lt;/strong&gt;‌ اون فایل چی باشه. جالبه بدونید که مالک می‌تونه حق دسترسی خواندن و نوشتن و اجرا کردن خودش رو هم روی فایل محدود کنه اما از جایی که مالکیت فایل رو در اختیار داره می‌تونه دوباره اون رو سر جاش برگردونه.
+پس یادمون می‌مونه که حق مالکیت جدا از حق دسترسی است.&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;گروه کاربری&lt;/h2&gt;
+&lt;p&gt;هر فایلی حتما یک مالک داره که حق دسترسی‌های اون رو تعیین می‌کنه اما علاوه بر این هر فایلی به یک گروه هم تعلق داره. یک گروه نماینده کاربرانی است که حقوقی متفاوت از کاربر عادی در دسترسی به فایل‌ها دارند. یعنی بواسطه گروهشون به فایل‌هایی دسترسی داشته باشند که کاربرشون به تنهایی نداره. یک کاربر می‌تونه در بیش از یک گروه عضو باشه اما یک فایل فقط می‌تونه متعلق به یک گروه باشه. 
+در مثال بالا هم ستون چهارم گروه کاربری رو نشون می‌ده. روی کامپیوتر اوبونتوی من که یک کاربر بیشتر نداره (البته به استثنای کاربر &lt;em&gt;root&lt;/em&gt;) کاربر و گروه کاربری من یکیه. هر کاربر حتما باید عضو یک گروه باشه بنابراین به طور پیشفرض یک گروه بنام خود کاربر روی سیستم موقع نصب ساخته شده.
+گروه کاربری وقتی به درد می‌خوره که با بیش از یک کاربر سر و کار داشته باشیم. مثلا بخوایم به همه کاربرهایی که اعتماد داریم اجازه خواندن و نوشتن بدیم و به سایر کاربرهای سیستم فقط اجازه خواندن بدیم. در این صورت می‌تونیم گروهی که کاربران مورد اعتماد ما عضوش هستند رو به عنوان گروه فایل تنظیم کنیم.&lt;/p&gt;
+
+&lt;h3 id=&quot;chown&quot;&gt;تغییر مالک و گروه کاربری فایل‌ها با chown&lt;/h3&gt;
+&lt;p&gt;هر کاربر می‌تونه حقوق دسترسی روی یک فایل رو که در مالکیت اوست تغییر بده اما نمی‌تونه مالکیت فایل رو تغییر بده. این کار باید توسط کاربر &lt;em&gt;root&lt;/em&gt; انجام بشه. در ضمن وقتی ما از دستور &lt;code&gt;root&lt;/code&gt; استفاده می‌کنیم (در سیستم‌های مشابه دبیان) داریم با دسترس کاربر روت تغییرات رو انجام می‌دیم.
+هرچند یک کاربر می‌تونه گروه کاربری یک فایل رو به گروهی جدید تغییر بده به شرط اینکه خودش عضو گروه جدید باشه. به عبارت دیگه یک کاربر می‌تونه گروه یک فایل رو بین گروه‌هایی که خودش عضو اونهاست دست به دست کنه.&lt;/p&gt;
+
+&lt;p&gt;دستور اصلی برای تغییر مالکیت فایل‌ها &lt;code&gt;chown&lt;/code&gt; است (بخوانید change owner) به این ترتیب:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
+  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;chown username:groupname file1 file2 [or directory]
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;در دستور بالا &lt;em&gt;username&lt;/em&gt; نام کاربری است که می‌خواهیم فایل‌ها به اون تعلق داشته باشند و نیز &lt;em&gt;groupname&lt;/em&gt; نام گروهی است که می‌خواهیم فایل‌ها به آن تعلق داشته باشند.&lt;/p&gt;
+
+&lt;p&gt;این دستور رو به دو شیوه دیگر هم می‌شه اجرا کرد. فقط برای تغییر مالک فایل به شکل زیر:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
+  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;chown username file1 file2 [or directory]
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;و تنها برای تغییر گروه فایل به این شکل (دو نقطه فراموش نشود):&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
+  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;chown :groupname file1 file2 [or directory]
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;برای تغییر گروه دستور &lt;code&gt;chgrp&lt;/code&gt; را هم می‌توان بکار برد (بخوانید change group):&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
+  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;chgrp groupname file1 file2 [or directory]
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;با بکارگیری فلگ &lt;em&gt;-R&lt;/em&gt; تغییرات به همه زیرشاخه‌ها هم اعمال خواهد شد:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
+  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;chown -R username:groupname directory
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;حق دسترسی‌ برای فایل‌ها&lt;/h3&gt;
+&lt;p&gt;برای هر فایل می‌شه سه نوع حق‌دسترسی تعریف کرد: حق‌نوشتن و حق خواندن و حق اجرا کردن فایل.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;حق خواندن&lt;/strong&gt; یعنی دیدن محتوای فایل و استفاده از دستوراتی مانند &lt;code&gt;less&lt;/code&gt; و &lt;code&gt;cat&lt;/code&gt; و غیره. حق خواندن با &lt;strong&gt;r&lt;/strong&gt; نشان داده می‌شود.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;حق نوشتن&lt;/strong&gt; یعنی تغییر محتویات فایل. فوروارد کردن خروجی یک دستور به یک فایل و اضافه کردن به فایل و مانند اینها. حق خواندن با &lt;strong&gt;w&lt;/strong&gt; نشان داده می‌شود.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;حق اجرای فایل&lt;/strong&gt; اگر ما روی یک فایل حق اجرا داشته باشیم می‌توانیم از سیستم عامل بخواهیم که آن فایل را مثل یک برنامه برای ما اجرا کند. اگر فایل باینری باشد حق اجرا کفایت می‌کند اما اگر فایل اسکریپت باشد از جایی که باید یک برنامه دیگر آنرا بخواند و اجرا کند علاوه بر حق اجرا حق خواندن نیز لازم است. حق خواندن با &lt;strong&gt;x&lt;/strong&gt; نشان داده می‌شود.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;حق دسترسی برای پوشه‌ها&lt;/h3&gt;
+&lt;p&gt;برای هر پوشه هم می‌شود سه نوع حق دسترسی تعریف کرد. خواندن و نوشتن و ‫&lt;strong&gt;جستجو&lt;/strong&gt;. این معانی با قبلی‌ها تفاوت دارند.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;حق خواندن&lt;/strong&gt; به معنای دیدن لیست فایل‌های درون یک پوشه است با بکارگیری دستوری مانند &lt;code&gt;ls&lt;/code&gt; (بخوانید list ). هرچند این به معنی خواندن محتوای فایل‌های داخل آن نیست.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;حق نوشتن&lt;/strong&gt; به معنی امکان افزودن‌ فایل‌های جدید به پوشه و همچنین تغییر نام و انتقال فایل‌های موجود است، برای مثال با دستور &lt;code&gt;mv&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;حق اجرا روی یک پوشه&lt;/strong&gt; به معنی اینست که پوشه قابل جستجو است و می‌توان نام آنرا برای دسترسی به یک فایل دارای حق اجرا بکار برد.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;chmod&quot;&gt;تغییر دسترسی‌ها با chmod&lt;/h3&gt;
+&lt;p&gt;یک کاربر می‌تونه حق خواندن و نوشتن و اجرای فایل‌هایی که تحت مالکیت خودش قرار دارند رو تغییر بده. همونطور که در بالا گفتیم rwx حرف اول مجوزهایی هستند که برای هر فایل بکار می‌ره. برای هر فایل سه دست حق دسترسی تعریف شده، هر دست شامل مجوز خواندن و نوشتن و اجرا است. یک دست برای مالک و یک دست برای گروه و یک دست برای سایر کاربران. در مجموع نه بیت برای اینکار بکار رفته که هر سه بیت یک دست حق دسترسی رو نشون می‌ده. هر بیت اگر ست شده باش (یعنی مقدر ۱ بهش داده شده باشه) بسته به اینکه بیت خواندن یا نوشتن یا اجرا باشه با r و w و x نشون داده خواهد شد. حالا با مراجعه دوباره به لیستی که اول نوشته داشتیم اینها رو مرور می‌کنیم:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
+  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;mehdix@spielplatz:~/Desktop/perm$ ls -l
+total 4
+drwxrwxr-x 2 mehdix mehdix 4096 Jan  8 09:38 dir1
+-rw-rw-r-- 1 mehdix mehdix    0 Jan  8 09:38 file1
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;در مثال بالا خط‌های تیره در ستون اول نماینده بیت‌هایی هستند که ست نشده‌اند (مقدارشان صفر است). به ترتیب از چپ به راست اولین بیت اگر d باشد یعنی یک پوشه است اگر l باشد یعنی لینک سمبلیک است و اگر - باشد یعنی فایل معمولی است. نه سه تای بعدی مجوزهای مالک سه تای دوم مجوزهای گروه و سه تای سوم مجوزهای سایر کاربران هستند.&lt;/p&gt;
+
+&lt;p&gt;برای این منظور از دستور &lt;code&gt;chmod&lt;/code&gt; ‏‎(بخوانید change mode) استفاده می‌کنیم:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
+  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;chmod [references][operator][modes] file1 ...
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;در دستور بالا &lt;code&gt;references&lt;/code&gt; برای انتخاب سِت مورد نظر است، مالک و/یا گروه و/یا سایر کاربران. جدول زیر نشاندهنده حروفی است که به این منظور بکار می‌رود:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;رفرنس&lt;/td&gt;
+      &lt;td&gt;کلاس&lt;/td&gt;
+      &lt;td&gt;شرح&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;u&lt;/td&gt;
+      &lt;td&gt;user&lt;/td&gt;
+      &lt;td&gt;مالک فایل&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;g&lt;/td&gt;
+      &lt;td&gt;group&lt;/td&gt;
+      &lt;td&gt;کاربرانی که عضو گروه فایل هستند&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;o&lt;/td&gt;
+      &lt;td&gt;other&lt;/td&gt;
+      &lt;td&gt;کاربرانی که عضو گروه فایل نیستند&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;a&lt;/td&gt;
+      &lt;td&gt;all&lt;/td&gt;
+      &lt;td&gt;همه موارد بالا&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;در ادامه با مثلا کاربرد این حروف را می‌بینیم. اوپراتورهای هم یا + یا - یا = هستند:
+* &lt;strong&gt;به علاوه +&lt;/strong&gt; به معنی افزودن یک ‫&lt;em&gt;مود&lt;/em&gt; به رفرنس‌های نامبرده است
+* &lt;strong&gt;منها -&lt;/strong&gt; به معنی حذف یک &lt;em&gt;مود&lt;/em&gt; از رفرنس‌های نامبرده است
+* &lt;strong&gt;مساوی =&lt;/strong&gt; به معنی اعمال یک &lt;em&gt;مود&lt;/em&gt; به همه رفرنس‌هاست&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;مودها&lt;/strong&gt; یا حالت‌ها هم همان حق خواندن و نوشتن و اجرا هستند که البته سه مود دیگر بنام‌های X (با حرف بزرگ) و s و t هم داریم که فعلا به آنها نمی‌پردازیم.&lt;/p&gt;
+
+&lt;p&gt;حالا چند مثال. فایل یک از مثال بالا را تغییر می‌دهیم:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
+  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;chmod ug+rw file1
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;یعنی به کاربر مالک و گروه مالک حق خواندن و نوشتن را اضافه کن و این شد نتیجه:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
+  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;-rw-rw-r-- 1 mehdix mehdix 0 Jan  8 10:20 file1
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;حالا همون حقوقی رو که خودمون دادیم پس می‌گیریم :) به این شکل:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
+  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;chmod ug-rw file1
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;و این هم نتیجه:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
+  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;-------r-- 1 mehdix mehdix 0 Jan  8 10:20 file1
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;یا مثلا گرفتن و دادن همه مجوزها به همه کاربران:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
+  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;chmod a+rw file1
+chmod a-rw file1
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;یا مثلا دادن &lt;strong&gt;تنها&lt;/strong&gt; امکان خواندن به سایر کاربران:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
+  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;chmod o=r file1
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;دقت کنید که بکارگیری = باعث از بین رفتن مجوزهای قبلی می‌شه در حالی که + و - مجوزها رو اضافه و حذف می‌کنند و کاری به بقیه ندارند. این‌ها در حقیقت همون عملیات and و or و mask کردن بیت‌ها در کامپیوتره.&lt;/p&gt;
+
+&lt;p&gt;نوشتن این یادداشت باعث شد خودم بهتر این موارد رو به خاطر بسپرم. موارد بیشتری هم هست که بهرحال فهم این نکات اولیه به یادگیری بقیه هم کمک می‌کنه. منابعی هم که بکار گرفتم در انتهای مطلب&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; هست.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;‏&lt;a href=&quot;http://www.rackspace.com/knowledge_center/article/linux-file-permission-concepts&quot;&gt;linux-file-permission-concepts&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;‏&lt;a href=&quot;https://en.wikipedia.org/wiki/Modes_(Unix)&quot;&gt;Unix Modes&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;‏&lt;a href=&quot;http://www.grymoire.com/Unix/Permissions.html#toc-uh-0&quot;&gt;Permissions&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot;&gt;
+      &lt;p&gt;‏&lt;a href=&quot;http://unix.stackexchange.com/a/140944/87940&quot;&gt;Stackexchange Question&lt;/a&gt; &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 08 Jan 2015 00:00:00 +0100</pubDate>
+        <link>http://mehdix.ir/linux-permissions-made-simple.html</link>
+        <guid isPermaLink="true">http://mehdix.ir/linux-permissions-made-simple.html</guid>
+        
+        <category>لینوکس</category>
+        
+        <category>فایل</category>
+        
+        <category>حق</category>
+        
+        <category>دسترسی</category>
+        
+        
+        <category>لینوکس</category>
+        
+      </item>
     
       <item>
         <title>ماموریت روزتا</title>
@@ -162,8 +413,9 @@
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;#خلاصه
-به کمک این روش می‌شه براحتی &lt;em&gt;attribute&lt;/em&gt;هایی برای المان‌های مختلف الصاق کرد. فقط کافیه که &lt;em&gt;بلافاصله&lt;/em&gt; قبل یا بعد از المان مربوطه کد IAL لازم نوشته بشه.&lt;/p&gt;
+
+&lt;h1 id=&quot;section-2&quot;&gt;خلاصه&lt;/h1&gt;
+&lt;p&gt;به کمک این روش می‌شه براحتی &lt;em&gt;attribute&lt;/em&gt;هایی برای المان‌های مختلف الصاق کرد. فقط کافیه که &lt;em&gt;بلافاصله&lt;/em&gt; قبل یا بعد از المان مربوطه کد IAL لازم نوشته بشه.&lt;/p&gt;
 </description>
         <pubDate>Sun, 21 Dec 2014 00:00:00 +0100</pubDate>
         <link>http://mehdix.ir/kramdown.html</link>
@@ -648,48 +900,6 @@ about.md  _config.yml  css  feed.xml  _includes  index.html  _layouts  _posts  _
         
         
         <category>opensource</category>
-        
-      </item>
-    
-      <item>
-        <title>پیشگفتار</title>
-        <description>&lt;p&gt;مدتها قبل وبلاگ‌هایی&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; با وردپرس داشتم که متروکه شدند. آنها روی وردپرس قرار داشتند و امکان شخصی سازی در اختیارم نمی‌گذاشتند. اخیرا دوباره علاقه‌مند شدم که یک وبلاگ شخصی داشته باشم اما نه روی وردپرس بلکه روی یک دامنه شخصی. این کار از منظر مارکتینگ شخصی برای من به عنوان یک برنامه‌نویس و یک هکر تازه‌کار مهم است. بنابراین دامنه جدیدی ثبت کردم و وبلاگی مبتنی بر وردپرس راه‌اندازی کردم. از جایی که قصد دارم گاهی مطالبی به انگلیسی یا آلمانی منتشر کنم وردپرس را به کمک پلاگینی به نام &lt;a href=&quot;https://wordpress.org/plugins/polylang/&quot;&gt;polylang&lt;/a&gt; به وبلاگی چندزبانه تبدیل کردم. اما به زودی دریافتم که با اینکار «سادگی» را که برایم بسیار مهم است از دست می‌دهم و تصمیم گرفتم که این روش را کنار بگذارم. در جستجوی یک روش ساده‌ و هکرپسند به جکیل رسیدم. وبلاگی که در پیش‌رو دارید با جِکیل ساخته شده است.&lt;/p&gt;
-
-&lt;h2 id=&quot;section&quot;&gt;اهمیت وبسایت شخصی&lt;/h2&gt;
-&lt;p&gt;از دیرباز بین هکرها رسم بوده است که سایتی&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; شخصی برای خودشان داشته باشند و آنجا خودشان را معرفی کرده و در مورد نظرات و پروژه‌هایشان بنویسند. در کتاب &lt;a href=&quot;http://aidinhut.com/pdf/the_tao_of_programming.pdf&quot;&gt;تائوی برنامه‌نویسان&lt;/a&gt; که دوست خوبم آیدین غریب‌نواز ترجمه کرده است می‌توانید بیشتر با رفتار و عقاید هکرها آشنا شوید. داشتن یک وبسایت شخصی هم محلی است برای نوشتن مطالب شخصی و هم جایی است که می‌شود پروژه‌هایی را آنجا بارگذاری کرد. گذشته از اینها وبسایت شخصی مثل محلی برای تمرین دانسته‌های من است. علاوه بر این ممکن است من بخواهم برنامه‌ای بنویسم و آنرا در سایت خودم «نصب» کنم یا با متصل شدن به هاست شخصی‌ام به کدها و برنامه‌هایم دسترسی داشته باشم. به هر ترتیب داشتن یک سایت شخصی هم مزایای فنی و آموزشی دارد و هم مانند یک رزومه آنلاین در دنیای اینترنتی امروز است.&lt;/p&gt;
-
-&lt;h2 id=&quot;section-1&quot;&gt;سادگی&lt;/h2&gt;
-&lt;p&gt;بسیاری وبسایتشان را خودشان نوشته‌اند و بسیاری هم از سیستم‌های مدیریت محتوا استفاده کرده‌اند که قابلیت‌های زیادتری را به راحتی در اختیار می‌گذارند. من دوست دارم وبسایتی ساده داشته باشم ولی در عین حال نمی‌خواهم از فن‌آوری‌های مدرن چشم‌پوشی کنم. سادگی یکی از اصولی است که اواخر یاد گرفته‌ام. سادگی برای من یعنی انتخاب راه‌حلی که کاری کوچک را به شیوه‌ای درست و موثر انجام بدهد. سادگی در ارتباط مستیم با «بهره‌وری» قرار دارد. هرچه راه‌حل ساده‌تر باشد، ماندگاری و دوام آن هم بیشتر است و توسعه آن نیز راحت‌تر است.&lt;/p&gt;
-
-&lt;h2 id=&quot;section-2&quot;&gt;تکنولوژی&lt;/h2&gt;
-&lt;p&gt;با این اوصاف من از فیچرهایی که یک سیستم مدیریت محتوا به من می‌دهد در حال حاضر چشم‌پوشی می‌کنم و یک وبلاگ استاتیک که فقط از HTML و CSS و JavaScript تشکیل شده است ایجاد می‌کنم. منتها نوشته‌های من روی گیت‌هاب قرار خواهند داشت و من از آن برای کنترل نسخه‌های نوشته‌هایم و نیز به عنوان سکوی انتشار مطالبم استفاده می‌کنم.
-اما برای ایجاد ساختار سایت چه می‌کنم؟ من از یک پروژه آزاد بنام &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; استفاده می‌کنم (بخوانید جِکیل). جکیل این امکان را به من می‌دهد که ساختار یک وبلاگ را روی کامپیوتر شخصی‌ام بسازم و امکاناتی دارد که تولید یک وبلاگ را ساده می‌کند. جکیل از چند نوع &lt;a href=&quot;http://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D9%86%D8%B4%D8%A7%D9%86%D9%87%E2%80%8C%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C&quot;&gt;زبان‌ نشانه‌گذاری&lt;/a&gt; از جمله زبان محبوبی مانند &lt;a href=&quot;https://help.github.com/articles/markdown-basics/&quot;&gt;Markdown&lt;/a&gt; برای نوشتن مطالب پشتیبانی می‌کند. همچنین دارای پردازشگر قالبی (Template Processor) است که امکان ساختاردهی پویا را فراهم می‌کند. به طور کلی روش کار من خیلی ساده است، من وبلاگم رو روی کامپیوترم تغییر می‌دهم (مثلا با نگارش این پست) بعد آنرا در گیت‌هاب «پوش» می‌کنم و وبلاگ من به طور خودکار بروز می‌شود. من روش اینکار را در مقاله دیگری به تفصیل شرح داده‌ام که به زودی منتشر می‌کنم.&lt;/p&gt;
-
-&lt;p&gt;به این ترتیب من با استفاده از جکیل وبلاگم را ساختم که &lt;a href=&quot;https://github.com/mehdisadeghi/mehdix.org&quot;&gt;ساختار پروژه&lt;/a&gt; روی گیت‌هاب قابل مشاهده و دریافت است.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;منجمله &lt;a href=&quot;http://azadnevis.wordpress.com/&quot;&gt;آزادنویس&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;من از لغت «وبلاگ» برای اشاره به سایت به عنوان سکوی انتشار مطالب و از واژه‌های «وبسایت» و «سایت» برای اشاره به کل یک سایت شامل وبلاگ و سایر برنامه‌ها استفاده می‌کنم. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Sun, 02 Nov 2014 14:24:00 +0100</pubDate>
-        <link>http://mehdix.ir/publishing-with-jekyll.html</link>
-        <guid isPermaLink="true">http://mehdix.ir/publishing-with-jekyll.html</guid>
-        
-        <category>وبلاگ</category>
-        
-        <category>جکیل</category>
-        
-        <category>هکر</category>
-        
-        
-        <category>general</category>
         
       </item>
     
