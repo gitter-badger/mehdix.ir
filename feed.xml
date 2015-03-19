@@ -6,8 +6,8 @@
 </description>
     <link>http://mehdix.ir/</link>
     <atom:link href="http://mehdix.ir/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 08 Jan 2015 12:40:49 +0100</pubDate>
-    <lastBuildDate>Thu, 08 Jan 2015 12:40:49 +0100</lastBuildDate>
+    <pubDate>Thu, 19 Mar 2015 09:54:36 +0100</pubDate>
+    <lastBuildDate>Thu, 19 Mar 2015 09:54:36 +0100</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
     
       <item>
@@ -167,10 +167,13 @@ drwxrwxr-x 2 mehdix mehdix 4096 Jan  8 09:38 dir1
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;در ادامه با مثلا کاربرد این حروف را می‌بینیم. اوپراتورهای هم یا + یا - یا = هستند:
-* &lt;strong&gt;به علاوه +&lt;/strong&gt; به معنی افزودن یک ‫&lt;em&gt;مود&lt;/em&gt; به رفرنس‌های نامبرده است
-* &lt;strong&gt;منها -&lt;/strong&gt; به معنی حذف یک &lt;em&gt;مود&lt;/em&gt; از رفرنس‌های نامبرده است
-* &lt;strong&gt;مساوی =&lt;/strong&gt; به معنی اعمال یک &lt;em&gt;مود&lt;/em&gt; به همه رفرنس‌هاست&lt;/p&gt;
+&lt;p&gt;در ادامه با مثال کاربرد این حروف را می‌بینیم. اوپراتورها هم یا + یا - یا = هستند:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;به علاوه +&lt;/strong&gt; به معنی افزودن یک ‫&lt;em&gt;مود&lt;/em&gt; به رفرنس‌های نامبرده است&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;منها -&lt;/strong&gt; به معنی حذف یک &lt;em&gt;مود&lt;/em&gt; از رفرنس‌های نامبرده است&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;مساوی =&lt;/strong&gt; به معنی اعمال یک &lt;em&gt;مود&lt;/em&gt; به همه رفرنس‌هاست&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;مودها&lt;/strong&gt; یا حالت‌ها هم همان حق خواندن و نوشتن و اجرا هستند که البته سه مود دیگر بنام‌های X (با حرف بزرگ) و s و t هم داریم که فعلا به آنها نمی‌پردازیم.&lt;/p&gt;
 
