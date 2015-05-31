@@ -1,909 +1,708 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>مهدی صادقی</title>
-    <description>سکوی انتشار مطالبی در مورد دانش تولید نرم‌افزار و ایده‌ها و علایق شخصی‌ام.
-</description>
-    <link>http://mehdix.ir/</link>
-    <atom:link href="http://mehdix.ir/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 29 May 2015 18:26:20 +0200</pubDate>
-    <lastBuildDate>Fri, 29 May 2015 18:26:20 +0200</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
-    
-      <item>
-        <title>سوزه یا زوزه</title>
-        <description>&lt;p&gt;مدتها پیش که در تهران مشغول به کار بودم بحثی داشتم با دوست و همکارم &lt;a href=&quot;http://aidinhut.com/&quot;&gt;آیدین&lt;/a&gt; در مورد تلفظ صحیح توزیع &lt;strong&gt;SUSE&lt;/strong&gt; و &lt;strong&gt;openSUSE&lt;/strong&gt;. آیدین می‌گفت که باید لغت SUSE رو «زوزه» تلفظ کرد و من می‌گفتم «سوزه».&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title type="text" xml:lang="fa">مهدی صادقی</title>
+<link rel="alternate" type="text/html" href="http://mehdix.ir"/>
+<link rel="self" type="application/atom+xml" href="http://mehdix.ir/feed/"/>
+<updated>2015-05-31T19:35:49Z</updated>
+<id>urn:uuid:1e7d9dd8-29e4-475d-adc5-17494fb80445</id>
+<author>
+	<name>Mehdi Sadeghi</name>
+	<uri>http://mehdix.ir</uri>
+	<email>sadeghi@mehdix.org</email>
+</author>
+<rights>Commons Attribution 4.0 International</rights>
 
-&lt;p&gt;البته خاطرم نیست که منبعش کجا بود اما احتمالا تلفظش رو آنلاین چک کرده بود یا جایی در مستندات پروژه دیده بود یا گوش کرده بود. بهرحال بعد از گذشت چندین سال من سر از آلمان درآوردم که از قضا محل تولد توزیع &lt;strong&gt;SUSE&lt;/strong&gt; و &lt;strong&gt;openSUSE&lt;/strong&gt; است. و حالا با داشتن یک کارشناس در محل خیلی بهتر می‌شود اصل موضوع رو تحقیق کرد!&lt;/p&gt;
+	<entry>
+		<title>سوزه یا زوزه</title>
+		<link rel="alternate" type="text/html" href="http://mehdix.ir/suse.html"/>
+		<id>urn:uuid:f0ee6713-89fe-462c-be6f-608c47ca7b13</id>
+		<updated>2015-05-25T00:00:00Z</updated>
+		<category term="تلفظ"/><category term="سوزه"/><category term="زوزه"/>
+			<content type="html">
+				<![CDATA[<div dir="rtl"><p>مدتها پیش که در تهران مشغول به کار بودم بحثی داشتم با دوست و همکارم <a href="http://aidinhut.com/">آیدین</a> در مورد تلفظ صحیح توزیع <strong>SUSE</strong> و <strong>openSUSE</strong>. آیدین می‌گفت که باید لغت SUSE رو «زوزه» تلفظ کرد و من می‌گفتم «سوزه».</p>
 
-&lt;p class=&quot;center&quot;&gt;&lt;a title=&quot;By Slomox based on Germany_location_map.svg, Image:Holland_position.svg, Image:Provinces_de_Belgique_sans_noms.svg + diwa.info and MAND atlas [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons&quot; href=&quot;http://commons.wikimedia.org/wiki/File%3AIk-ich-Isogloss_-_Uerdinger_Lien.svg&quot;&gt;&lt;img width=&quot;512&quot; alt=&quot;Ik-ich-Isogloss - Uerdinger Lien&quot; src=&quot;//upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Ik-ich-Isogloss_-_Uerdinger_Lien.svg/512px-Ik-ich-Isogloss_-_Uerdinger_Lien.svg.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+<p>البته خاطرم نیست که منبعش کجا بود اما احتمالا تلفظش رو آنلاین چک کرده بود یا جایی در مستندات پروژه دیده بود یا گوش کرده بود. بهرحال بعد از گذشت چندین سال من سر از آلمان درآوردم که از قضا محل تولد توزیع <strong>SUSE</strong> و <strong>openSUSE</strong> است. و حالا با داشتن یک کارشناس در محل خیلی بهتر می‌شود اصل موضوع رو تحقیق کرد!</p>
 
-&lt;p&gt;همانطوری که در تصور بالا پیداست کشور آلمان به دو بخش بزرگ از نظر لهجه تقسیم می‌شود، بخش شمالی و جنوبی و طرز ادای کلمات در لهجه‌های شمال و جنوب آلمان متفاوت است. هرچند این تصویر به نحوه ادای کلمه «ich» به معنای «من» مربوط می‌شود. به طور کلی هر زمان در زبان آلمانی بعد از حرف S حرف صداداری مانند E, U, A, O بیاید باید آنرا «ز» تلفظ کرد، بله ضمن تبریک به آیدین باید گفت که «زوزه» درست است! اما ماجرا به همینجا ختم نمی‌شود، چون در جنوب آلمان که از قضا من هم آنجا هستم اینطور نیست.&lt;/p&gt;
+<p class="center"><a title="By Slomox based on Germany_location_map.svg, Image:Holland_position.svg, Image:Provinces_de_Belgique_sans_noms.svg + diwa.info and MAND atlas [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons" href="http://commons.wikimedia.org/wiki/File%3AIk-ich-Isogloss_-_Uerdinger_Lien.svg"><img width="512" alt="Ik-ich-Isogloss - Uerdinger Lien" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Ik-ich-Isogloss_-_Uerdinger_Lien.svg/512px-Ik-ich-Isogloss_-_Uerdinger_Lien.svg.png" /></a></p>
 
-&lt;p&gt;در این منطقه وقتی حرف S در ابتدای یک کلمه باشد آنرا «سوزه»‌ تلفظ می‌کنند! مثلا مدیر سیستم محلی که در حال حاضر آنجا مشغول به کارم تلفظ «سوزه» را به کار می‌برد. بنابراین هردو تلفظ صحیح هستند ولی شاید بکارگیری «زوزه» گسترده‌تر باشد.&lt;/p&gt;
+<p>همانطوری که در تصور بالا پیداست کشور آلمان به دو بخش بزرگ از نظر لهجه تقسیم می‌شود، بخش شمالی و جنوبی و طرز ادای کلمات در لهجه‌های شمال و جنوب آلمان متفاوت است. هرچند این تصویر به نحوه ادای کلمه «ich» به معنای «من» مربوط می‌شود. به طور کلی هر زمان در زبان آلمانی بعد از حرف S حرف صداداری مانند E, U, A, O بیاید باید آنرا «ز» تلفظ کرد، بله ضمن تبریک به آیدین باید گفت که «زوزه» درست است! اما ماجرا به همینجا ختم نمی‌شود، چون در جنوب آلمان که از قضا من هم آنجا هستم اینطور نیست.</p>
 
-&lt;p&gt;گاهی ما در مورد نکاتی بحث و گفتگو می‌کنیم و سعی داریم دیگران را متقاعد به پذیرش آن کنیم که اصلا مرز روشن و واضحی بین آنچه سعی در اثبات آن و آنچه سعی در رد آن داریم وجود ندارد. این مورد هم به نظر من اینگونه بود.&lt;/p&gt;
+<p>در این منطقه وقتی حرف S در ابتدای یک کلمه باشد آنرا «سوزه»‌ تلفظ می‌کنند! مثلا مدیر سیستم محلی که در حال حاضر آنجا مشغول به کارم تلفظ «سوزه» را به کار می‌برد. بنابراین هردو تلفظ صحیح هستند ولی شاید بکارگیری «زوزه» گسترده‌تر باشد.</p>
 
-&lt;p&gt;تصویر بالا برگرفته از سایت ویکی‌مدیا است&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. همچنین اطلاعات بیشتری در ویکی‌پدیای آلمانی موجود است که بحث زبانشناسی است&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+<p>گاهی ما در مورد نکاتی بحث و گفتگو می‌کنیم و سعی داریم دیگران را متقاعد به پذیرش آن کنیم که اصلا مرز روشن و واضحی بین آنچه سعی در اثبات آن و آنچه سعی در رد آن داریم وجود ندارد. این مورد هم به نظر من اینگونه بود.</p>
 
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;‏&lt;a href=&quot;http://commons.wikimedia.org/wiki/File:Ik-ich-Isogloss_-_Uerdinger_Lien.svg&quot;&gt;Uerdinger Linie&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;http://de.wikipedia.org/wiki/Stimmhafter_alveolarer_Frikativ&quot;&gt;Stimmhafter alveolarer Frikativ&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Mon, 25 May 2015 00:00:00 +0200</pubDate>
-        <link>http://mehdix.ir/suse.html</link>
-        <guid isPermaLink="true">http://mehdix.ir/suse.html</guid>
-        
-        <category>تلفظ</category>
-        
-        <category>سوزه</category>
-        
-        <category>زوزه</category>
-        
-        
-        <category>نرد</category>
-        
-      </item>
-    
-      <item>
-        <title>حق دسترسی فایل‌ها در لینوکس به زبان ساده</title>
-        <description>&lt;p&gt;بارها برام پیش اومده که موقع تغییر فایل‌های لینوکس به خاطر مجوز اونها به مشکل خوردم. تصمیم گرفتم یکبار با دقت این مجوزها رو بخونم و به زبان ساده در وبلاگم بنویسم. البته این راهنما قرار نیست کامل باشه و بیشتر یک یادداشته برای مراجعات بعدی خودم.&lt;/p&gt;
+<p>تصویر بالا برگرفته از سایت ویکی‌مدیا است<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>. همچنین اطلاعات بیشتری در ویکی‌پدیای آلمانی موجود است که بحث زبانشناسی است<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>.</p>
 
-&lt;p&gt;اگر در یک ترمینال دستور &lt;code&gt;ls -l&lt;/code&gt; یا &lt;code&gt;ll&lt;/code&gt; رو تایپ کنیم چیزی شبیه به این می‌بینیم:&lt;/p&gt;
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>‏<a href="http://commons.wikimedia.org/wiki/File:Ik-ich-Isogloss_-_Uerdinger_Lien.svg">Uerdinger Linie</a> <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p><a href="http://de.wikipedia.org/wiki/Stimmhafter_alveolarer_Frikativ">Stimmhafter alveolarer Frikativ</a> <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+</div>]]>
+			</content>
+	</entry>
 
-&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
-  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;mehdix@spielplatz:~/Desktop/perm$ ls -l
+	<entry>
+		<title>حق دسترسی فایل‌ها در لینوکس به زبان ساده</title>
+		<link rel="alternate" type="text/html" href="http://mehdix.ir/linux-permissions-made-simple.html"/>
+		<id>urn:uuid:4e824eb2-91bf-43ce-8efc-b4f007026f72</id>
+		<updated>2015-01-08T00:00:00Z</updated>
+		<category term="لینوکس"/><category term="فایل"/><category term="حق"/><category term="دسترسی"/>
+			<content type="html">
+				<![CDATA[<div dir="rtl"><p>بارها برام پیش اومده که موقع تغییر فایل‌های لینوکس به خاطر مجوز اونها به مشکل خوردم. تصمیم گرفتم یکبار با دقت این مجوزها رو بخونم و به زبان ساده در وبلاگم بنویسم. البته این راهنما قرار نیست کامل باشه و بیشتر یک یادداشته برای مراجعات بعدی خودم.</p>
+
+<p>اگر در یک ترمینال دستور <code>ls -l</code> یا <code>ll</code> رو تایپ کنیم چیزی شبیه به این می‌بینیم:</p>
+
+<div class="highlighter-coderay"><div class="CodeRay">
+  <div class="code"><pre>mehdix@spielplatz:~/Desktop/perm$ ls -l
 total 4
 drwxrwxr-x 2 mehdix mehdix 4096 Jan  8 09:38 dir1
 -rw-rw-r-- 1 mehdix mehdix    0 Jan  8 09:38 file1
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+</pre></div>
+</div>
+</div>
 
-&lt;p&gt;حق دسترسی و مالکیت دو موضوع تقریبا مستقل از هم هستند. ستون اول خروجی دستور بالا حق دسترسی روی فایل و پوشه موجود رو نشون می‌ده ولی ستون‌های سوم و چهارم حق مالکیت بر روی فایل‌ها رو نشون می‌ده. لازمه بگم که پوشه هم یک جور فایل است با این تفاوت که آدرس فایل‌های دیگر رو درون خودش نگه می‌داره (مراجعه کنید به &lt;code&gt;inode&lt;/code&gt;). در ادامه هر دو رو شرح می‌دیم.&lt;/p&gt;
+<p>حق دسترسی و مالکیت دو موضوع تقریبا مستقل از هم هستند. ستون اول خروجی دستور بالا حق دسترسی روی فایل و پوشه موجود رو نشون می‌ده ولی ستون‌های سوم و چهارم حق مالکیت بر روی فایل‌ها رو نشون می‌ده. لازمه بگم که پوشه هم یک جور فایل است با این تفاوت که آدرس فایل‌های دیگر رو درون خودش نگه می‌داره (مراجعه کنید به <code>inode</code>). در ادامه هر دو رو شرح می‌دیم.</p>
 
-&lt;h2 id=&quot;section&quot;&gt;مالکیت&lt;/h2&gt;
-&lt;p&gt;وقتی یک فایل یا پوشه رو با دستورات و اپراتورهای مختلف از جمله &lt;code&gt;mkdir&lt;/code&gt;  (بخوانید make directory) و &lt;code&gt;touch&lt;/code&gt; و &lt;code&gt;echo&lt;/code&gt; و &lt;code&gt;&amp;lt;&lt;/code&gt; و &lt;code&gt;&amp;lt;&amp;lt;&lt;/code&gt;  (این دو تا رو نمی‌دونم چطور بخونیم!) می‌سازیم مالکیت فایل تولیدی هم به ما داده می‌شه. در مثال بالا ستون سوم مالک رو نشون می‌ده و ستون چهارم هم گروه کاربری رو. معنی مالک در لینوکس مثل معنی اون در دنیای واقعی است. یعنی مالک تصمیم می‌گیره چه کسی به فایل اون بتونه «نگاه» کنه یا «دست بزنه». می‌تونید تصور کنید که پدر مالک ماشینه و اون تصمیم می‌گیره که اجازه بده که فرزندش به ماشین فقط نگاه کنه یا پشت فرمون هم بشینه.
-نکته مهم اینجا اینه که مالک یک فایل تصمیم می‌گیره که &lt;strong&gt;حق دسترسی‌های&lt;/strong&gt;‌ اون فایل چی باشه. جالبه بدونید که مالک می‌تونه حق دسترسی خواندن و نوشتن و اجرا کردن خودش رو هم روی فایل محدود کنه اما از جایی که مالکیت فایل رو در اختیار داره می‌تونه دوباره اون رو سر جاش برگردونه.
-پس یادمون می‌مونه که حق مالکیت جدا از حق دسترسی است.&lt;/p&gt;
+<h2 id="section">مالکیت</h2>
+<p>وقتی یک فایل یا پوشه رو با دستورات و اپراتورهای مختلف از جمله <code>mkdir</code>  (بخوانید make directory) و <code>touch</code> و <code>echo</code> و <code>&lt;</code> و <code>&lt;&lt;</code>  (این دو تا رو نمی‌دونم چطور بخونیم!) می‌سازیم مالکیت فایل تولیدی هم به ما داده می‌شه. در مثال بالا ستون سوم مالک رو نشون می‌ده و ستون چهارم هم گروه کاربری رو. معنی مالک در لینوکس مثل معنی اون در دنیای واقعی است. یعنی مالک تصمیم می‌گیره چه کسی به فایل اون بتونه «نگاه» کنه یا «دست بزنه». می‌تونید تصور کنید که پدر مالک ماشینه و اون تصمیم می‌گیره که اجازه بده که فرزندش به ماشین فقط نگاه کنه یا پشت فرمون هم بشینه.
+نکته مهم اینجا اینه که مالک یک فایل تصمیم می‌گیره که <strong>حق دسترسی‌های</strong>‌ اون فایل چی باشه. جالبه بدونید که مالک می‌تونه حق دسترسی خواندن و نوشتن و اجرا کردن خودش رو هم روی فایل محدود کنه اما از جایی که مالکیت فایل رو در اختیار داره می‌تونه دوباره اون رو سر جاش برگردونه.
+پس یادمون می‌مونه که حق مالکیت جدا از حق دسترسی است.</p>
 
-&lt;h2 id=&quot;section-1&quot;&gt;گروه کاربری&lt;/h2&gt;
-&lt;p&gt;هر فایلی حتما یک مالک داره که حق دسترسی‌های اون رو تعیین می‌کنه اما علاوه بر این هر فایلی به یک گروه هم تعلق داره. یک گروه نماینده کاربرانی است که حقوقی متفاوت از کاربر عادی در دسترسی به فایل‌ها دارند. یعنی بواسطه گروهشون به فایل‌هایی دسترسی داشته باشند که کاربرشون به تنهایی نداره. یک کاربر می‌تونه در بیش از یک گروه عضو باشه اما یک فایل فقط می‌تونه متعلق به یک گروه باشه. 
-در مثال بالا هم ستون چهارم گروه کاربری رو نشون می‌ده. روی کامپیوتر اوبونتوی من که یک کاربر بیشتر نداره (البته به استثنای کاربر &lt;em&gt;root&lt;/em&gt;) کاربر و گروه کاربری من یکیه. هر کاربر حتما باید عضو یک گروه باشه بنابراین به طور پیشفرض یک گروه بنام خود کاربر روی سیستم موقع نصب ساخته شده.
-گروه کاربری وقتی به درد می‌خوره که با بیش از یک کاربر سر و کار داشته باشیم. مثلا بخوایم به همه کاربرهایی که اعتماد داریم اجازه خواندن و نوشتن بدیم و به سایر کاربرهای سیستم فقط اجازه خواندن بدیم. در این صورت می‌تونیم گروهی که کاربران مورد اعتماد ما عضوش هستند رو به عنوان گروه فایل تنظیم کنیم.&lt;/p&gt;
+<h2 id="section-1">گروه کاربری</h2>
+<p>هر فایلی حتما یک مالک داره که حق دسترسی‌های اون رو تعیین می‌کنه اما علاوه بر این هر فایلی به یک گروه هم تعلق داره. یک گروه نماینده کاربرانی است که حقوقی متفاوت از کاربر عادی در دسترسی به فایل‌ها دارند. یعنی بواسطه گروهشون به فایل‌هایی دسترسی داشته باشند که کاربرشون به تنهایی نداره. یک کاربر می‌تونه در بیش از یک گروه عضو باشه اما یک فایل فقط می‌تونه متعلق به یک گروه باشه. 
+در مثال بالا هم ستون چهارم گروه کاربری رو نشون می‌ده. روی کامپیوتر اوبونتوی من که یک کاربر بیشتر نداره (البته به استثنای کاربر <em>root</em>) کاربر و گروه کاربری من یکیه. هر کاربر حتما باید عضو یک گروه باشه بنابراین به طور پیشفرض یک گروه بنام خود کاربر روی سیستم موقع نصب ساخته شده.
+گروه کاربری وقتی به درد می‌خوره که با بیش از یک کاربر سر و کار داشته باشیم. مثلا بخوایم به همه کاربرهایی که اعتماد داریم اجازه خواندن و نوشتن بدیم و به سایر کاربرهای سیستم فقط اجازه خواندن بدیم. در این صورت می‌تونیم گروهی که کاربران مورد اعتماد ما عضوش هستند رو به عنوان گروه فایل تنظیم کنیم.</p>
 
-&lt;h3 id=&quot;chown&quot;&gt;تغییر مالک و گروه کاربری فایل‌ها با chown&lt;/h3&gt;
-&lt;p&gt;هر کاربر می‌تونه حقوق دسترسی روی یک فایل رو که در مالکیت اوست تغییر بده اما نمی‌تونه مالکیت فایل رو تغییر بده. این کار باید توسط کاربر &lt;em&gt;root&lt;/em&gt; انجام بشه. در ضمن وقتی ما از دستور &lt;code&gt;root&lt;/code&gt; استفاده می‌کنیم (در سیستم‌های مشابه دبیان) داریم با دسترس کاربر روت تغییرات رو انجام می‌دیم.
-هرچند یک کاربر می‌تونه گروه کاربری یک فایل رو به گروهی جدید تغییر بده به شرط اینکه خودش عضو گروه جدید باشه. به عبارت دیگه یک کاربر می‌تونه گروه یک فایل رو بین گروه‌هایی که خودش عضو اونهاست دست به دست کنه.&lt;/p&gt;
+<h3 id="chown">تغییر مالک و گروه کاربری فایل‌ها با chown</h3>
+<p>هر کاربر می‌تونه حقوق دسترسی روی یک فایل رو که در مالکیت اوست تغییر بده اما نمی‌تونه مالکیت فایل رو تغییر بده. این کار باید توسط کاربر <em>root</em> انجام بشه. در ضمن وقتی ما از دستور <code>root</code> استفاده می‌کنیم (در سیستم‌های مشابه دبیان) داریم با دسترس کاربر روت تغییرات رو انجام می‌دیم.
+هرچند یک کاربر می‌تونه گروه کاربری یک فایل رو به گروهی جدید تغییر بده به شرط اینکه خودش عضو گروه جدید باشه. به عبارت دیگه یک کاربر می‌تونه گروه یک فایل رو بین گروه‌هایی که خودش عضو اونهاست دست به دست کنه.</p>
 
-&lt;p&gt;دستور اصلی برای تغییر مالکیت فایل‌ها &lt;code&gt;chown&lt;/code&gt; است (بخوانید change owner) به این ترتیب:&lt;/p&gt;
+<p>دستور اصلی برای تغییر مالکیت فایل‌ها <code>chown</code> است (بخوانید change owner) به این ترتیب:</p>
 
-&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
-  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;chown username:groupname file1 file2 [or directory]
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<div class="highlighter-coderay"><div class="CodeRay">
+  <div class="code"><pre>chown username:groupname file1 file2 [or directory]
+</pre></div>
+</div>
+</div>
 
-&lt;p&gt;در دستور بالا &lt;em&gt;username&lt;/em&gt; نام کاربری است که می‌خواهیم فایل‌ها به اون تعلق داشته باشند و نیز &lt;em&gt;groupname&lt;/em&gt; نام گروهی است که می‌خواهیم فایل‌ها به آن تعلق داشته باشند.&lt;/p&gt;
+<p>در دستور بالا <em>username</em> نام کاربری است که می‌خواهیم فایل‌ها به اون تعلق داشته باشند و نیز <em>groupname</em> نام گروهی است که می‌خواهیم فایل‌ها به آن تعلق داشته باشند.</p>
 
-&lt;p&gt;این دستور رو به دو شیوه دیگر هم می‌شه اجرا کرد. فقط برای تغییر مالک فایل به شکل زیر:&lt;/p&gt;
+<p>این دستور رو به دو شیوه دیگر هم می‌شه اجرا کرد. فقط برای تغییر مالک فایل به شکل زیر:</p>
 
-&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
-  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;chown username file1 file2 [or directory]
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<div class="highlighter-coderay"><div class="CodeRay">
+  <div class="code"><pre>chown username file1 file2 [or directory]
+</pre></div>
+</div>
+</div>
 
-&lt;p&gt;و تنها برای تغییر گروه فایل به این شکل (دو نقطه فراموش نشود):&lt;/p&gt;
+<p>و تنها برای تغییر گروه فایل به این شکل (دو نقطه فراموش نشود):</p>
 
-&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
-  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;chown :groupname file1 file2 [or directory]
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<div class="highlighter-coderay"><div class="CodeRay">
+  <div class="code"><pre>chown :groupname file1 file2 [or directory]
+</pre></div>
+</div>
+</div>
 
-&lt;p&gt;برای تغییر گروه دستور &lt;code&gt;chgrp&lt;/code&gt; را هم می‌توان بکار برد (بخوانید change group):&lt;/p&gt;
+<p>برای تغییر گروه دستور <code>chgrp</code> را هم می‌توان بکار برد (بخوانید change group):</p>
 
-&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
-  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;chgrp groupname file1 file2 [or directory]
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<div class="highlighter-coderay"><div class="CodeRay">
+  <div class="code"><pre>chgrp groupname file1 file2 [or directory]
+</pre></div>
+</div>
+</div>
 
-&lt;p&gt;با بکارگیری فلگ &lt;em&gt;-R&lt;/em&gt; تغییرات به همه زیرشاخه‌ها هم اعمال خواهد شد:&lt;/p&gt;
+<p>با بکارگیری فلگ <em>-R</em> تغییرات به همه زیرشاخه‌ها هم اعمال خواهد شد:</p>
 
-&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
-  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;chown -R username:groupname directory
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<div class="highlighter-coderay"><div class="CodeRay">
+  <div class="code"><pre>chown -R username:groupname directory
+</pre></div>
+</div>
+</div>
 
-&lt;h3 id=&quot;section-2&quot;&gt;حق دسترسی‌ برای فایل‌ها&lt;/h3&gt;
-&lt;p&gt;برای هر فایل می‌شه سه نوع حق‌دسترسی تعریف کرد: حق‌نوشتن و حق خواندن و حق اجرا کردن فایل.&lt;/p&gt;
+<h3 id="section-2">حق دسترسی‌ برای فایل‌ها</h3>
+<p>برای هر فایل می‌شه سه نوع حق‌دسترسی تعریف کرد: حق‌نوشتن و حق خواندن و حق اجرا کردن فایل.</p>
 
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;حق خواندن&lt;/strong&gt; یعنی دیدن محتوای فایل و استفاده از دستوراتی مانند &lt;code&gt;less&lt;/code&gt; و &lt;code&gt;cat&lt;/code&gt; و غیره. حق خواندن با &lt;strong&gt;r&lt;/strong&gt; نشان داده می‌شود.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;حق نوشتن&lt;/strong&gt; یعنی تغییر محتویات فایل. فوروارد کردن خروجی یک دستور به یک فایل و اضافه کردن به فایل و مانند اینها. حق خواندن با &lt;strong&gt;w&lt;/strong&gt; نشان داده می‌شود.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;حق اجرای فایل&lt;/strong&gt; اگر ما روی یک فایل حق اجرا داشته باشیم می‌توانیم از سیستم عامل بخواهیم که آن فایل را مثل یک برنامه برای ما اجرا کند. اگر فایل باینری باشد حق اجرا کفایت می‌کند اما اگر فایل اسکریپت باشد از جایی که باید یک برنامه دیگر آنرا بخواند و اجرا کند علاوه بر حق اجرا حق خواندن نیز لازم است. حق خواندن با &lt;strong&gt;x&lt;/strong&gt; نشان داده می‌شود.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>
+    <p><strong>حق خواندن</strong> یعنی دیدن محتوای فایل و استفاده از دستوراتی مانند <code>less</code> و <code>cat</code> و غیره. حق خواندن با <strong>r</strong> نشان داده می‌شود.</p>
+  </li>
+  <li>
+    <p><strong>حق نوشتن</strong> یعنی تغییر محتویات فایل. فوروارد کردن خروجی یک دستور به یک فایل و اضافه کردن به فایل و مانند اینها. حق خواندن با <strong>w</strong> نشان داده می‌شود.</p>
+  </li>
+  <li>
+    <p><strong>حق اجرای فایل</strong> اگر ما روی یک فایل حق اجرا داشته باشیم می‌توانیم از سیستم عامل بخواهیم که آن فایل را مثل یک برنامه برای ما اجرا کند. اگر فایل باینری باشد حق اجرا کفایت می‌کند اما اگر فایل اسکریپت باشد از جایی که باید یک برنامه دیگر آنرا بخواند و اجرا کند علاوه بر حق اجرا حق خواندن نیز لازم است. حق خواندن با <strong>x</strong> نشان داده می‌شود.</p>
+  </li>
+</ul>
 
-&lt;h3 id=&quot;section-3&quot;&gt;حق دسترسی برای پوشه‌ها&lt;/h3&gt;
-&lt;p&gt;برای هر پوشه هم می‌شود سه نوع حق دسترسی تعریف کرد. خواندن و نوشتن و ‫&lt;strong&gt;جستجو&lt;/strong&gt;. این معانی با قبلی‌ها تفاوت دارند.&lt;/p&gt;
+<h3 id="section-3">حق دسترسی برای پوشه‌ها</h3>
+<p>برای هر پوشه هم می‌شود سه نوع حق دسترسی تعریف کرد. خواندن و نوشتن و ‫<strong>جستجو</strong>. این معانی با قبلی‌ها تفاوت دارند.</p>
 
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;حق خواندن&lt;/strong&gt; به معنای دیدن لیست فایل‌های درون یک پوشه است با بکارگیری دستوری مانند &lt;code&gt;ls&lt;/code&gt; (بخوانید list ). هرچند این به معنی خواندن محتوای فایل‌های داخل آن نیست.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;حق نوشتن&lt;/strong&gt; به معنی امکان افزودن‌ فایل‌های جدید به پوشه و همچنین تغییر نام و انتقال فایل‌های موجود است، برای مثال با دستور &lt;code&gt;mv&lt;/code&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;حق اجرا روی یک پوشه&lt;/strong&gt; به معنی اینست که پوشه قابل جستجو است و می‌توان نام آنرا برای دسترسی به یک فایل دارای حق اجرا بکار برد.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>
+    <p><strong>حق خواندن</strong> به معنای دیدن لیست فایل‌های درون یک پوشه است با بکارگیری دستوری مانند <code>ls</code> (بخوانید list ). هرچند این به معنی خواندن محتوای فایل‌های داخل آن نیست.</p>
+  </li>
+  <li>
+    <p><strong>حق نوشتن</strong> به معنی امکان افزودن‌ فایل‌های جدید به پوشه و همچنین تغییر نام و انتقال فایل‌های موجود است، برای مثال با دستور <code>mv</code>.</p>
+  </li>
+  <li>
+    <p><strong>حق اجرا روی یک پوشه</strong> به معنی اینست که پوشه قابل جستجو است و می‌توان نام آنرا برای دسترسی به یک فایل دارای حق اجرا بکار برد.</p>
+  </li>
+</ul>
 
-&lt;h3 id=&quot;chmod&quot;&gt;تغییر دسترسی‌ها با chmod&lt;/h3&gt;
-&lt;p&gt;یک کاربر می‌تونه حق خواندن و نوشتن و اجرای فایل‌هایی که تحت مالکیت خودش قرار دارند رو تغییر بده. همونطور که در بالا گفتیم rwx حرف اول مجوزهایی هستند که برای هر فایل بکار می‌ره. برای هر فایل سه دست حق دسترسی تعریف شده، هر دست شامل مجوز خواندن و نوشتن و اجرا است. یک دست برای مالک و یک دست برای گروه و یک دست برای سایر کاربران. در مجموع نه بیت برای اینکار بکار رفته که هر سه بیت یک دست حق دسترسی رو نشون می‌ده. هر بیت اگر ست شده باش (یعنی مقدر ۱ بهش داده شده باشه) بسته به اینکه بیت خواندن یا نوشتن یا اجرا باشه با r و w و x نشون داده خواهد شد. حالا با مراجعه دوباره به لیستی که اول نوشته داشتیم اینها رو مرور می‌کنیم:&lt;/p&gt;
+<h3 id="chmod">تغییر دسترسی‌ها با chmod</h3>
+<p>یک کاربر می‌تونه حق خواندن و نوشتن و اجرای فایل‌هایی که تحت مالکیت خودش قرار دارند رو تغییر بده. همونطور که در بالا گفتیم rwx حرف اول مجوزهایی هستند که برای هر فایل بکار می‌ره. برای هر فایل سه دست حق دسترسی تعریف شده، هر دست شامل مجوز خواندن و نوشتن و اجرا است. یک دست برای مالک و یک دست برای گروه و یک دست برای سایر کاربران. در مجموع نه بیت برای اینکار بکار رفته که هر سه بیت یک دست حق دسترسی رو نشون می‌ده. هر بیت اگر ست شده باش (یعنی مقدر ۱ بهش داده شده باشه) بسته به اینکه بیت خواندن یا نوشتن یا اجرا باشه با r و w و x نشون داده خواهد شد. حالا با مراجعه دوباره به لیستی که اول نوشته داشتیم اینها رو مرور می‌کنیم:</p>
 
-&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
-  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;mehdix@spielplatz:~/Desktop/perm$ ls -l
+<div class="highlighter-coderay"><div class="CodeRay">
+  <div class="code"><pre>mehdix@spielplatz:~/Desktop/perm$ ls -l
 total 4
 drwxrwxr-x 2 mehdix mehdix 4096 Jan  8 09:38 dir1
 -rw-rw-r-- 1 mehdix mehdix    0 Jan  8 09:38 file1
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+</pre></div>
+</div>
+</div>
 
-&lt;p&gt;در مثال بالا خط‌های تیره در ستون اول نماینده بیت‌هایی هستند که ست نشده‌اند (مقدارشان صفر است). به ترتیب از چپ به راست اولین بیت اگر d باشد یعنی یک پوشه است اگر l باشد یعنی لینک سمبلیک است و اگر - باشد یعنی فایل معمولی است. نه سه تای بعدی مجوزهای مالک سه تای دوم مجوزهای گروه و سه تای سوم مجوزهای سایر کاربران هستند.&lt;/p&gt;
+<p>در مثال بالا خط‌های تیره در ستون اول نماینده بیت‌هایی هستند که ست نشده‌اند (مقدارشان صفر است). به ترتیب از چپ به راست اولین بیت اگر d باشد یعنی یک پوشه است اگر l باشد یعنی لینک سمبلیک است و اگر - باشد یعنی فایل معمولی است. نه سه تای بعدی مجوزهای مالک سه تای دوم مجوزهای گروه و سه تای سوم مجوزهای سایر کاربران هستند.</p>
 
-&lt;p&gt;برای این منظور از دستور &lt;code&gt;chmod&lt;/code&gt; ‏‎(بخوانید change mode) استفاده می‌کنیم:&lt;/p&gt;
+<p>برای این منظور از دستور <code>chmod</code> ‏‎(بخوانید change mode) استفاده می‌کنیم:</p>
 
-&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
-  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;chmod [references][operator][modes] file1 ...
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<div class="highlighter-coderay"><div class="CodeRay">
+  <div class="code"><pre>chmod [references][operator][modes] file1 ...
+</pre></div>
+</div>
+</div>
 
-&lt;p&gt;در دستور بالا &lt;code&gt;references&lt;/code&gt; برای انتخاب سِت مورد نظر است، مالک و/یا گروه و/یا سایر کاربران. جدول زیر نشاندهنده حروفی است که به این منظور بکار می‌رود:&lt;/p&gt;
+<p>در دستور بالا <code>references</code> برای انتخاب سِت مورد نظر است، مالک و/یا گروه و/یا سایر کاربران. جدول زیر نشاندهنده حروفی است که به این منظور بکار می‌رود:</p>
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;رفرنس&lt;/td&gt;
-      &lt;td&gt;کلاس&lt;/td&gt;
-      &lt;td&gt;شرح&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;u&lt;/td&gt;
-      &lt;td&gt;user&lt;/td&gt;
-      &lt;td&gt;مالک فایل&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;g&lt;/td&gt;
-      &lt;td&gt;group&lt;/td&gt;
-      &lt;td&gt;کاربرانی که عضو گروه فایل هستند&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;o&lt;/td&gt;
-      &lt;td&gt;other&lt;/td&gt;
-      &lt;td&gt;کاربرانی که عضو گروه فایل نیستند&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;a&lt;/td&gt;
-      &lt;td&gt;all&lt;/td&gt;
-      &lt;td&gt;همه موارد بالا&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+<table>
+  <tbody>
+    <tr>
+      <td>رفرنس</td>
+      <td>کلاس</td>
+      <td>شرح</td>
+    </tr>
+    <tr>
+      <td>u</td>
+      <td>user</td>
+      <td>مالک فایل</td>
+    </tr>
+    <tr>
+      <td>g</td>
+      <td>group</td>
+      <td>کاربرانی که عضو گروه فایل هستند</td>
+    </tr>
+    <tr>
+      <td>o</td>
+      <td>other</td>
+      <td>کاربرانی که عضو گروه فایل نیستند</td>
+    </tr>
+    <tr>
+      <td>a</td>
+      <td>all</td>
+      <td>همه موارد بالا</td>
+    </tr>
+  </tbody>
+</table>
 
-&lt;p&gt;در ادامه با مثال کاربرد این حروف را می‌بینیم. اوپراتورها هم یا + یا - یا = هستند:&lt;/p&gt;
+<p>در ادامه با مثال کاربرد این حروف را می‌بینیم. اوپراتورها هم یا + یا - یا = هستند:</p>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;به علاوه +&lt;/strong&gt; به معنی افزودن یک ‫&lt;em&gt;مود&lt;/em&gt; به رفرنس‌های نامبرده است&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;منها -&lt;/strong&gt; به معنی حذف یک &lt;em&gt;مود&lt;/em&gt; از رفرنس‌های نامبرده است&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;مساوی =&lt;/strong&gt; به معنی اعمال یک &lt;em&gt;مود&lt;/em&gt; به همه رفرنس‌هاست&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li><strong>به علاوه +</strong> به معنی افزودن یک ‫<em>مود</em> به رفرنس‌های نامبرده است</li>
+  <li><strong>منها -</strong> به معنی حذف یک <em>مود</em> از رفرنس‌های نامبرده است</li>
+  <li><strong>مساوی =</strong> به معنی اعمال یک <em>مود</em> به همه رفرنس‌هاست</li>
+</ul>
 
-&lt;p&gt;&lt;strong&gt;مودها&lt;/strong&gt; یا حالت‌ها هم همان حق خواندن و نوشتن و اجرا هستند که البته سه مود دیگر بنام‌های X (با حرف بزرگ) و s و t هم داریم که فعلا به آنها نمی‌پردازیم.&lt;/p&gt;
+<p><strong>مودها</strong> یا حالت‌ها هم همان حق خواندن و نوشتن و اجرا هستند که البته سه مود دیگر بنام‌های X (با حرف بزرگ) و s و t هم داریم که فعلا به آنها نمی‌پردازیم.</p>
 
-&lt;p&gt;حالا چند مثال. فایل یک از مثال بالا را تغییر می‌دهیم:&lt;/p&gt;
+<p>حالا چند مثال. فایل یک از مثال بالا را تغییر می‌دهیم:</p>
 
-&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
-  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;chmod ug+rw file1
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<div class="highlighter-coderay"><div class="CodeRay">
+  <div class="code"><pre>chmod ug+rw file1
+</pre></div>
+</div>
+</div>
 
-&lt;p&gt;یعنی به کاربر مالک و گروه مالک حق خواندن و نوشتن را اضافه کن و این شد نتیجه:&lt;/p&gt;
+<p>یعنی به کاربر مالک و گروه مالک حق خواندن و نوشتن را اضافه کن و این شد نتیجه:</p>
 
-&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
-  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;-rw-rw-r-- 1 mehdix mehdix 0 Jan  8 10:20 file1
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<div class="highlighter-coderay"><div class="CodeRay">
+  <div class="code"><pre>-rw-rw-r-- 1 mehdix mehdix 0 Jan  8 10:20 file1
+</pre></div>
+</div>
+</div>
 
-&lt;p&gt;حالا همون حقوقی رو که خودمون دادیم پس می‌گیریم :) به این شکل:&lt;/p&gt;
+<p>حالا همون حقوقی رو که خودمون دادیم پس می‌گیریم :) به این شکل:</p>
 
-&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
-  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;chmod ug-rw file1
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<div class="highlighter-coderay"><div class="CodeRay">
+  <div class="code"><pre>chmod ug-rw file1
+</pre></div>
+</div>
+</div>
 
-&lt;p&gt;و این هم نتیجه:&lt;/p&gt;
+<p>و این هم نتیجه:</p>
 
-&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
-  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;-------r-- 1 mehdix mehdix 0 Jan  8 10:20 file1
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<div class="highlighter-coderay"><div class="CodeRay">
+  <div class="code"><pre>-------r-- 1 mehdix mehdix 0 Jan  8 10:20 file1
+</pre></div>
+</div>
+</div>
 
-&lt;p&gt;یا مثلا گرفتن و دادن همه مجوزها به همه کاربران:&lt;/p&gt;
+<p>یا مثلا گرفتن و دادن همه مجوزها به همه کاربران:</p>
 
-&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
-  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;chmod a+rw file1
+<div class="highlighter-coderay"><div class="CodeRay">
+  <div class="code"><pre>chmod a+rw file1
 chmod a-rw file1
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+</pre></div>
+</div>
+</div>
 
-&lt;p&gt;یا مثلا دادن &lt;strong&gt;تنها&lt;/strong&gt; امکان خواندن به سایر کاربران:&lt;/p&gt;
+<p>یا مثلا دادن <strong>تنها</strong> امکان خواندن به سایر کاربران:</p>
 
-&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
-  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;chmod o=r file1
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<div class="highlighter-coderay"><div class="CodeRay">
+  <div class="code"><pre>chmod o=r file1
+</pre></div>
+</div>
+</div>
 
-&lt;p&gt;دقت کنید که بکارگیری = باعث از بین رفتن مجوزهای قبلی می‌شه در حالی که + و - مجوزها رو اضافه و حذف می‌کنند و کاری به بقیه ندارند. این‌ها در حقیقت همون عملیات and و or و mask کردن بیت‌ها در کامپیوتره.&lt;/p&gt;
+<p>دقت کنید که بکارگیری = باعث از بین رفتن مجوزهای قبلی می‌شه در حالی که + و - مجوزها رو اضافه و حذف می‌کنند و کاری به بقیه ندارند. این‌ها در حقیقت همون عملیات and و or و mask کردن بیت‌ها در کامپیوتره.</p>
 
-&lt;p&gt;نوشتن این یادداشت باعث شد خودم بهتر این موارد رو به خاطر بسپرم. موارد بیشتری هم هست که بهرحال فهم این نکات اولیه به یادگیری بقیه هم کمک می‌کنه. منابعی هم که بکار گرفتم در انتهای مطلب&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; هست.&lt;/p&gt;
+<p>نوشتن این یادداشت باعث شد خودم بهتر این موارد رو به خاطر بسپرم. موارد بیشتری هم هست که بهرحال فهم این نکات اولیه به یادگیری بقیه هم کمک می‌کنه. منابعی هم که بکار گرفتم در انتهای مطلب<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup><sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup><sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup><sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup> هست.</p>
 
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;‏&lt;a href=&quot;http://www.rackspace.com/knowledge_center/article/linux-file-permission-concepts&quot;&gt;linux-file-permission-concepts&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;‏&lt;a href=&quot;https://en.wikipedia.org/wiki/Modes_(Unix)&quot;&gt;Unix Modes&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:3&quot;&gt;
-      &lt;p&gt;‏&lt;a href=&quot;http://www.grymoire.com/Unix/Permissions.html#toc-uh-0&quot;&gt;Permissions&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:4&quot;&gt;
-      &lt;p&gt;‏&lt;a href=&quot;http://unix.stackexchange.com/a/140944/87940&quot;&gt;Stackexchange Question&lt;/a&gt; &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Thu, 08 Jan 2015 00:00:00 +0100</pubDate>
-        <link>http://mehdix.ir/linux-permissions-made-simple.html</link>
-        <guid isPermaLink="true">http://mehdix.ir/linux-permissions-made-simple.html</guid>
-        
-        <category>لینوکس</category>
-        
-        <category>فایل</category>
-        
-        <category>حق</category>
-        
-        <category>دسترسی</category>
-        
-        
-        <category>لینوکس</category>
-        
-      </item>
-    
-      <item>
-        <title>ماموریت روزتا</title>
-        <description>&lt;p&gt;نمی‌دونم که آیا تابحال چیزی راجع به ‫‫‫«&lt;a href=&quot;http://fa.wikipedia.org/wiki/%D8%B1%D8%B2%D8%AA%D8%A7_(%D9%81%D8%B6%D8%A7%D9%BE%DB%8C%D9%85%D8%A7)&quot;&gt;ماموریت روزِتا&lt;/a&gt;» شنیدین یا نه؟ این ماموریت یک سفر فضایی است برای ملاقات با یک دنباله‌دار که من با علاقه دنبالش می‌کنم.&lt;/p&gt;
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>‏<a href="http://www.rackspace.com/knowledge_center/article/linux-file-permission-concepts">linux-file-permission-concepts</a> <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>‏<a href="https://en.wikipedia.org/wiki/Modes_(Unix)">Unix Modes</a> <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>‏<a href="http://www.grymoire.com/Unix/Permissions.html#toc-uh-0">Permissions</a> <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:4">
+      <p>‏<a href="http://unix.stackexchange.com/a/140944/87940">Stackexchange Question</a> <a href="#fnref:4" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+</div>]]>
+			</content>
+	</entry>
 
-&lt;h1 id=&quot;section&quot;&gt;معرفی&lt;/h1&gt;
-&lt;p&gt;این پروژه از بیست سال پیش شروع شده و ده سال پیش سفینه به فضا پرتاب شده. الان چندین ماهه که روزِتا به دنباله‌دار «&lt;a href=&quot;http://fa.wikipedia.org/wiki/%DB%B6%DB%B7_%D9%BE%DB%8C/%DA%86%D9%88%D8%B1%DB%8C%D9%88%D9%85%D9%88%D9%81-%DA%AF%D8%B1%D8%A7%D8%B3%DB%8C%D9%85%D9%86%DA%A9%D9%88&quot;&gt;چوریموف-گراسیمنکو/P-67&lt;/a&gt;» رسیده و در مداری به دور اون در گردشه. ماه گذشته هم یک سطح‌نورد بنام «فیله» رو روی دنباله‌دار نشوند که فرودش موفقیت آمیز نبود و بعد از چند ساعت با خالی شدن باطری‌های اولیه‌اش خاموش شد.&lt;/p&gt;
+	<entry>
+		<title>ماموریت روزتا</title>
+		<link rel="alternate" type="text/html" href="http://mehdix.ir/rosetta-mission.html"/>
+		<id>urn:uuid:81b19830-234e-42a9-b5ce-b1ba6218ff8d</id>
+		<updated>2014-12-30T00:00:00Z</updated>
+		<category term="فضا"/><category term="سرگرمی"/><category term="هابی"/>
+			<content type="html">
+				<![CDATA[<div dir="rtl"><p>نمی‌دونم که آیا تابحال چیزی راجع به ‫‫‫«<a href="http://fa.wikipedia.org/wiki/%D8%B1%D8%B2%D8%AA%D8%A7_(%D9%81%D8%B6%D8%A7%D9%BE%DB%8C%D9%85%D8%A7)">ماموریت روزِتا</a>» شنیدین یا نه؟ این ماموریت یک سفر فضایی است برای ملاقات با یک دنباله‌دار که من با علاقه دنبالش می‌کنم.</p>
 
-&lt;p&gt;این &lt;a href=&quot;http://rosetta.esa.int/&quot;&gt;پروژه&lt;/a&gt; توسط «سازمان فضانوردی اروپا» بنام ESA انجام شده و از شهر دارمِشتات آلمان هدایت می‌شه.&lt;/p&gt;
+<h1 id="section">معرفی</h1>
+<p>این پروژه از بیست سال پیش شروع شده و ده سال پیش سفینه به فضا پرتاب شده. الان چندین ماهه که روزِتا به دنباله‌دار «<a href="http://fa.wikipedia.org/wiki/%DB%B6%DB%B7_%D9%BE%DB%8C/%DA%86%D9%88%D8%B1%DB%8C%D9%88%D9%85%D9%88%D9%81-%DA%AF%D8%B1%D8%A7%D8%B3%DB%8C%D9%85%D9%86%DA%A9%D9%88">چوریموف-گراسیمنکو/P-67</a>» رسیده و در مداری به دور اون در گردشه. ماه گذشته هم یک سطح‌نورد بنام «فیله» رو روی دنباله‌دار نشوند که فرودش موفقیت آمیز نبود و بعد از چند ساعت با خالی شدن باطری‌های اولیه‌اش خاموش شد.</p>
 
-&lt;h1 id=&quot;section-1&quot;&gt;ویدیو&lt;/h1&gt;
-&lt;p&gt;برای پروژه روزتا کارتون‌ها و انیمیشن‌های زیبایی ساخته شده که در کانال یوتیوب سازمان فضایی اروپا قابل دیدنه. من اینجا یکی از این ویدیوها رو، به نام &lt;em&gt;Ambition&lt;/em&gt;، که حال و هوایی حماسی داره قرار می‌دم. اگر سرعت اینترنت قابل قبولی دارین حتما تماشا کنید. خودم که هر چندوقت یکبار میام و می‌بینم!&lt;/p&gt;
+<p>این <a href="http://rosetta.esa.int/">پروژه</a> توسط «سازمان فضانوردی اروپا» بنام ESA انجام شده و از شهر دارمِشتات آلمان هدایت می‌شه.</p>
 
-&lt;iframe src=&quot;https://new.livestream.com/accounts/362/events/3544091/videos/66902310/player?autoPlay=false&amp;amp;height=360&amp;amp;mute=false&amp;amp;width=640&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;
-</description>
-        <pubDate>Tue, 30 Dec 2014 00:00:00 +0100</pubDate>
-        <link>http://mehdix.ir/rosetta-mission.html</link>
-        <guid isPermaLink="true">http://mehdix.ir/rosetta-mission.html</guid>
-        
-        <category>فضا</category>
-        
-        <category>سرگرمی</category>
-        
-        <category>هابی</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>یک پلاگین دیگر برای جکیل</title>
-        <description>&lt;p&gt;از جایی که وبسایتم رو تحت &lt;a href=&quot;https://mehdix.org/fa&quot;&gt;یک زیردامنه&lt;/a&gt; نیز منتشر می‌کنم مشکلی با تولید لینک‌ها در جکیل داشتم که برایش یک &lt;a href=&quot;https://github.com/mehdisadeghi/mehdix.ir/blob/master/_plugins/urljoin.rb&quot;&gt;پلاگین&lt;/a&gt; ساده نوشتم.&lt;/p&gt;
+<h1 id="section-1">ویدیو</h1>
+<p>برای پروژه روزتا کارتون‌ها و انیمیشن‌های زیبایی ساخته شده که در کانال یوتیوب سازمان فضایی اروپا قابل دیدنه. من اینجا یکی از این ویدیوها رو، به نام <em>Ambition</em>، که حال و هوایی حماسی داره قرار می‌دم. اگر سرعت اینترنت قابل قبولی دارین حتما تماشا کنید. خودم که هر چندوقت یکبار میام و می‌بینم!</p>
 
-&lt;p&gt;مشکل اینجا بود که وقتی مقدار &lt;code&gt;baseurl&lt;/code&gt; رو در فایل تنظیمات سایت تغییر می‌دادم بعضی از لینک‌ها با دو تا &lt;code&gt;/&lt;/code&gt; تولید می‌شدند. با نگاه به کدهای سایت دیدم که ‏&lt;a href=&quot;https://github.com/Shopify/liquid/wiki/Liquid-for-Designers#standard-filters&quot;&gt;لیکوئید&lt;/a&gt; تعدادی فیلتر ساده داره که در جکیل هم استفاده شده اما فیلتر خاصی برای متصل کردن لینک‌ها نداره. چنین فیلتری از اون جهت می‌تونه مفید باشه که سردرد طراح سایت رو کم می‌کنه و دیگه لازم نیست دائم کنترل کنیم که آیا لینک درست تولید شده یا نه. بنابراین من یک فیلتر برای لیکوئید نوشتم:&lt;/p&gt;
+<iframe src="https://new.livestream.com/accounts/362/events/3544091/videos/66902310/player?autoPlay=false&amp;height=360&amp;mute=false&amp;width=640" width="640" height="360" frameborder="0" scrolling="no"></iframe>
+</div>]]>
+			</content>
+	</entry>
 
-&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
-  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span style=&quot;color:#080;font-weight:bold&quot;&gt;module&lt;/span&gt; &lt;span style=&quot;color:#B06;font-weight:bold&quot;&gt;Jekyll&lt;/span&gt;
-  &lt;span style=&quot;color:#080;font-weight:bold&quot;&gt;module&lt;/span&gt; &lt;span style=&quot;color:#B06;font-weight:bold&quot;&gt;URLJoinFilter&lt;/span&gt;
-    &lt;span style=&quot;color:#080;font-weight:bold&quot;&gt;def&lt;/span&gt; &lt;span style=&quot;color:#06B;font-weight:bold&quot;&gt;urljoin&lt;/span&gt;(first, second)
-      &lt;span style=&quot;color:#036;font-weight:bold&quot;&gt;File&lt;/span&gt;.join(first, second)
-    &lt;span style=&quot;color:#080;font-weight:bold&quot;&gt;end&lt;/span&gt;
-  &lt;span style=&quot;color:#080;font-weight:bold&quot;&gt;end&lt;/span&gt;
-&lt;span style=&quot;color:#080;font-weight:bold&quot;&gt;end&lt;/span&gt;
+	<entry>
+		<title>یک پلاگین دیگر برای جکیل</title>
+		<link rel="alternate" type="text/html" href="http://mehdix.ir/urljoin.html"/>
+		<id>urn:uuid:3b60f7d6-290d-434c-9e74-182acdafe804</id>
+		<updated>2014-12-28T00:00:00Z</updated>
+		<category term="جکیل"/><category term="پلاگین"/>
+			<content type="html">
+				<![CDATA[<div dir="rtl"><p>از جایی که وبسایتم رو تحت <a href="https://mehdix.org/fa">یک زیردامنه</a> نیز منتشر می‌کنم مشکلی با تولید لینک‌ها در جکیل داشتم که برایش یک <a href="https://github.com/mehdisadeghi/mehdix.ir/blob/master/_plugins/urljoin.rb">پلاگین</a> ساده نوشتم.</p>
 
-&lt;span style=&quot;color:#036;font-weight:bold&quot;&gt;Liquid&lt;/span&gt;::&lt;span style=&quot;color:#036;font-weight:bold&quot;&gt;Template&lt;/span&gt;.register_filter(&lt;span style=&quot;color:#036;font-weight:bold&quot;&gt;Jekyll&lt;/span&gt;::&lt;span style=&quot;color:#036;font-weight:bold&quot;&gt;URLJoinFilter&lt;/span&gt;)
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<p>مشکل اینجا بود که وقتی مقدار <code>baseurl</code> رو در فایل تنظیمات سایت تغییر می‌دادم بعضی از لینک‌ها با دو تا <code>/</code> تولید می‌شدند. با نگاه به کدهای سایت دیدم که ‏<a href="https://github.com/Shopify/liquid/wiki/Liquid-for-Designers#standard-filters">لیکوئید</a> تعدادی فیلتر ساده داره که در جکیل هم استفاده شده اما فیلتر خاصی برای متصل کردن لینک‌ها نداره. چنین فیلتری از اون جهت می‌تونه مفید باشه که سردرد طراح سایت رو کم می‌کنه و دیگه لازم نیست دائم کنترل کنیم که آیا لینک درست تولید شده یا نه. بنابراین من یک فیلتر برای لیکوئید نوشتم:</p>
 
-&lt;p&gt;حالا من در کدم می‌تونم از این فیلتر به سادگی استفاده کنم:&lt;/p&gt;
+<div class="highlighter-coderay"><div class="CodeRay">
+  <div class="code"><pre><span style="color:#080;font-weight:bold">module</span> <span style="color:#B06;font-weight:bold">Jekyll</span>
+  <span style="color:#080;font-weight:bold">module</span> <span style="color:#B06;font-weight:bold">URLJoinFilter</span>
+    <span style="color:#080;font-weight:bold">def</span> <span style="color:#06B;font-weight:bold">urljoin</span>(first, second)
+      <span style="color:#036;font-weight:bold">File</span>.join(first, second)
+    <span style="color:#080;font-weight:bold">end</span>
+  <span style="color:#080;font-weight:bold">end</span>
+<span style="color:#080;font-weight:bold">end</span>
 
-&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
-  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;
-&lt;span style=&quot;color:#070;font-weight:bold&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span style=&quot;color:#b48&quot;&gt;class&lt;/span&gt;=&lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span style=&quot;color:#D20&quot;&gt;post-link&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span style=&quot;color:#b48&quot;&gt;href&lt;/span&gt;=&lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span style=&quot;color:#D20&quot;&gt;{{ site.baseurl | urljoin: post.url}}&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color:#070;font-weight:bold&quot;&gt;&amp;gt;&lt;/span&gt;{{ post.title }}&lt;span style=&quot;color:#070;font-weight:bold&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+<span style="color:#036;font-weight:bold">Liquid</span>::<span style="color:#036;font-weight:bold">Template</span>.register_filter(<span style="color:#036;font-weight:bold">Jekyll</span>::<span style="color:#036;font-weight:bold">URLJoinFilter</span>)
+</pre></div>
+</div>
+</div>
 
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<p>حالا من در کدم می‌تونم از این فیلتر به سادگی استفاده کنم:</p>
 
-&lt;p&gt;من کد پلاگین رو در فولدر &lt;code&gt;_plugins&lt;/code&gt; در داخل فایل‌های سایتم قرار دادم که موقع بیلد کردن سایت کار خودش رو انجام می‌ده.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 28 Dec 2014 00:00:00 +0100</pubDate>
-        <link>http://mehdix.ir/urljoin.html</link>
-        <guid isPermaLink="true">http://mehdix.ir/urljoin.html</guid>
-        
-        <category>جکیل</category>
-        
-        <category>پلاگین</category>
-        
-        
-        <category>web development</category>
-        
-      </item>
-    
-      <item>
-        <title>kramdown</title>
-        <description>&lt;p&gt;طی هفته‌های گذشته مشغول راه‌اندازی این وبسایت بودم. مثل هر پروژه دیگری کلی مطلب در طول انجام اینکار یاد گرفتم، فرآیندی که همچنان ادامه داره. یکی از این موارد آشنایی با &lt;a href=&quot;http://kramdown.gettalong.org/&quot;&gt;kramdown&lt;/a&gt; بود.&lt;/p&gt;
+<div class="highlighter-coderay"><div class="CodeRay">
+  <div class="code"><pre>
+<span style="color:#070;font-weight:bold">&lt;a</span> <span style="color:#b48">class</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">post-link</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">href</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">{{ site.baseurl | urljoin: post.url}}</span><span style="color:#710">&quot;</span></span><span style="color:#070;font-weight:bold">&gt;</span>{{ post.title }}<span style="color:#070;font-weight:bold">&lt;/a&gt;</span>
 
-&lt;h1 id=&quot;section&quot;&gt;یک پارسِر دیگر مارک‌داون&lt;/h1&gt;
-&lt;p&gt;&lt;em&gt;kramdown&lt;/em&gt; در ساده‌ترین حالت یک پارسِر مارک‌داون محسوب می‌شه اما ویژگی‌هایی هم داره که در مارک‌داون وجود نداره. من به طور خاص از ویژگی &lt;a href=&quot;http://kramdown.gettalong.org/syntax.html#block-ials&quot;&gt;Inline Attribute Lists&lt;/a&gt; صحبت می‌کنم.&lt;/p&gt;
+</pre></div>
+</div>
+</div>
 
-&lt;p&gt;اگر به تنظیمات جکیل من نگاه کنید من &lt;em&gt;kramdown&lt;/em&gt; رو به عنوان پارسر انتخاب کردم:&lt;/p&gt;
+<p>من کد پلاگین رو در فولدر <code>_plugins</code> در داخل فایل‌های سایتم قرار دادم که موقع بیلد کردن سایت کار خودش رو انجام می‌ده.</p>
+</div>]]>
+			</content>
+	</entry>
 
-&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
-  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span style=&quot;color:#606&quot;&gt;markdown&lt;/span&gt;: &lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#D20&quot;&gt;kramdown&lt;/span&gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+	<entry>
+		<title>kramdown</title>
+		<link rel="alternate" type="text/html" href="http://mehdix.ir/kramdown.html"/>
+		<id>urn:uuid:50418455-c289-4c3b-b40d-05c9e70b2a6f</id>
+		<updated>2014-12-21T00:00:00Z</updated>
+		<category term="markup"/><category term="kramdown"/><category term="markdown"/><category term="jekyll"/>
+			<content type="html">
+				<![CDATA[<div dir="rtl"><p>طی هفته‌های گذشته مشغول راه‌اندازی این وبسایت بودم. مثل هر پروژه دیگری کلی مطلب در طول انجام اینکار یاد گرفتم، فرآیندی که همچنان ادامه داره. یکی از این موارد آشنایی با <a href="http://kramdown.gettalong.org/">kramdown</a> بود.</p>
 
-&lt;p&gt;این باعث می‌شه که جکیل کد صفحات من را با پارسِر درست ترجمه کنه و بنابراین من می‌تونم از سینتکس اون استفاده کنم.&lt;/p&gt;
+<h1 id="section">یک پارسِر دیگر مارک‌داون</h1>
+<p><em>kramdown</em> در ساده‌ترین حالت یک پارسِر مارک‌داون محسوب می‌شه اما ویژگی‌هایی هم داره که در مارک‌داون وجود نداره. من به طور خاص از ویژگی <a href="http://kramdown.gettalong.org/syntax.html#block-ials">Inline Attribute Lists</a> صحبت می‌کنم.</p>
 
-&lt;h1 id=&quot;section-1&quot;&gt;مشکل از کجا شروع شد&lt;/h1&gt;
-&lt;p&gt;من مشکلی داشتم در نمایش افقی و مرکزی عکس‌ها. جکیل به صورت پیشفرض تصاویر رو سمت چپ (و وقتی راست‌چین شده باشه سمت راست) قرار می‌داد و این چیزی نبود که من می‌خواستم. و اما کدی که ژنراتور جکیل برای یک بلاک عکس تولید می‌کرد حاوی یک تگ &lt;code&gt;p&lt;/code&gt; و یک تگ &lt;code&gt;img&lt;/code&gt; داخل اون بود. به این صورت:&lt;/p&gt;
+<p>اگر به تنظیمات جکیل من نگاه کنید من <em>kramdown</em> رو به عنوان پارسر انتخاب کردم:</p>
 
-&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
-  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span style=&quot;color:#070;font-weight:bold&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;
-&lt;span style=&quot;color:#070;font-weight:bold&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span style=&quot;color:#b48&quot;&gt;href&lt;/span&gt;=&lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span style=&quot;color:#b48&quot;&gt;alt&lt;/span&gt;=&lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color:#070;font-weight:bold&quot;&gt;/&amp;gt;&lt;/span&gt;
-&lt;span style=&quot;color:#070;font-weight:bold&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<div class="highlighter-coderay"><div class="CodeRay">
+  <div class="code"><pre><span style="color:#606">markdown</span>: <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#D20">kramdown</span></span>
+</pre></div>
+</div>
+</div>
 
-&lt;p&gt;که این کد خروجی سینتکس زیر در کد من بود:&lt;/p&gt;
+<p>این باعث می‌شه که جکیل کد صفحات من را با پارسِر درست ترجمه کنه و بنابراین من می‌تونم از سینتکس اون استفاده کنم.</p>
 
-&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
-  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;![image](URL)
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<h1 id="section-1">مشکل از کجا شروع شد</h1>
+<p>من مشکلی داشتم در نمایش افقی و مرکزی عکس‌ها. جکیل به صورت پیشفرض تصاویر رو سمت چپ (و وقتی راست‌چین شده باشه سمت راست) قرار می‌داد و این چیزی نبود که من می‌خواستم. و اما کدی که ژنراتور جکیل برای یک بلاک عکس تولید می‌کرد حاوی یک تگ <code>p</code> و یک تگ <code>img</code> داخل اون بود. به این صورت:</p>
 
-&lt;p&gt;اشکال اینجا بود که تگ‌های تولید شده کلاس یا آی‌دی خاصی نداشتند که من بتونم میون انبوه کدهای تولید شده برای صفحه اونها رو پیدا کنم. اینجا بود که IAL به کمکم اومد. بعد از ثبت یک ایشو در جکیل و بعد یک ایشو در kramdown بالاخره به جواب رسیدم. به این صورت که من می‌تونم به فرمت زیر قبل از یک بلاک عکس (یا هر بلاک دیگری) یک کلاس دلخواه رو به تگ تولید شده نسبت بدم:&lt;/p&gt;
+<div class="highlighter-coderay"><div class="CodeRay">
+  <div class="code"><pre><span style="color:#070;font-weight:bold">&lt;p&gt;</span>
+<span style="color:#070;font-weight:bold">&lt;img</span> <span style="color:#b48">href</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">alt</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#710">&quot;</span></span><span style="color:#070;font-weight:bold">/&gt;</span>
+<span style="color:#070;font-weight:bold">&lt;/p&gt;</span>
+</pre></div>
+</div>
+</div>
 
-&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
-  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;{: .center}
+<p>که این کد خروجی سینتکس زیر در کد من بود:</p>
+
+<div class="highlighter-coderay"><div class="CodeRay">
+  <div class="code"><pre>![image](URL)
+</pre></div>
+</div>
+</div>
+
+<p>اشکال اینجا بود که تگ‌های تولید شده کلاس یا آی‌دی خاصی نداشتند که من بتونم میون انبوه کدهای تولید شده برای صفحه اونها رو پیدا کنم. اینجا بود که IAL به کمکم اومد. بعد از ثبت یک ایشو در جکیل و بعد یک ایشو در kramdown بالاخره به جواب رسیدم. به این صورت که من می‌تونم به فرمت زیر قبل از یک بلاک عکس (یا هر بلاک دیگری) یک کلاس دلخواه رو به تگ تولید شده نسبت بدم:</p>
+
+<div class="highlighter-coderay"><div class="CodeRay">
+  <div class="code"><pre>{: .center}
 ![image](URL)
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+</pre></div>
+</div>
+</div>
 
-&lt;p&gt;&lt;code&gt;center&lt;/code&gt; در اینجا اسم دلخواهیه که من انتخاب کردم. بعد از این مرحله خروجی کد شد این:&lt;/p&gt;
+<p><code>center</code> در اینجا اسم دلخواهیه که من انتخاب کردم. بعد از این مرحله خروجی کد شد این:</p>
 
-&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
-  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span style=&quot;color:#070;font-weight:bold&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span style=&quot;color:#b48&quot;&gt;class&lt;/span&gt;=&lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span style=&quot;color:#D20&quot;&gt;center&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color:#070;font-weight:bold&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span style=&quot;color:#070;font-weight:bold&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span style=&quot;color:#b48&quot;&gt;href&lt;/span&gt;=&lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span style=&quot;color:#b48&quot;&gt;alt&lt;/span&gt;=&lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color:#070;font-weight:bold&quot;&gt;/&amp;gt;&lt;/span&gt;
-&lt;span style=&quot;color:#070;font-weight:bold&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<div class="highlighter-coderay"><div class="CodeRay">
+  <div class="code"><pre><span style="color:#070;font-weight:bold">&lt;p</span> <span style="color:#b48">class</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">center</span><span style="color:#710">&quot;</span></span><span style="color:#070;font-weight:bold">&gt;</span>
+<span style="color:#070;font-weight:bold">&lt;img</span> <span style="color:#b48">href</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">alt</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#710">&quot;</span></span><span style="color:#070;font-weight:bold">/&gt;</span>
+<span style="color:#070;font-weight:bold">&lt;/p&gt;</span>
+</pre></div>
+</div>
+</div>
 
-&lt;p&gt;ناگفته پیداست که حالا من می‌تونم در کد &lt;code&gt;css&lt;/code&gt; براحتی استایل دلخواهم رو به این کلاس نسبت بدم:&lt;/p&gt;
+<p>ناگفته پیداست که حالا من می‌تونم در کد <code>css</code> براحتی استایل دلخواهم رو به این کلاس نسبت بدم:</p>
 
-&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
-  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span style=&quot;color:#B06;font-weight:bold&quot;&gt;.center&lt;/span&gt;{
-    &lt;span style=&quot;color:#606&quot;&gt;text-align&lt;/span&gt;: &lt;span style=&quot;color:#088&quot;&gt;center&lt;/span&gt;;
+<div class="highlighter-coderay"><div class="CodeRay">
+  <div class="code"><pre><span style="color:#B06;font-weight:bold">.center</span>{
+    <span style="color:#606">text-align</span>: <span style="color:#088">center</span>;
 }
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+</pre></div>
+</div>
+</div>
 
-&lt;p&gt;چند مثال هم از مستندات خودشون:&lt;/p&gt;
+<p>چند مثال هم از مستندات خودشون:</p>
 
-&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
-  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;A simple paragraph with an ID attribute.
+<div class="highlighter-coderay"><div class="CodeRay">
+  <div class="code"><pre>A simple paragraph with an ID attribute.
 {: #para-one}
 
-&amp;gt; A blockquote with a title
-{:title=&amp;quot;The blockquote title&amp;quot;}
+&gt; A blockquote with a title
+{:title=&quot;The blockquote title&quot;}
 {: #myid}
 
 {:.ruby}
     Some code here
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+</pre></div>
+</div>
+</div>
 
-&lt;h1 id=&quot;section-2&quot;&gt;خلاصه&lt;/h1&gt;
-&lt;p&gt;به کمک این روش می‌شه براحتی &lt;em&gt;attribute&lt;/em&gt;هایی برای المان‌های مختلف الصاق کرد. فقط کافیه که &lt;em&gt;بلافاصله&lt;/em&gt; قبل یا بعد از المان مربوطه کد IAL لازم نوشته بشه.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 21 Dec 2014 00:00:00 +0100</pubDate>
-        <link>http://mehdix.ir/kramdown.html</link>
-        <guid isPermaLink="true">http://mehdix.ir/kramdown.html</guid>
-        
-        <category>markup</category>
-        
-        <category>kramdown</category>
-        
-        <category>markdown</category>
-        
-        <category>jekyll</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>وبلاگ جکیل روی دامنه شخصی</title>
-        <description>&lt;p&gt;&lt;strong&gt;منتشر شده در شماره سه ماهنامه سلام‌دنیا&lt;/strong&gt; – این مقاله قسمت دوم راهنمای ساخت وبلاگ با جکیل و گیت‌هاب است که برای سلام‌دنیا نوشتم و اینجا با مقداری تغییرات منتشر می‌کنم.&lt;/p&gt;
+<h1 id="section-2">خلاصه</h1>
+<p>به کمک این روش می‌شه براحتی <em>attribute</em>هایی برای المان‌های مختلف الصاق کرد. فقط کافیه که <em>بلافاصله</em> قبل یا بعد از المان مربوطه کد IAL لازم نوشته بشه.</p>
+</div>]]>
+			</content>
+	</entry>
 
-&lt;p&gt;در قسمت اول از این مقاله شرح دادیم که مزایای یک وبسایت ایستا در مقایسه با یک وبسایت پویا چیست و  چه کاربردهایی دارد و دیگر اینکه ما می خواهیم با امکانات موجود در اینترنت و با حداقل هزینه وبسایت بسازیم. در قسمت قبلی در مورد گیت‌هاب صحبت کردیم و اینکه چگونه باید مخزن لازم برای وبسایتمان را آنجا بسازیم و چطور آنرا تغییر و برزورسانی کنیم و در نهایت وبسایت خودمان را تحت دامنه &lt;em&gt;github.io&lt;/em&gt; منتشر کردیم. چیزهایی که تا اینجا کفتیم در حقیقت اسکلت اصلی وبسایت‌سازی با گیت‌هاب بود اما هنوز در مورد ابزار اصلی اینکار که &lt;em&gt;Jekyll&lt;/em&gt; است صحبتی نکرده‌ایم بنابراین در این بخش به آن می‌پردازیم.&lt;/p&gt;
+	<entry>
+		<title>وبلاگ جکیل روی دامنه شخصی</title>
+		<link rel="alternate" type="text/html" href="http://mehdix.ir/jekyll-structure.html"/>
+		<id>urn:uuid:51c37d6c-cec3-4a94-8310-2690ec53f728</id>
+		<updated>2014-12-19T00:00:00Z</updated>
+		<category term="جکیل"/><category term="وب"/>
+			<content type="html">
+				<![CDATA[<div dir="rtl"><p><strong>منتشر شده در شماره سه ماهنامه سلام‌دنیا</strong> – این مقاله قسمت دوم راهنمای ساخت وبلاگ با جکیل و گیت‌هاب است که برای سلام‌دنیا نوشتم و اینجا با مقداری تغییرات منتشر می‌کنم.</p>
 
-&lt;p&gt;صفحات‌گیت‌هاب علاوه بر پشتیبانی از فایل‌های &lt;em&gt;HTML&lt;/em&gt; عادی، از &lt;em&gt;Jekyll&lt;/em&gt; که یک مولّد صفحات ایستا‍&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; است نیز پیشتبانی می‌کند یعنی می‌تواند ازروی یک پروژه جکیل وبسایت بسازد. جکیل تمام امکانات لازم برای ساخت وب‌سایت‌ را به صورت آفلاین در اختیار شما می‌گذارد، امکاناتی از قبیل تولید هدر و فوتر برای تمامی صفحات وب‌سایت بدون نیاز به تکرار آنها در صفحات مختلف و نیز پیشتبیانی از چند زبان الگو&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; جهت نوشتن قالب&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; ساخت. جکیل یک پروژه‌ی مستقل از گیت‌هاب است اما وب‌سرور صفحات گیت‌هاب قادر است پروژه‌های جکیل را بفهمد و آنها را به درستی نمایش بدهد.&lt;/p&gt;
+<p>در قسمت اول از این مقاله شرح دادیم که مزایای یک وبسایت ایستا در مقایسه با یک وبسایت پویا چیست و  چه کاربردهایی دارد و دیگر اینکه ما می خواهیم با امکانات موجود در اینترنت و با حداقل هزینه وبسایت بسازیم. در قسمت قبلی در مورد گیت‌هاب صحبت کردیم و اینکه چگونه باید مخزن لازم برای وبسایتمان را آنجا بسازیم و چطور آنرا تغییر و برزورسانی کنیم و در نهایت وبسایت خودمان را تحت دامنه <em>github.io</em> منتشر کردیم. چیزهایی که تا اینجا کفتیم در حقیقت اسکلت اصلی وبسایت‌سازی با گیت‌هاب بود اما هنوز در مورد ابزار اصلی اینکار که <em>Jekyll</em> است صحبتی نکرده‌ایم بنابراین در این بخش به آن می‌پردازیم.</p>
 
-&lt;blockquote&gt;
-  &lt;p&gt;نکته: در فاصله قسمت اول و این قسمت من وبسایت خودم را با جکیل کامل کردم و در ادامه مطلب از آن در مثال‌ها استفاده خواهم کرد. در صورتی که قصد ساخت یک وبلاگ یا وبسایت فارسی راست به چپ داشته باشید می‌توانید کدها و قالب‌های استفاده شده در مخزن آن را تغییر دهید و برای ساخت وبسایت خودتان از آن استفاده کنید.&lt;/p&gt;
-&lt;/blockquote&gt;
+<p>صفحات‌گیت‌هاب علاوه بر پشتیبانی از فایل‌های <em>HTML</em> عادی، از <em>Jekyll</em> که یک مولّد صفحات ایستا‍<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> است نیز پیشتبانی می‌کند یعنی می‌تواند ازروی یک پروژه جکیل وبسایت بسازد. جکیل تمام امکانات لازم برای ساخت وب‌سایت‌ را به صورت آفلاین در اختیار شما می‌گذارد، امکاناتی از قبیل تولید هدر و فوتر برای تمامی صفحات وب‌سایت بدون نیاز به تکرار آنها در صفحات مختلف و نیز پیشتبیانی از چند زبان الگو<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup> جهت نوشتن قالب<sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup> ساخت. جکیل یک پروژه‌ی مستقل از گیت‌هاب است اما وب‌سرور صفحات گیت‌هاب قادر است پروژه‌های جکیل را بفهمد و آنها را به درستی نمایش بدهد.</p>
 
-&lt;p&gt;برای شروع کار با جکیل پیش از هرچیز باید آنرا روی کامپیوترمان نصب کنیم. از جایی که جکیل با زبان برنامه‌نویسی روبی نوشته شده است،‌ لازم است که روبی هم روی دستگاه ما نصب باشد (ما به نصب روبی نمی‌پردازیم):&lt;/p&gt;
+<blockquote>
+  <p>نکته: در فاصله قسمت اول و این قسمت من وبسایت خودم را با جکیل کامل کردم و در ادامه مطلب از آن در مثال‌ها استفاده خواهم کرد. در صورتی که قصد ساخت یک وبلاگ یا وبسایت فارسی راست به چپ داشته باشید می‌توانید کدها و قالب‌های استفاده شده در مخزن آن را تغییر دهید و برای ساخت وبسایت خودتان از آن استفاده کنید.</p>
+</blockquote>
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;~ &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;gem install jekyll&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+<p>برای شروع کار با جکیل پیش از هرچیز باید آنرا روی کامپیوترمان نصب کنیم. از جایی که جکیل با زبان برنامه‌نویسی روبی نوشته شده است،‌ لازم است که روبی هم روی دستگاه ما نصب باشد (ما به نصب روبی نمی‌پردازیم):</p>
 
-&lt;p&gt;نکته: بسته به تنظیمات دستگاه شما ممکن است لازم باشد این دستور را با کاربر &lt;em&gt;root&lt;/em&gt; اجرا کنید. 
-بعد از اتمام این مرحله  فرمانی بنام &lt;em&gt;jekyll&lt;/em&gt; روی دستگاه ما نصب شده است و می‌توانیم از آن استفاده کنیم. لازم است توضیح بدهم که ما از این دستور جهت ایجاد ساختار اولیه یک وبسایت مبتنی بر جکیل و نیز مشاهده خروجی جکیل روی دستگاه خودمان استفاده می‌کنیم در حقیقت ما از این دستور فقط برای ساخت وبسایت استفاده می‌کنیم وگرنه گیت‌هاب قادر است کدهای جکیل را بفهمد.حال مخزنی را که قرار است کدهای وبسایت ما را در خودش نگهداری کند شبیه‌سازی می‌کنیم:&lt;/p&gt;
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">~ <span class="nv">$ </span>gem install jekyll</code></pre></div>
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;~ &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git clone https://github.com/mehdisadeghi/mehdix.ir
-~ &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;mehdix.ir
-~/mehdix.ir &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git checkout -b gh-pages&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+<p>نکته: بسته به تنظیمات دستگاه شما ممکن است لازم باشد این دستور را با کاربر <em>root</em> اجرا کنید. 
+بعد از اتمام این مرحله  فرمانی بنام <em>jekyll</em> روی دستگاه ما نصب شده است و می‌توانیم از آن استفاده کنیم. لازم است توضیح بدهم که ما از این دستور جهت ایجاد ساختار اولیه یک وبسایت مبتنی بر جکیل و نیز مشاهده خروجی جکیل روی دستگاه خودمان استفاده می‌کنیم در حقیقت ما از این دستور فقط برای ساخت وبسایت استفاده می‌کنیم وگرنه گیت‌هاب قادر است کدهای جکیل را بفهمد.حال مخزنی را که قرار است کدهای وبسایت ما را در خودش نگهداری کند شبیه‌سازی می‌کنیم:</p>
 
-&lt;p&gt;به کمک دستورات بالا اول مخزن را روی دستگاهمان شبیه‌سازی کردیم (شرح آن در قسمت اول رفت) و بعد به شاخه gh-pages سوئیچ کردیم و حالا ساختار پروژه جکیل را در این مسیر ایجاد می‌کنیم:&lt;/p&gt;
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">~ <span class="nv">$ </span>git clone https://github.com/mehdisadeghi/mehdix.ir
+~ <span class="nv">$ </span><span class="nb">cd </span>mehdix.ir
+~/mehdix.ir <span class="nv">$ </span>git checkout -b gh-pages</code></pre></div>
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;~/mehdix.ir &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;jekyll new . -- دقت کنید که نقطه جزوی از دستوراست به معنی مسیر جاری
-~/mehdix.ir &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;jekyll serve&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+<p>به کمک دستورات بالا اول مخزن را روی دستگاهمان شبیه‌سازی کردیم (شرح آن در قسمت اول رفت) و بعد به شاخه gh-pages سوئیچ کردیم و حالا ساختار پروژه جکیل را در این مسیر ایجاد می‌کنیم:</p>
 
-&lt;p&gt;خط اول از فرامین بالا سایت را می‌سازد و خط بعدی نیز باعث می‌شود که جکیل وبسایت را از روی کدهای موجود بسازد و بعد توسط  وب‌سرور توکارش آنرا نمایش بدهد. پس از اجرای دستورات بالا وبسایت محلی ما در آدرس ‎‎&lt;a href=&quot;http://localhost:4000&quot;&gt;http://localhost:4000&lt;/a&gt; در دسترس خواهد بود. قبل از اینکه به سراغ مرحله بعدی برویم ساختار و همه فایل‌های تولید شده توسط جکیل را به مخزن گیت‌هابمان اضافه می‌کنیم (باید صریحا به گیت بگوییم که کدام فایل‌ها باید به مخزن اضافه شوند، صرف کپی کردن کافی نیست):&lt;/p&gt;
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">~/mehdix.ir <span class="nv">$ </span>jekyll new . -- دقت کنید که نقطه جزوی از دستوراست به معنی مسیر جاری
+~/mehdix.ir <span class="nv">$ </span>jekyll serve</code></pre></div>
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;~/mehdix.ir &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git add --all&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+<p>خط اول از فرامین بالا سایت را می‌سازد و خط بعدی نیز باعث می‌شود که جکیل وبسایت را از روی کدهای موجود بسازد و بعد توسط  وب‌سرور توکارش آنرا نمایش بدهد. پس از اجرای دستورات بالا وبسایت محلی ما در آدرس ‎‎<a href="http://localhost:4000">http://localhost:4000</a> در دسترس خواهد بود. قبل از اینکه به سراغ مرحله بعدی برویم ساختار و همه فایل‌های تولید شده توسط جکیل را به مخزن گیت‌هابمان اضافه می‌کنیم (باید صریحا به گیت بگوییم که کدام فایل‌ها باید به مخزن اضافه شوند، صرف کپی کردن کافی نیست):</p>
 
-&lt;p&gt;با دستور بالا فایل‌های تولید شده از این لحظه توسط گیت مدیریت می‌شوند و موقع کامیت می‌توان آنها را هم ثبت کرد. هنگام افزون هر فایل جدید نیز باید آنرا با دستور زیر به گیت اضافه کنیم:&lt;/p&gt;
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">~/mehdix.ir <span class="nv">$ </span>git add --all</code></pre></div>
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;~ &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git add &amp;lt;FILENAME&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+<p>با دستور بالا فایل‌های تولید شده از این لحظه توسط گیت مدیریت می‌شوند و موقع کامیت می‌توان آنها را هم ثبت کرد. هنگام افزون هر فایل جدید نیز باید آنرا با دستور زیر به گیت اضافه کنیم:</p>
 
-&lt;blockquote&gt;
-  &lt;p&gt;نکته گیت برای حرفه‌ای‌ها: در صورتی که برای دریافت مخزن از لینک https استفاده کنید موقع کامیت تغییرات باید کلمه عبور و رمز گیت‌هاب خود را وارد کنید ولی در صورتی که کلید عمومی دستگاه خود را به لیست کلیدهای مورد اعتماد در حساب کاربری گیت‌هاب خودتان اضافه کنید می‌توانید از آن دستگاه خاص بدون وارد کردن اطلاعات حساب کاربری تغییرات خود را در گیت‌هاب ثبت کنید. برای استفاده از این مورد لازم است که مخزن را با لینک ssh دریافت کرده باشید.&lt;/p&gt;
-&lt;/blockquote&gt;
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">~ <span class="nv">$ </span>git add &lt;FILENAME&gt;</code></pre></div>
 
-&lt;p&gt;حالا تغییرات را ثبت می‌کنیم:&lt;/p&gt;
+<blockquote>
+  <p>نکته گیت برای حرفه‌ای‌ها: در صورتی که برای دریافت مخزن از لینک https استفاده کنید موقع کامیت تغییرات باید کلمه عبور و رمز گیت‌هاب خود را وارد کنید ولی در صورتی که کلید عمومی دستگاه خود را به لیست کلیدهای مورد اعتماد در حساب کاربری گیت‌هاب خودتان اضافه کنید می‌توانید از آن دستگاه خاص بدون وارد کردن اطلاعات حساب کاربری تغییرات خود را در گیت‌هاب ثبت کنید. برای استفاده از این مورد لازم است که مخزن را با لینک ssh دریافت کرده باشید.</p>
+</blockquote>
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;~/mehdix.ir &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git commit -am ”Jekyll basic structure added”
-~/mehdix.ir &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git push -- باید کلمه عبور و رمز گیت‌هابمان را وارد کنیم&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+<p>حالا تغییرات را ثبت می‌کنیم:</p>
 
-&lt;p&gt;هر بار که تغییری در سایت می‌دهیم باید به روش بالا آنرا به مخزن محلی خودمان اضافه کنیم و  پس از کامیت کردن تغییرات آنها را در مخزن گیت‌هاب پوش کنیم در غیر اینصورت تغییرات فقط روی دستگاه ما قرار خواهند گرفت. ما بیش از این در این مورد توضیح نمی‌دهیم و به سراغ بخش‌های دیگر جکیل می‌رویم.&lt;/p&gt;
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">~/mehdix.ir <span class="nv">$ </span>git commit -am ”Jekyll basic structure added”
+~/mehdix.ir <span class="nv">$ </span>git push -- باید کلمه عبور و رمز گیت‌هابمان را وارد کنیم</code></pre></div>
 
-&lt;p&gt;اگر به ساختار پروژه تولید شده توسط جکیل نگاه کنیم موارد زیر را خواهیم دید:&lt;/p&gt;
+<p>هر بار که تغییری در سایت می‌دهیم باید به روش بالا آنرا به مخزن محلی خودمان اضافه کنیم و  پس از کامیت کردن تغییرات آنها را در مخزن گیت‌هاب پوش کنیم در غیر اینصورت تغییرات فقط روی دستگاه ما قرار خواهند گرفت. ما بیش از این در این مورد توضیح نمی‌دهیم و به سراغ بخش‌های دیگر جکیل می‌رویم.</p>
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;~/mehdix.ir &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ls
-about.md  _config.yml  css  feed.xml  _includes  index.html  _layouts  _posts  _sass  _site&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+<p>اگر به ساختار پروژه تولید شده توسط جکیل نگاه کنیم موارد زیر را خواهیم دید:</p>
 
-&lt;p&gt;فایل &lt;em&gt;config.yml_&lt;/em&gt; حاوی تنظیمات جکیل است. لیست کاملی از مواردی که می‌توان در این فایل تغییر داد در &lt;a href=&quot;http://jekyllrb.com/docs/configuration/&quot;&gt;مستندات جکیل&lt;/a&gt; در موجود است. مهمترین موارد شامل نام نویسنده و عنوان و شرح وبسایت و نیز مجوزمطالب می‌باشد. جکیل این موارد را در تگ‌های &lt;code&gt;html&lt;/code&gt; صفحات سایت ما قرار خواهد داد.&lt;/p&gt;
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">~/mehdix.ir <span class="nv">$ </span>ls
+about.md  _config.yml  css  feed.xml  _includes  index.html  _layouts  _posts  _sass  _site</code></pre></div>
 
-&lt;blockquote&gt;
-  &lt;p&gt;نکته برای حرفه‌ای‌ها: در صورتی که می‌خواهید روی سرور شخصی وب‌سرور توکار جکیل را اجرا کنید مقدار host را در این فایل تغییر بدهید.&lt;/p&gt;
-&lt;/blockquote&gt;
+<p>فایل <em>config.yml_</em> حاوی تنظیمات جکیل است. لیست کاملی از مواردی که می‌توان در این فایل تغییر داد در <a href="http://jekyllrb.com/docs/configuration/">مستندات جکیل</a> در موجود است. مهمترین موارد شامل نام نویسنده و عنوان و شرح وبسایت و نیز مجوزمطالب می‌باشد. جکیل این موارد را در تگ‌های <code>html</code> صفحات سایت ما قرار خواهد داد.</p>
 
-&lt;p&gt;سایر مواردی که باید در مورد ساختار پروژه جکیل بدانیم یکی پوشه &lt;em&gt;_posts&lt;/em&gt; است. این پوشه حاوی فایل‌های متنی است که هر کدام یک مطلب وبسایت ما است. هر مطلب جدید در یک فایل جدید قرار می‌گیرد. نام این فایل از یک قالب خاص یپروی می‌کند. تاریخ انتشار مطلب و عنوان مطلب از نام فایل استخراج خواهد شد. به مثال زیر توجه کنید:&lt;/p&gt;
+<blockquote>
+  <p>نکته برای حرفه‌ای‌ها: در صورتی که می‌خواهید روی سرور شخصی وب‌سرور توکار جکیل را اجرا کنید مقدار host را در این فایل تغییر بدهید.</p>
+</blockquote>
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;2014-11-10-publishing-with-jekyll.md&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+<p>سایر مواردی که باید در مورد ساختار پروژه جکیل بدانیم یکی پوشه <em>_posts</em> است. این پوشه حاوی فایل‌های متنی است که هر کدام یک مطلب وبسایت ما است. هر مطلب جدید در یک فایل جدید قرار می‌گیرد. نام این فایل از یک قالب خاص یپروی می‌کند. تاریخ انتشار مطلب و عنوان مطلب از نام فایل استخراج خواهد شد. به مثال زیر توجه کنید:</p>
 
-&lt;p&gt;نام این فایل حاوی تاریخ انتشار است که با خط تیره تفکیک شده است و عنوان مطلب بلافاصله بعد از تاریخ آمده است. پسوند فایل هم نوع زبان نشانه‌گذاری بکاررفته در نوشته را مشخص می‌کند که دراین مورد &lt;em&gt;markdown&lt;/em&gt; است. این هم &lt;a href=&quot;https://help.github.com/articles/markdown-basics/&quot;&gt;یک راهنمای کوتاه و مفید&lt;/a&gt; در این مورد.&lt;/p&gt;
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">2014-11-10-publishing-with-jekyll.md</code></pre></div>
 
-&lt;p&gt;لازم است بدانیم که فایل‌هایی از پروژه که دارای سرآمد&lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; YAML باشند به صورت ویژه‌ای پردازش می‌شوند. این سرآمد برای این پست چیزی است شبیه به این:&lt;/p&gt;
+<p>نام این فایل حاوی تاریخ انتشار است که با خط تیره تفکیک شده است و عنوان مطلب بلافاصله بعد از تاریخ آمده است. پسوند فایل هم نوع زبان نشانه‌گذاری بکاررفته در نوشته را مشخص می‌کند که دراین مورد <em>markdown</em> است. این هم <a href="https://help.github.com/articles/markdown-basics/">یک راهنمای کوتاه و مفید</a> در این مورد.</p>
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;پیشگفتار&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;category&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;general&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;وبلاگ جکیل هکر&lt;/span&gt;
-&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+<p>لازم است بدانیم که فایل‌هایی از پروژه که دارای سرآمد<sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup> YAML باشند به صورت ویژه‌ای پردازش می‌شوند. این سرآمد برای این پست چیزی است شبیه به این:</p>
 
-&lt;p&gt;می‌بینیم که مقادیری بین دو جفت خط تیره سه‌گانه تعریف شده‌اند. این مقادیر برای جکیل با معنی هستند. مثلا با &lt;code&gt;title&lt;/code&gt; من عنوان مطلب را فارسی کرده‌ام چرا که در غیر اینصورت عنوان از نام فایل استخراج می‌شد که انگلیسی است. برای مطلب دسته و تگ هم تعریف شده است که اختیاری است. بدنه اصلی مطلب هم بعد از این سرآمد در فایل نوشته می‌شود.&lt;/p&gt;
+<div class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="nn">---</span>
+<span class="l-Scalar-Plain">title</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">پیشگفتار</span>
+<span class="l-Scalar-Plain">category</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">general</span>
+<span class="l-Scalar-Plain">tags</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">وبلاگ جکیل هکر</span>
+<span class="nn">---</span></code></pre></div>
 
-&lt;p&gt;بخش مهم بعدی که لازم است با آن آشنا باشید فایل &lt;em&gt;index.html&lt;/em&gt; است. این فایل هم دارای سرآمد &lt;strong&gt;YAML&lt;/strong&gt; است که ما در این راهنمای مقدماتی آن را تغییر نمی‌دهیم. فقط کافی است بدانیم که طرح&lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt; و قالب پیش‌فرضی که محتویات این فایل را در برخواهد گرفت در این سرآمد تعریف شده است:&lt;/p&gt;
+<p>می‌بینیم که مقادیری بین دو جفت خط تیره سه‌گانه تعریف شده‌اند. این مقادیر برای جکیل با معنی هستند. مثلا با <code>title</code> من عنوان مطلب را فارسی کرده‌ام چرا که در غیر اینصورت عنوان از نام فایل استخراج می‌شد که انگلیسی است. برای مطلب دسته و تگ هم تعریف شده است که اختیاری است. بدنه اصلی مطلب هم بعد از این سرآمد در فایل نوشته می‌شود.</p>
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;default&lt;/span&gt;
-&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;در صورتی که به محتویات پوشه &lt;em&gt;layouts_&lt;/em&gt; نگاهی کنیم طرح‌های قابل استفاده برای هر نوع محتوا را خواهیم یافت، از جمله &lt;em&gt;post&lt;/em&gt; برای هر مطلب و نیز &lt;em&gt;default&lt;/em&gt; برای صفحه اصلی. زبان استفاده شده در این فایل‌ها &lt;strong&gt;liquid&lt;/strong&gt;&lt;sup id=&quot;fnref:6&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt; نام دارد. با مقداری دقت می‌توانیم ساختار &lt;em&gt;html&lt;/em&gt; صفحات اصلی و صفحه اختصاصی هر مطلب را تغییر بدهیم.&lt;/p&gt;
+<p>بخش مهم بعدی که لازم است با آن آشنا باشید فایل <em>index.html</em> است. این فایل هم دارای سرآمد <strong>YAML</strong> است که ما در این راهنمای مقدماتی آن را تغییر نمی‌دهیم. فقط کافی است بدانیم که طرح<sup id="fnref:5"><a href="#fn:5" class="footnote">5</a></sup> و قالب پیش‌فرضی که محتویات این فایل را در برخواهد گرفت در این سرآمد تعریف شده است:</p>
 
-&lt;p&gt;نکته بعدی که حتما به آن نیاز داریم آشنایی با نحوه تغییر استایل وبسایت و شخصی‌سازی آن است. فایل‌های استایل در مسیر &lt;em&gt;sass_&lt;/em&gt; قرار دارند و ما می‌توانیم فایل‌های &lt;em&gt;base.scss_&lt;/em&gt; و &lt;em&gt;layout.scss_&lt;/em&gt; را جهت اعمال تغییرات دلخواه دستکاری کنیم.&lt;/p&gt;
+<div class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="nn">---</span>
+<span class="l-Scalar-Plain">layout</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">default</span>
+<span class="nn">---</span></code></pre></div>
 
-&lt;p&gt;مورد بعدی خوراک وبسایت ماست. هربار که مطلبی اضافه می‌کنیم جکیل یک فایل بنام &lt;em&gt;feed.xml&lt;/em&gt; در ریشه وبسایت ما ایجاد می‌کند که حاوی مداخل نوشته‌های ماست. ما می‌توانیم آدرس این فایل را به خوراک‌خوان دلخواهمان بدهیم تا مطالب را آنجا دنبال کنیم.&lt;/p&gt;
+<p>در صورتی که به محتویات پوشه <em>layouts_</em> نگاهی کنیم طرح‌های قابل استفاده برای هر نوع محتوا را خواهیم یافت، از جمله <em>post</em> برای هر مطلب و نیز <em>default</em> برای صفحه اصلی. زبان استفاده شده در این فایل‌ها <strong>liquid</strong><sup id="fnref:6"><a href="#fn:6" class="footnote">6</a></sup> نام دارد. با مقداری دقت می‌توانیم ساختار <em>html</em> صفحات اصلی و صفحه اختصاصی هر مطلب را تغییر بدهیم.</p>
 
-&lt;p&gt;هربار که ما &lt;code&gt;jekyll serve&lt;/code&gt; را اجرا می‌کنیم جکیل یک وبسایت استاتیک از روی مطالب ما و تنظیمات ما می‌سازد و در مسیر &lt;em&gt;site_&lt;/em&gt; کپی می‌کند. محتوای این مسیر یک وبسایت کامل است که حتی می‌توانیم در هر سرور دیگری آنرا بارگذاری کنیم اما نیازی نیست آنرا در مخزن وبسایتمان اضافه کنیم چرا که گیت‌هاب این خروجی را از روی فایل‌های پروژه خواهد ساخت.&lt;/p&gt;
+<p>نکته بعدی که حتما به آن نیاز داریم آشنایی با نحوه تغییر استایل وبسایت و شخصی‌سازی آن است. فایل‌های استایل در مسیر <em>sass_</em> قرار دارند و ما می‌توانیم فایل‌های <em>base.scss_</em> و <em>layout.scss_</em> را جهت اعمال تغییرات دلخواه دستکاری کنیم.</p>
 
-&lt;blockquote&gt;
-  &lt;p&gt;نکته: پس از تغییر مقادیر این فایل دوباره &lt;code&gt;jekyll serve&lt;/code&gt; را اجرا کنید، چرا که جکیل فقط یکبار فایل تنظیمات را می‌خواند اما تغییرات در سایر فایل‌ها را به طور زنده نمایش می‌دهد.&lt;/p&gt;
-&lt;/blockquote&gt;
+<p>مورد بعدی خوراک وبسایت ماست. هربار که مطلبی اضافه می‌کنیم جکیل یک فایل بنام <em>feed.xml</em> در ریشه وبسایت ما ایجاد می‌کند که حاوی مداخل نوشته‌های ماست. ما می‌توانیم آدرس این فایل را به خوراک‌خوان دلخواهمان بدهیم تا مطالب را آنجا دنبال کنیم.</p>
 
-&lt;p&gt;جکیل قابلیت‌های فراوان دیگری دارد که از حوزه این راهنمای ساده خارج است. مواردی همچون افزودن صفحه‌گذاری[^7] و پلاگین‌ها و ساختن مجموعه‌ها و فایل‌های داده و ساخت فایل‌های پیش‌نویس و مانند اینها که خوانندگان علاقه‌مند می‌توانند کاربر برخی از آنها را در وبسایت مثال این مقاله و سایر سایت‌های مشابه پیدا کنند.&lt;/p&gt;
+<p>هربار که ما <code>jekyll serve</code> را اجرا می‌کنیم جکیل یک وبسایت استاتیک از روی مطالب ما و تنظیمات ما می‌سازد و در مسیر <em>site_</em> کپی می‌کند. محتوای این مسیر یک وبسایت کامل است که حتی می‌توانیم در هر سرور دیگری آنرا بارگذاری کنیم اما نیازی نیست آنرا در مخزن وبسایتمان اضافه کنیم چرا که گیت‌هاب این خروجی را از روی فایل‌های پروژه خواهد ساخت.</p>
 
-&lt;p&gt;در اینجا به دو نکته بعدی می‌پردازیم که قولش را در قسمت اول داده بودیم. یکی بکارگیری دامنه شخصی و دیگری افزودن نظرات بازدید کنندگان. به منظور استفاده از دامنه شخصی دو روش در پیش رو داریم. یکی اینکه وبسایتمان را مستقیما تحت دامنه‌مان منتشر کنیم و دیگر اینکه تحت یک زیردامنه اینکار را انجام بدهیم. برای اینکار یک فایل بنام &lt;strong&gt;CNAME&lt;/strong&gt; به مخزن وبسایتمان اضافه می‌کنیم. این فایل باید فقط دارای یک خط متن باشد که آن هم نام دامنه مورد نظر ما است:&lt;/p&gt;
+<blockquote>
+  <p>نکته: پس از تغییر مقادیر این فایل دوباره <code>jekyll serve</code> را اجرا کنید، چرا که جکیل فقط یکبار فایل تنظیمات را می‌خواند اما تغییرات در سایر فایل‌ها را به طور زنده نمایش می‌دهد.</p>
+</blockquote>
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;~/mehdix.ir &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; “mehdix.ir” &amp;gt; CNAME -- یا مثلا blog.mehdix.ir
-~/mehdix.ir &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git add CNAME
-~/mehdix.ir &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git commit -am”cname file added”
-~/mehdix.ir &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git push&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+<p>جکیل قابلیت‌های فراوان دیگری دارد که از حوزه این راهنمای ساده خارج است. مواردی همچون افزودن صفحه‌گذاری[^7] و پلاگین‌ها و ساختن مجموعه‌ها و فایل‌های داده و ساخت فایل‌های پیش‌نویس و مانند اینها که خوانندگان علاقه‌مند می‌توانند کاربر برخی از آنها را در وبسایت مثال این مقاله و سایر سایت‌های مشابه پیدا کنند.</p>
 
-&lt;p&gt;حالا کافیست به صفحه مدیریت دامنه خود مراجعه کنیم و تغییرات لازم را اعمال کنیم. برای بکارگیری یک زیردامنه باید بتوانیم یک رکورد &lt;em&gt;CNAME&lt;/em&gt; ایجاد کنیم که به &lt;em&gt;username.github.io&lt;/em&gt; اشاره کند. باید توجه داشته باشیم که تغییرات &lt;em&gt;DNS&lt;/em&gt; مدتی طول می‌کشد که اعمال شود. برای اینکه وبسایت ما مستقیما تحت دامنه اصلی نمایش داده شود باید در صفحه مدیریت دامنه‌مان مقادیر مقابل را برای &lt;em&gt;Name Server&lt;/em&gt; وارد کنیم: 192.30.252.153 و 192.30.252.154.
-لازم است توجه کنیم که این مورد دوم کمی آسیب‌پذیر است به این معنی که ما باید مواظب تغییر در این &lt;em&gt;IP&lt;/em&gt;ها باشیم. پیشنهاد گیت‌هاب استفاده از یک زیردامنه است چرا که گیت‌هاب می‌تواند به شکل موثرتری وبسایت ما را منتشر کند.&lt;/p&gt;
+<p>در اینجا به دو نکته بعدی می‌پردازیم که قولش را در قسمت اول داده بودیم. یکی بکارگیری دامنه شخصی و دیگری افزودن نظرات بازدید کنندگان. به منظور استفاده از دامنه شخصی دو روش در پیش رو داریم. یکی اینکه وبسایتمان را مستقیما تحت دامنه‌مان منتشر کنیم و دیگر اینکه تحت یک زیردامنه اینکار را انجام بدهیم. برای اینکار یک فایل بنام <strong>CNAME</strong> به مخزن وبسایتمان اضافه می‌کنیم. این فایل باید فقط دارای یک خط متن باشد که آن هم نام دامنه مورد نظر ما است:</p>
 
-&lt;p&gt;در قسمت آخر این مقاله به افزودن امکان نظر دادن پای مطالب می‌پردازیم. برای اینکار کافیست به یکی از سرویس دهنده‌های رایگان در وب مثل &lt;em&gt;disqus&lt;/em&gt; مراجعه و یک حساب کاربری بسازیم. بعد از اینکار دامنه‌مان را به حساب کاربری‌مان اضافه می‌کنیم و پس از طی مراحل اینکار در نهایت کد لازم برای افزودن سرویس مربوطه به وبسایت را دریافت می‌کنیم. مثلا من در &lt;em&gt;disqus&lt;/em&gt; ثبت نام کردم و در آن سایت می‌توانم نظرات را مدیریت کنم و همه آنها را یکجا ببینم. من پس از ثبت وبسایتم ‎&lt;a href=&quot;https://mehdix.disqus.com/admin/settings/universalcode/&quot;&gt;کد لازم&lt;/a&gt; را کپی می‌کنم. حال تنها کافیست این کد را در جایی که دوست داریم نظرات نمایش داده شوند قرار دهیم. به این منظور ما کد دریافتی را در فایل &lt;em&gt;layouts/_posts.html&lt;/em&gt; زیر بعد از تگ &lt;code&gt;article&lt;/code&gt; کپی می‌کنیم.&lt;/p&gt;
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">~/mehdix.ir <span class="nv">$ </span><span class="nb">echo</span> “mehdix.ir” &gt; CNAME -- یا مثلا blog.mehdix.ir
+~/mehdix.ir <span class="nv">$ </span>git add CNAME
+~/mehdix.ir <span class="nv">$ </span>git commit -am”cname file added”
+~/mehdix.ir <span class="nv">$ </span>git push</code></pre></div>
 
-&lt;p&gt;در آخر فراموش نکنید که اگر سایتی با جکیل ساختید آنرا به ‬‬&lt;a href=&quot;https://github.com/jekyll/jekyll/wiki/Sites&quot;&gt;لیست سایت‌های نیرو گرفته از جکیل&lt;/a&gt; اضافه کنید.&lt;/p&gt;
+<p>حالا کافیست به صفحه مدیریت دامنه خود مراجعه کنیم و تغییرات لازم را اعمال کنیم. برای بکارگیری یک زیردامنه باید بتوانیم یک رکورد <em>CNAME</em> ایجاد کنیم که به <em>username.github.io</em> اشاره کند. باید توجه داشته باشیم که تغییرات <em>DNS</em> مدتی طول می‌کشد که اعمال شود. برای اینکه وبسایت ما مستقیما تحت دامنه اصلی نمایش داده شود باید در صفحه مدیریت دامنه‌مان مقادیر مقابل را برای <em>Name Server</em> وارد کنیم: 192.30.252.153 و 192.30.252.154.
+لازم است توجه کنیم که این مورد دوم کمی آسیب‌پذیر است به این معنی که ما باید مواظب تغییر در این <em>IP</em>ها باشیم. پیشنهاد گیت‌هاب استفاده از یک زیردامنه است چرا که گیت‌هاب می‌تواند به شکل موثرتری وبسایت ما را منتشر کند.</p>
 
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Static Site Generator &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;Template Language &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:3&quot;&gt;
-      &lt;p&gt;Layout &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:4&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;Front Matter - http://jekyllrb.com/docs/frontmatter/&quot;&gt;Front Matter&lt;/a&gt; &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:5&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;https://github.com/Shopify/liquid/wiki&quot;&gt;Liquid&lt;/a&gt; &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:6&quot;&gt;
-      &lt;p&gt;Pagination &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Fri, 19 Dec 2014 00:00:00 +0100</pubDate>
-        <link>http://mehdix.ir/jekyll-structure.html</link>
-        <guid isPermaLink="true">http://mehdix.ir/jekyll-structure.html</guid>
-        
-        <category>جکیل</category>
-        
-        <category>وب</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>طریقه نصب گواهینامه SSL روی سرور شخصی</title>
-        <description>&lt;p&gt;امنیت رو باید جدی گرفت. هرچند من متخصص امنیت نیستم ولی برای درک اهمیت استفاده از پروتکل‌های امن نیازی به متخصص بودن نیست. اینکه اسم کاربری و کلمه عبور و سایر داده‌های حساس باید به شکل رمزگذاری شده ارسال بشوند دیگر چیزی بدیهی به نظر می‌رسد.&lt;/p&gt;
+<p>در قسمت آخر این مقاله به افزودن امکان نظر دادن پای مطالب می‌پردازیم. برای اینکار کافیست به یکی از سرویس دهنده‌های رایگان در وب مثل <em>disqus</em> مراجعه و یک حساب کاربری بسازیم. بعد از اینکار دامنه‌مان را به حساب کاربری‌مان اضافه می‌کنیم و پس از طی مراحل اینکار در نهایت کد لازم برای افزودن سرویس مربوطه به وبسایت را دریافت می‌کنیم. مثلا من در <em>disqus</em> ثبت نام کردم و در آن سایت می‌توانم نظرات را مدیریت کنم و همه آنها را یکجا ببینم. من پس از ثبت وبسایتم ‎<a href="https://mehdix.disqus.com/admin/settings/universalcode/">کد لازم</a> را کپی می‌کنم. حال تنها کافیست این کد را در جایی که دوست داریم نظرات نمایش داده شوند قرار دهیم. به این منظور ما کد دریافتی را در فایل <em>layouts/_posts.html</em> زیر بعد از تگ <code>article</code> کپی می‌کنیم.</p>
 
-&lt;p&gt;بنابراین من تصمیم گرفتم به قول معروف برای «فال و تماشا» یک گواهینامه SSL برای دامنه &lt;a href=&quot;mehdix.org&quot;&gt;mehdix.org&lt;/a&gt; تهیه و فعال کنم. دستورات این راهنما رو من از سایت ‎&lt;a href=&quot;https://aralbalkan.com/scribbles/setting-up-ssl-with-nginx-using-a-namecheap-essentialssl-wildcard-certificate-on-digitalocean/&quot;&gt;آرال بالکان&lt;/a&gt; برداشتم.&lt;/p&gt;
+<p>در آخر فراموش نکنید که اگر سایتی با جکیل ساختید آنرا به ‬‬<a href="https://github.com/jekyll/jekyll/wiki/Sites">لیست سایت‌های نیرو گرفته از جکیل</a> اضافه کنید.</p>
 
-&lt;h1 id=&quot;section&quot;&gt;بسته آموزشی گیت‌هاب&lt;/h1&gt;
-&lt;p&gt;من در این راهنما از یک سرور شخصی روی &lt;a href=&quot;https://digitalocean.com&quot;&gt;DigitalOcean&lt;/a&gt; و همچنین یک گواهینامه SSL از namecheap.com استفاده کردم. من برای تهیه اینها پولی پرداخت نکردم، بلکه اینها رو از طریق &lt;a href=&quot;https://education.github.com&quot;&gt;بسته آموزشی گیت‌هاب&lt;/a&gt; بدست آوردم. برای اینکار فقط کافیه یک ایمیل دانشگاهی داشته باشید و در پروژه‌ی بالا ثبت نام کنید و به سرویس‌های مختلفی برای تقریبا یک سال به رایگان دسترسی پیدا کنید.&lt;/p&gt;
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Static Site Generator <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>Template Language <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>Layout <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:4">
+      <p><a href="Front Matter - http://jekyllrb.com/docs/frontmatter/">Front Matter</a> <a href="#fnref:4" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:5">
+      <p><a href="https://github.com/Shopify/liquid/wiki">Liquid</a> <a href="#fnref:5" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:6">
+      <p>Pagination <a href="#fnref:6" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+</div>]]>
+			</content>
+	</entry>
 
-&lt;p class=&quot;center&quot;&gt;&lt;img src=&quot;https://education.github.com/assets/sdp-backpack-6f872c4211af1bac3aef0c6e2b5fbb7a.png&quot; alt=&quot;image&quot; title=&quot;Github Developer Pack&quot; /&gt;&lt;/p&gt;
+	<entry>
+		<title>طریقه نصب گواهینامه SSL روی سرور شخصی</title>
+		<link rel="alternate" type="text/html" href="http://mehdix.ir/installing-ssl-certificate.html"/>
+		<id>urn:uuid:e367a6cc-329f-4a68-a995-d7aa579db246</id>
+		<updated>2014-12-18T00:00:00Z</updated>
+		<category term="ssl"/><category term="امنیت"/>
+			<content type="html">
+				<![CDATA[<div dir="rtl"><p>امنیت رو باید جدی گرفت. هرچند من متخصص امنیت نیستم ولی برای درک اهمیت استفاده از پروتکل‌های امن نیازی به متخصص بودن نیست. اینکه اسم کاربری و کلمه عبور و سایر داده‌های حساس باید به شکل رمزگذاری شده ارسال بشوند دیگر چیزی بدیهی به نظر می‌رسد.</p>
 
-&lt;h1 id=&quot;section-1&quot;&gt;خرید گواهینامه&lt;/h1&gt;
-&lt;p&gt;من ابتدا یک گواهینامه &lt;em&gt;Positive SSL&lt;/em&gt; از سایت &lt;em&gt;namecheap.com&lt;/em&gt; برای دامنه‌ام خریداری کردم. بدون خرید گواهینامه هم می‌شه روی سرور شخصی اتصال &lt;em&gt;https&lt;/em&gt; داشت اما توسط مرورگر تایید نمی‌شه و پیام هشدار دریافت می‌کنید. در حالی که گواهینامه بالا بعد از نصب به رنگ سبز در نوار آدرس کروم نمایش داده می‌شه. گواهینامه‌ای که من خریدم فقط برای یک دامنه تنها اعتبار داره و شامل زیردامنه‌ها نخواهد بود. برای اینکار باید از یک گواهینامه گرانتر بنام &lt;em&gt;Wildcard SSL Certificate&lt;/em&gt; استفاده کرد.&lt;/p&gt;
+<p>بنابراین من تصمیم گرفتم به قول معروف برای «فال و تماشا» یک گواهینامه SSL برای دامنه <a href="mehdix.org">mehdix.org</a> تهیه و فعال کنم. دستورات این راهنما رو من از سایت ‎<a href="https://aralbalkan.com/scribbles/setting-up-ssl-with-nginx-using-a-namecheap-essentialssl-wildcard-certificate-on-digitalocean/">آرال بالکان</a> برداشتم.</p>
 
-&lt;h1 id=&quot;section-2&quot;&gt;تولید کلیدهای اولیه&lt;/h1&gt;
-&lt;p&gt;اول به ماشین مورد نظر &lt;em&gt;ssh&lt;/em&gt; می‌کنیم و دستور زیر رو جهت تولید یک کلید خصوصی وارد می‌کنیم:&lt;/p&gt;
+<h1 id="section">بسته آموزشی گیت‌هاب</h1>
+<p>من در این راهنما از یک سرور شخصی روی <a href="https://digitalocean.com">DigitalOcean</a> و همچنین یک گواهینامه SSL از namecheap.com استفاده کردم. من برای تهیه اینها پولی پرداخت نکردم، بلکه اینها رو از طریق <a href="https://education.github.com">بسته آموزشی گیت‌هاب</a> بدست آوردم. برای اینکار فقط کافیه یک ایمیل دانشگاهی داشته باشید و در پروژه‌ی بالا ثبت نام کنید و به سرویس‌های مختلفی برای تقریبا یک سال به رایگان دسترسی پیدا کنید.</p>
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;openssl genrsa &lt;span class=&quot;m&quot;&gt;2048&lt;/span&gt; &amp;gt; key.pem&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+<p class="center"><img src="https://education.github.com/assets/sdp-backpack-6f872c4211af1bac3aef0c6e2b5fbb7a.png" alt="image" title="Github Developer Pack" /></p>
 
-&lt;p&gt;فراموش نکنید که کلیدها رو به ماشین خودتون &lt;em&gt;scp&lt;/em&gt; کنید. حالا یک &lt;strong&gt;درخواست گواهینامه&lt;/strong&gt; تولید می‌کنیم:&lt;/p&gt;
+<h1 id="section-1">خرید گواهینامه</h1>
+<p>من ابتدا یک گواهینامه <em>Positive SSL</em> از سایت <em>namecheap.com</em> برای دامنه‌ام خریداری کردم. بدون خرید گواهینامه هم می‌شه روی سرور شخصی اتصال <em>https</em> داشت اما توسط مرورگر تایید نمی‌شه و پیام هشدار دریافت می‌کنید. در حالی که گواهینامه بالا بعد از نصب به رنگ سبز در نوار آدرس کروم نمایش داده می‌شه. گواهینامه‌ای که من خریدم فقط برای یک دامنه تنها اعتبار داره و شامل زیردامنه‌ها نخواهد بود. برای اینکار باید از یک گواهینامه گرانتر بنام <em>Wildcard SSL Certificate</em> استفاده کرد.</p>
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;openssl req -new -key key.pem -out csr.pem&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+<h1 id="section-2">تولید کلیدهای اولیه</h1>
+<p>اول به ماشین مورد نظر <em>ssh</em> می‌کنیم و دستور زیر رو جهت تولید یک کلید خصوصی وارد می‌کنیم:</p>
 
-&lt;p&gt;به سوالات پرسیده شده جواب بدین و برای گزینه &lt;em&gt;Common Name&lt;/em&gt; اسم دامنه خودتون را با پسوندش وارد کنید (بدون پیشوند). لزومی به وارد &lt;em&gt;Challenge Password&lt;/em&gt; نیست.&lt;/p&gt;
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">openssl genrsa <span class="m">2048</span> &gt; key.pem</code></pre></div>
 
-&lt;p&gt;در هنگام خرید گواهینامه در سایت صادرکننده از ما درخواست &lt;em&gt;csr&lt;/em&gt; خواهد شد که مخفف کلمه &lt;strong&gt;Certificate Signing Request&lt;/strong&gt; است. در آنجا جهت فعالسازی گواهینامه و انجام کامل عملیات صدور باید محتویات فایل &lt;em&gt;csr.pem&lt;/em&gt; را کپی کنیم. بعد از این مرحله و تکمیل مراحل صدور یک فایل زیپ شده حاوی فایل‌های زیر برای ما ایمیل خواهد شد:&lt;/p&gt;
+<p>فراموش نکنید که کلیدها رو به ماشین خودتون <em>scp</em> کنید. حالا یک <strong>درخواست گواهینامه</strong> تولید می‌کنیم:</p>
 
-&lt;ul&gt;
-  &lt;li&gt;yourdomain_extension.crt&lt;/li&gt;
-  &lt;li&gt;COMODORSADomainValidationSecureServerCA.crt&lt;/li&gt;
-  &lt;li&gt;COMODORSAAddTrustCA.crt&lt;/li&gt;
-  &lt;li&gt;AddTrustExternalCARoot.crt&lt;/li&gt;
-&lt;/ul&gt;
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">openssl req -new -key key.pem -out csr.pem</code></pre></div>
 
-&lt;p&gt;حال باید از روی اینها ما یک &lt;em&gt;Certificate Bundle&lt;/em&gt; بسازیم:&lt;/p&gt;
+<p>به سوالات پرسیده شده جواب بدین و برای گزینه <em>Common Name</em> اسم دامنه خودتون را با پسوندش وارد کنید (بدون پیشوند). لزومی به وارد <em>Challenge Password</em> نیست.</p>
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;cat STAR_yourdomain_ext.crt COMODORSADomainValidationSecureServerCA.crt COMODORSAAddTrustCA.crt AddTrustExternalCARoot.crt &amp;gt; bundle.cer&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+<p>در هنگام خرید گواهینامه در سایت صادرکننده از ما درخواست <em>csr</em> خواهد شد که مخفف کلمه <strong>Certificate Signing Request</strong> است. در آنجا جهت فعالسازی گواهینامه و انجام کامل عملیات صدور باید محتویات فایل <em>csr.pem</em> را کپی کنیم. بعد از این مرحله و تکمیل مراحل صدور یک فایل زیپ شده حاوی فایل‌های زیر برای ما ایمیل خواهد شد:</p>
 
-&lt;h1 id=&quot;section-3&quot;&gt;کپی فایل‌های گواهینامه&lt;/h1&gt;
-&lt;p&gt;من روی سرورم اوبونتو ۱۴.۰۴ نصب کردم و برای نصب nginx تنها کافی بود که دستور زیر رو وارد کنم:&lt;/p&gt;
+<ul>
+  <li>yourdomain_extension.crt</li>
+  <li>COMODORSADomainValidationSecureServerCA.crt</li>
+  <li>COMODORSAAddTrustCA.crt</li>
+  <li>AddTrustExternalCARoot.crt</li>
+</ul>
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;sudo apt-get install ngingx&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+<p>حال باید از روی اینها ما یک <em>Certificate Bundle</em> بسازیم:</p>
 
-&lt;p&gt;برای کپی کردن فایل‌ها مراحل زیر رو انجام می‌دیم:&lt;/p&gt;
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">cat STAR_yourdomain_ext.crt COMODORSADomainValidationSecureServerCA.crt COMODORSAAddTrustCA.crt AddTrustExternalCARoot.crt &gt; bundle.cer</code></pre></div>
 
-&lt;ol&gt;
-  &lt;li&gt;&lt;code&gt;sudo mkdir /etc/nginx/ssl&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;sudo mv PATH_TO_BUNDLE_FILE /etc/nginx/ssl/&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;sudo mv PATH_TO_KEY.PEM_FILE /etc/nginx/ssl/&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;sudo chmod 600 /etc/nginx/ssl&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
+<h1 id="section-3">کپی فایل‌های گواهینامه</h1>
+<p>من روی سرورم اوبونتو ۱۴.۰۴ نصب کردم و برای نصب nginx تنها کافی بود که دستور زیر رو وارد کنم:</p>
 
-&lt;p&gt;دستور آخر دسترسی به پوشه فوق رو محدود به مالک می‌کنه. چون من با کاربری غیر از روت به دستگاه وصل شدم و با کاربر روت این پوشه رو ساختم دیگر تنها روته که می‌تونه رو این پوشه بخونه و بنویسه.&lt;/p&gt;
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">sudo apt-get install ngingx</code></pre></div>
 
-&lt;h1 id=&quot;nginx&quot;&gt;تنظیم nginx&lt;/h1&gt;
-&lt;p&gt;حالا &lt;em&gt;nginx&lt;/em&gt; رو تنظیم می‌کنیم که همه ترافیک &lt;em&gt;http&lt;/em&gt;‌ رو بفرسته روی &lt;em&gt;https&lt;/em&gt;:&lt;/p&gt;
+<p>برای کپی کردن فایل‌ها مراحل زیر رو انجام می‌دیم:</p>
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;sudo vim /etc/nginx/sites-available/default&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+<ol>
+  <li><code>sudo mkdir /etc/nginx/ssl</code></li>
+  <li><code>sudo mv PATH_TO_BUNDLE_FILE /etc/nginx/ssl/</code></li>
+  <li><code>sudo mv PATH_TO_KEY.PEM_FILE /etc/nginx/ssl/</code></li>
+  <li><code>sudo chmod 600 /etc/nginx/ssl</code></li>
+</ol>
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;server &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-        listen &lt;span class=&quot;m&quot;&gt;80&lt;/span&gt; default_server&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+<p>دستور آخر دسترسی به پوشه فوق رو محدود به مالک می‌کنه. چون من با کاربری غیر از روت به دستگاه وصل شدم و با کاربر روت این پوشه رو ساختم دیگر تنها روته که می‌تونه رو این پوشه بخونه و بنویسه.</p>
 
-        server_name mehdix.org&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+<h1 id="nginx">تنظیم nginx</h1>
+<p>حالا <em>nginx</em> رو تنظیم می‌کنیم که همه ترافیک <em>http</em>‌ رو بفرسته روی <em>https</em>:</p>
 
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;   &lt;span class=&quot;m&quot;&gt;301&lt;/span&gt; https://&lt;span class=&quot;nv&quot;&gt;$server_name$request_uri&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">sudo vim /etc/nginx/sites-available/default</code></pre></div>
 
-&lt;p&gt;روی پورت ۸۰ گوش کن و هرچه درخواست برای &lt;em&gt;mehdix.org&lt;/em&gt; بدستت رسید بفرست با کد ۳۰۱ روی همین سرور ولی با &lt;em&gt;https&lt;/em&gt;. حالا وقت تنظیمات خود &lt;em&gt;https&lt;/em&gt; رسیده:&lt;/p&gt;
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">server <span class="o">{</span>
+        listen <span class="m">80</span> default_server<span class="p">;</span>
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;server &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-        listen 443&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        server_name mehdix.org<span class="p">;</span>
 
-        server_name mehdix.org&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        <span class="k">return</span>   <span class="m">301</span> https://<span class="nv">$server_name$request_uri</span><span class="p">;</span>
+<span class="o">}</span></code></pre></div>
 
-        root /usr/share/nginx/html&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-        index index.html index.htm&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+<p>روی پورت ۸۰ گوش کن و هرچه درخواست برای <em>mehdix.org</em> بدستت رسید بفرست با کد ۳۰۱ روی همین سرور ولی با <em>https</em>. حالا وقت تنظیمات خود <em>https</em> رسیده:</p>
 
-        ssl on&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-        ssl_certificate /etc/nginx/ssl/bundle.cer&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-        ssl_certificate_key /etc/nginx/ssl/key.pem&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">server <span class="o">{</span>
+        listen 443<span class="p">;</span>
 
-&lt;p&gt;و یک ریستات و والسلام:&lt;/p&gt;
+        server_name mehdix.org<span class="p">;</span>
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;sudo service nginx restart&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+        root /usr/share/nginx/html<span class="p">;</span>
+        index index.html index.htm<span class="p">;</span>
 
-&lt;p&gt;و این هم رنگ خوش سبز &lt;em&gt;https&lt;/em&gt; در کروم:&lt;/p&gt;
+        ssl on<span class="p">;</span>
+        ssl_certificate /etc/nginx/ssl/bundle.cer<span class="p">;</span>
+        ssl_certificate_key /etc/nginx/ssl/key.pem<span class="p">;</span>
+<span class="o">}</span></code></pre></div>
 
-&lt;p&gt;&lt;img src=&quot;assets/postimages/https.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+<p>و یک ریستات و والسلام:</p>
 
-</description>
-        <pubDate>Thu, 18 Dec 2014 00:00:00 +0100</pubDate>
-        <link>http://mehdix.ir/installing-ssl-certificate.html</link>
-        <guid isPermaLink="true">http://mehdix.ir/installing-ssl-certificate.html</guid>
-        
-        <category>ssl</category>
-        
-        <category>امنیت</category>
-        
-        
-        <category>راهنما</category>
-        
-      </item>
-    
-      <item>
-        <title>پلاگین تاریخ جلالی برای جکیل</title>
-        <description>&lt;p&gt;همونطور که قبلا نوشته بودم بهترین روش مشارکت در عالم متن‌باز رو در نوشتن برنامه‌هایی دیدم که شخصا بهشون نیاز پیدا کردیم. من هم در راه‌ اندازی این وبلاگ به زبان فارسی مشکلاتی با جکیل داشتم. یکی از این موارد پشتیبانی از تاریخ هجری شمسی بود.&lt;/p&gt;
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">sudo service nginx restart</code></pre></div>
 
-&lt;p&gt;جکیل به صورت پیش‌فرض امکانی برای اینکار نداره اما نوشتن پلاگین براش کار ساده‌ایه. پلاگین‌های جکیل به زبان روبی نوشته می‌شن و در فولدر &lt;code&gt;_plugins&lt;/code&gt; ذخیره می‌شن. ابتدا جستجویی انجام دادم که در عالم روبی چه کتابخانه‌هایی برای پشتیبانی از تقویم جلالی نوشته شده، خوشبختانه قبلا اینکار انجام شده بود.&lt;a href=&quot;https://github.com/aziz/jalalidate&quot;&gt;کتابخانه&lt;/a&gt; ظاهرا جامعی بنام &lt;em&gt;jalalidate&lt;/em&gt; روی گیت‌هاب پیدا کردم. از این کتابخانه در پروژه سایت &lt;em&gt;nerdnews.ir&lt;/em&gt; هم استفاده شده بود. بنابراین کار من ساده شد. یک فیلتر کوچک بنام &lt;a href=&quot;https://github.com/mehdisadeghi/jekyll-jalali&quot;&gt;Jekyll-jalali&lt;/a&gt; برای جکیل نوشتم و با اضافه کردنش به جکیل روی ماشین خودم تاریخ‌های سایتم رو شمسی کردم. برای اینکار بجای &lt;code&gt;date&lt;/code&gt; از فیلتر &lt;code&gt;jdate&lt;/code&gt; که نوشته بودم استفاده کردم.&lt;/p&gt;
+<p>و این هم رنگ خوش سبز <em>https</em> در کروم:</p>
 
-&lt;p&gt;الانه که بپرسید پس کو این تقویم شمسی؟ این پست که تاریخش هنوز میلادیه؟ خب، پلاگین بدون مشکل روی دستگاه من کارش رو انجام می‌ده اما مساله اینجاست که وقتی از گیت‌هاب برای تولید خروجی جکیل استفاده می‌کنیم در استفاده از پلاگین‌ها محدودیت داریم و فقط امکان استفاده از &lt;a href=&quot;https://help.github.com/articles/using-jekyll-plugins-with-github-pages/&quot;&gt;تعداد محدودی&lt;/a&gt; از اونها وجود داره. بنابراین فعلا نتونستم از تقویم شمسی در وبلاگم استفاده کنم.&lt;/p&gt;
+<p><img src="assets/postimages/https.png" alt="image" /></p>
 
-&lt;p&gt;نکته دیگر اینکه من بعد از نوشتن پلاگینم اون رو به فهرست پلاگین‌های جکیل اضافه کردم و برای پلاگین هم یک مخزن روی گیت‌هاب درست کردم و مجوز استفاده و حداقل مستندات لازم رو اونجا نوشتم. اینکار حتی برای پروژه‌های کوچک هم مفیده و اگر کسی قصد استفاده یا توسعه داشته باشه حتما بهش کمک می‌کنه.&lt;/p&gt;
+</div>]]>
+			</content>
+	</entry>
 
-&lt;p&gt;خلاصه همین!&lt;/p&gt;
+	<entry>
+		<title>پلاگین تاریخ جلالی برای جکیل</title>
+		<link rel="alternate" type="text/html" href="http://mehdix.ir/jekyll-jalali-plugin.html"/>
+		<id>urn:uuid:3813a043-9697-4761-a72b-08612af533e6</id>
+		<updated>2014-12-09T00:00:00Z</updated>
+		<category term="اوپن‌سورس"/><category term="مشارکت"/>
+			<content type="html">
+				<![CDATA[<div dir="rtl"><p>همونطور که قبلا نوشته بودم بهترین روش مشارکت در عالم متن‌باز رو در نوشتن برنامه‌هایی دیدم که شخصا بهشون نیاز پیدا کردیم. من هم در راه‌ اندازی این وبلاگ به زبان فارسی مشکلاتی با جکیل داشتم. یکی از این موارد پشتیبانی از تاریخ هجری شمسی بود.</p>
 
-</description>
-        <pubDate>Tue, 09 Dec 2014 00:00:00 +0100</pubDate>
-        <link>http://mehdix.ir/jekyll-jalali-plugin.html</link>
-        <guid isPermaLink="true">http://mehdix.ir/jekyll-jalali-plugin.html</guid>
-        
-        <category>اوپن‌سورس</category>
-        
-        <category>مشارکت</category>
-        
-        
-        <category>opensource</category>
-        
-      </item>
-    
-      <item>
-        <title>ساخت وبلاگ با گیت‌هاب و جکیل</title>
-        <description>&lt;p&gt;&lt;strong&gt;منتشر شده در شماره دو ماهنامه سلام‌دنیا&lt;/strong&gt; –ما می‌خواهیم طی این مقاله یک راه حل آسان ولی گیک‌پسند برای ساخت صفحات وب با محوریت گیت‌هاب یاد بگیریم و با حداقل هزینه بتوانیم به کمک امکانات موجود در اینترنت صفحات ایستا در وب تولید کنیم و آنها را به شکلی دلپذیر و مطمئن مدیریت و به روزرسانی کنیم. اگر شما هم مثل من عاشق گیت و گیت‌هاب هستید ادامه مطلب را از دست ندهید!  توجه هم داشته باشید که این روش بیشتر مناسب صفحات شخصی و صفحاتی برای موضوعات خاص و پروژه‌هاست و شما نمی‌توانید به این روش یک فروشگاه الکترونیک یا یک برنامه پایگاه‌داده و مشابه آن بسازید.&lt;/p&gt;
+<p>جکیل به صورت پیش‌فرض امکانی برای اینکار نداره اما نوشتن پلاگین براش کار ساده‌ایه. پلاگین‌های جکیل به زبان روبی نوشته می‌شن و در فولدر <code>_plugins</code> ذخیره می‌شن. ابتدا جستجویی انجام دادم که در عالم روبی چه کتابخانه‌هایی برای پشتیبانی از تقویم جلالی نوشته شده، خوشبختانه قبلا اینکار انجام شده بود.<a href="https://github.com/aziz/jalalidate">کتابخانه</a> ظاهرا جامعی بنام <em>jalalidate</em> روی گیت‌هاب پیدا کردم. از این کتابخانه در پروژه سایت <em>nerdnews.ir</em> هم استفاده شده بود. بنابراین کار من ساده شد. یک فیلتر کوچک بنام <a href="https://github.com/mehdisadeghi/jekyll-jalali">Jekyll-jalali</a> برای جکیل نوشتم و با اضافه کردنش به جکیل روی ماشین خودم تاریخ‌های سایتم رو شمسی کردم. برای اینکار بجای <code>date</code> از فیلتر <code>jdate</code> که نوشته بودم استفاده کردم.</p>
 
-&lt;p class=&quot;center&quot;&gt;&lt;img src=&quot;https://jekyllrb.com/img/logo-2x.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p>الانه که بپرسید پس کو این تقویم شمسی؟ این پست که تاریخش هنوز میلادیه؟ خب، پلاگین بدون مشکل روی دستگاه من کارش رو انجام می‌ده اما مساله اینجاست که وقتی از گیت‌هاب برای تولید خروجی جکیل استفاده می‌کنیم در استفاده از پلاگین‌ها محدودیت داریم و فقط امکان استفاده از <a href="https://help.github.com/articles/using-jekyll-plugins-with-github-pages/">تعداد محدودی</a> از اونها وجود داره. بنابراین فعلا نتونستم از تقویم شمسی در وبلاگم استفاده کنم.</p>
 
-&lt;p&gt;اگر تابحال برای خودتان یا اطرافیانتان وبسایت یا وبلاگی راه‌اندازی کرده باشید با عبارات و اططلاحات مقابل آشنا هستید: «ثبت دامنه»،«خرید هاست» (میزبانی وب)، «هک شدن وبسایت»، «بک‌آپ گیری» (نسخه پشتیبان از اطلاعات سایت)، PHP و MySQL (پایگاه‌داده) و مانند اینها.  و اگر هم از سیستم‌های مدیریت محتوا مثل وردپرس، جوملا و دروپال استفاده کرده باشید می‌دانید که برای داشتن یک وبلاگ یا وبسایت نیاز است اول پایگاه‌‌داده لازم را ایجاد و سپس این برنامه‌ها را از سایت‌هایشان دانلود و در هاست خودتان کپی و سپس نصب کنید.&lt;/p&gt;
+<p>نکته دیگر اینکه من بعد از نوشتن پلاگینم اون رو به فهرست پلاگین‌های جکیل اضافه کردم و برای پلاگین هم یک مخزن روی گیت‌هاب درست کردم و مجوز استفاده و حداقل مستندات لازم رو اونجا نوشتم. اینکار حتی برای پروژه‌های کوچک هم مفیده و اگر کسی قصد استفاده یا توسعه داشته باشه حتما بهش کمک می‌کنه.</p>
 
-&lt;p&gt;اگر تا اینجای مطلب را خوانده‌اید نترسید! من قصد ندارم که چیزهای خیلی بیشتری به اصلاحات بالا اضافه کنم بلکه قصد دارم آنها را از میان بردارم. ولی اول ببینیم روش کار فعلی چگونه است و چرا یک روش بهتر نیاز است. برای داشتن یک وبلاگ یا وبسایت جهت معرفی خودتان یا پروژه‌تان یا باید صفحات  آنرا خودتان با تکنولوژی‌های وب، یعنی HTML وCSS و JavaScript بنویسید یا از سیستم‌های مدیریت محتوا استفاده کنید. ارائه دهندگان سیستم‌های مدیریت محتوا مثل وردپرس به شما به رایگان اجازه ثبت وبلاگ می‌دهند ولی هم محدودیت دارند، یعنی شما نمی‌توانید برنامه سایت را به دلخواه خودتان تغییر بدهید و و هم اینکه در ایران از دسترس خارج هستند و البته برای استفاده از دامنه شخصی با سرویس آنها باید جداگانه پول بپردازید که خب پرداخت ممکن نیست. راه حل رایج در این موارد داشتن هاست شخصی است. ولی این راه‌حل مزایا و معایب خودش را دارد که به اختصار شرح می‌دهم.&lt;/p&gt;
+<p>خلاصه همین!</p>
 
-&lt;p&gt;اول از همه شما باید یک هاست بخرید، خیلی از گیک‌ها خودشان سرور اختصاصی یا هاست اختصاصی دارند، خیلی‌های دیگر هم نه! هاست مورد نظر باید برنامه و پایگاه‌داده مورد استفاده شما را پشتیبانی کند (در مثلا بالا PHP و MySQL) بعد هم باید خاطرتان باشد هرسال آن را تمدید کنید. در ضمن باید مسئولیت نگهداری از آن را خودتان بر عهده بگیرید. هر مشکلی بوجود بیاید باید آنرا رفع کنید و نسبت به بروزرسانی برنامه وبسایت خودتان اقدام کنید. شاید گاه هم وبسایت شما هک بشود و در یک روز صبح باخبر بشوید که بجای وبسایت شیک شما یک صفحه سیاه و چند نوشته و یک پرچم و اسم یک گروه عجیب که کلی شعار داده و خیلی خوشحال است که سایت شما را فتح کرده به نمایش درمی‌آید! خب حالا باید بروید دنبال برگرداندن آخرین بک‌آپ و بروزرسانی و از دست دادن بخشی از محتوا و کامنت‌های سایت و الخ.&lt;/p&gt;
+</div>]]>
+			</content>
+	</entry>
 
-&lt;p&gt;علاوه بر اینها مشکلات دیگری هم هست. شما نمی‌توانید تاریخچه تغییرات کارهایتان را حفظ کنید. یعنی اگر بخواهد بدانید که قبلا چه چیزی روی سایت قرار داده بودید و چه تغییراتی اخیرا ایجاد کرده‌اید نیاز دارید خودتان اینها را جایی یادداشت کنید یا فایل‌ها را روی کامپیوترتان نگهداری کنید. کاری که خود من در گذشته انجام می‌دادم و نسخه‌پشتیبان تهیه می‌کردم و در جاهای مختلف کپی و نگهداری می‌کردم تا در صورت بروز مشکلات مختلف منجمله هک شدن وبسات بتوانم آنها را بازگردانی کنم. اما این کارها علاوه بر وقت گیر بودن خسته کننده هم بودند. چرا که من از ابزارهای مدرنی بهره نمی‌بردم، مجبور بودم با کلاینت FTP و برنامه‌هایی مانند FileZilla و یا رابط گرافیکی cPanel فایل‌ها را جابجا کنیم که عملیاتی خسته کننده بود، آنهم فقط برای یک وبسایت ساده که محتوایش نیاز چندانی هم به بروزرسانی نداشت.
-ولی گیت همه چیز را عوض کرده است. باید به لینوس توروالدز به خاطر خلق آن دست مریزاد گفت. هر روز در اینترنت سرویس‌های جدیدی در حال ظهور هستند که داده‌هایشان را به کمک گیت نگهداری کرده و بین کامپیوترها منتقل می‌کنند. پس ما هم از همین روش خوش‌دست و قدرتمند برای ایجاد و نگهداری وبسایتمان بهره می‌گیریم.&lt;/p&gt;
-
-&lt;h3 id=&quot;section&quot;&gt;راه حل&lt;/h3&gt;
-&lt;p&gt;به خاطر اینکه من یک مهندس راحت‌طلب هستم و گیت‌هاب را هم خیلی دوست دارم و علاقه‌ای هم ندارم که پول اضافی خرج کنم (دیگر اصلا پولی برایم نمانده!) پس راه حل دیگری را انتخاب کردم. چه خوب است که همه صفحات وبسایت من ایستا باشد، یعنی با همان تکنولوژی‌های وب نوشته بشود بدون هیچ برنامه و پایگاه‌داده سمت سرور! مثل روزهای اول وب. دیگر نه نگرانی دارد، نه نصب می‌خواهد نه آپدیت می‌خواهد نه اصلا هک شدنش مهم است. خب شاید بگویید کجای این شد راه حل؟ الان شرح می‌دهم.
-خیلی وقت‌ها ما فقط نیاز داریم تا در یک صفحه خودمان یا پروژه‌مان یا یک ایده یا گروه را معرفی کنیم. تصور کنید من می‌خواهم اطلاعات تماس خودم را در اینترنت بگذارم یا یک صفحه برای معرفی گروه کوچک خودم و دوستانم بسازم. یا پروژه‌ای دارم که نیاز است شرحی از آن به همراه لینک دانلودش را در اینترنت قرار بدهم. در این موارد تنها چیزی که برای ما مهم است قرار دادن مطالبمان در اینترنت است. تهیه یک هاست و به جان خریدن دردسرهایش برای همچنین مواردی نمی‌ارزد. پس چه بهتر که از آنچه در اینترنت هست استفاده کنیم و خیالمان را از بابت رسیدگی به وبسایت راحت کنیم. در ضمن سرعت انجام کار در روش ما خیلی بالاست. ما نیازی به تماس گرفتن با ارائه دهندگان هاست نداریم و دیگر هم نیازی نیست برای فعال کردن فلان قابلیت خاص که فلان سیستم مدیریت محتوا نیاز دارد با آنها تماس بگیریم یا مدت زمان مدیدی منتظر پاسخ‌ تیم پشتیبان آنها بمانیم. دیگر هم هر چند وقت یکبار ایمیل دریافت نمی‌کنیم که هاست شما تا فلان روز منقضی می‌شود و باید فلان‌قدر پرداخت کنید و مانند اینها. از همه اینها گذشته وقتی سایت ما روی صفحات گیت‌هاب قرار بگیرد یک شرکت شناخته شده مسئولیت نگهداری از وبسایت ما و انتشار محتوای آنرا بر عهده خواهد داشت.&lt;/p&gt;
-
-&lt;h3 id=&quot;section-1&quot;&gt;پیش‌نیازها&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;یک حساب کاربری در گیت‌هاب&lt;/li&gt;
-  &lt;li&gt;یک کامپیوتر مجهز به Git و Jekyll&lt;/li&gt;
-  &lt;li&gt;یک حساب کاربری در Disqus (اختیاری)&lt;/li&gt;
-  &lt;li&gt;یک دامنه ثبت شده (اختیاری)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;نکته اول. در این روش ما هاست نمی‌خریم پس کل مشکلات هاست که به آنها اشاره کردم را فراموش کنید، خداحافظ هاست!
-نکته دوم. ما وبسایتمان را روی گیت‌هاب قرار می‌دهیم و عملیات ذخیره و نگهداری تاریخچه تغییراتمان را به گیت‌هاب محول می‌کنیم.
-نکته سوم (اختیاری). برای فعال کردن کامنت از یک سرویس‌دهنده سوم مثل Disqus استفاده می‌کنیم و وظیفه نگهداری از نظرات و کامنت‌های کاربران را به او محول می‌کنیم.
-نکته چهارم (اختیاری). بکارگیری دامنه یا زیردامنه شخصی برای نمایش وبسایت ساخته شده.&lt;/p&gt;
-
-&lt;h3 id=&quot;section-2&quot;&gt;نحوه راه‌اندازی&lt;/h3&gt;
-&lt;p&gt;در این روش ما از امکانات سکو( پلتفرم) گیت‌هاب برای نگهداری و از صفحات گیت‌هاب انتشار وبسایت خودمان استفاده می‌کنیم فرض من بر اینست که خواننده با گیت و گیت‌هاب آشنایی ابتدایی دارد.اگر با گیت‌ آشنا نیستید توصیه می‌کنم با مراجعه به صفحه آموزش گیت‌هاب و صرف ۱۵ دقیقه وقت با امکانات گیت آشنا شوید چرا که یادگرفتن گیت (و گیت‌هاب) به مجالی جداگانه نیاز دارد و از حوزه این مقاله خارج است. فعلا همین بس که بدانید در حال حاضر گیت‌هاب بزرگترین مخزن نرم‌افزارهای متن‌باز دنیاست و امکانات گیت را به صورت گرافیکی به کاربر ارائه می‌کند. در گیت‌هاب هر کاربر می‌تواند هر تعداد دلخواه مخزن نرم‌افزاری (ریپوزیتوری) ایجاد کند. ما هم برای وبسایتمان یک مخزن ایجاد می‌کنیم. نکته اینجاست که گیت‌هاب اجازه می‌دهد به ازای هر مخزن یک وبسایت تحت دامنه ‍‍‫&lt;code&gt;username.github.io/projectname&lt;/code&gt; ایجاد کرد که در حقیقت برای مستندات پروژه در نظر گرفته شده است ولی برای ما مستندات پروژه همان خود پروژه است! یعنی وبسایت. روش گام به گام اینکار را در ادامه شرح می‌دهم.
-اول به یک حساب کاربری روی گیت‌هاب احتیاج داریم. اگر ندارید همین الان با مراجعه به &lt;a href=&quot;www.github.com&quot;&gt;گیت‌هاب&lt;/a&gt; یکی بسازید! در مرحله دوم یک مخزن جدید می‌سازیم. برای اینکار کافیست روی علامت + در صفحه اصلی کلیک کنیم و یک نام برای مخزن جدید انتخاب کنیم. در صفحه ایجاد مخزن جدید گزینه‌ای هست برای افزودن فایل &lt;code&gt;README&lt;/code&gt; به پروژه، آنرا هم انتخاب کنید. بعدا می‌توانید شرح کوتاهی در مورد سایت یا پروژه‌تان آنجا بنویسید. من یک مخزن بنام &lt;em&gt;myweblog&lt;/em&gt; ایجاد کردم. البته برای ساخت مخزن جدید چند راه وجود دارد که من ساده‌ترین را گفتم.  بعد از اتمام کار گیت‌هاب صفحه این مخزن را نمایش می‌دهد، آدرس این مخزن هم در ستون سمت راست قابل مشاهده است. برای من آدرس اینگونه است:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;https://github.com/mehdisadeghi/myweblog.git&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;توجه کنید که ما فایل‌های وبسایتمان را مستقیما در شاخه اصلی قرار نمی‌دهیم. گیت‌هاب فقط فایل‌هایی را در وبسایت هر پروژه منتشر می‌کنید که در یک شاخه بنام &lt;em&gt;gh-pages&lt;/em&gt; منتشر شوند. بنابراین ما شاخه‌ای به این نام ایجاد می‌کنیم. اینکار براحتی از رابط گرافیکی سایت و با کلیک روی نام شاخه جاری امکانپذیر است. من اینجا در ترمینال اینکار را انجام می‌دهم. ابتدا یک کپی از این پروژه را دریافت می‌کنیم:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git clone https://github.com/mehdisadeghi/myweblog.git&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;و شاخه &lt;em&gt;gp-pages&lt;/em&gt; را می‌سازیم و همزمان به آن سویچ می‌کنیم (با بکارگیری فلگ -b):&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;myweblog
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git checkout -b gh-pages&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;حالا اولین فایل سایتمان را می‌سازیم:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; “Hello World!” &amp;gt; index.html&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;فایل ساخته شده را به فهرست فایل‌های مخزن اضافه می‌کنیم و تغییرات را کامیت می‌کنیم:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git add index.html
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git commit -m “First commit”&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;حالا هم تغییراتمان را در مخزن اصلی روی گیت‌هاب پوش می‌کنیم. توجه داشته باشید که در این مرحله باید اول نام کاربری و بعد کلمه عبور گیت‌هاب خودتان را وقتی که سوال شد وارد کنید تا تغییرات شما توسط گیت‌هاب پذیرفته بشود:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git push origin gh-pages&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;تبریک! همین حالا شما اولین صفحه وبسایت خودتان را روی سکوی گیت‌هاب منتشر کردید! باور نمی‌کنید؟ بعد از یکی دو دقیقه به آدرس سایتمان سر بزنید.&lt;/p&gt;
-
-&lt;p&gt;امیدوارم هیجان‌زده شده باشید! خوب است بدانید که  هر کاربری در گیت‌هاب می‌تواند یک صفحه خاص نیز با آدرس &lt;em&gt;username.github.io‌&lt;/em&gt; داشته باشد. برای اینکار کافیست تغییرات کوچکی در روش بالا ایجاد کنید. اول اینکه نام پروژه‌ای که در گیت‌هاب می‌سازید باید مطابق فرم &lt;em&gt;username.github.io‌&lt;/em&gt; باشد. مثلا برای من نام این  پروژه باید &lt;em&gt;mehdisadeghi.github.io&lt;/em&gt; باشد و البته دیگر هم نیازی هم نیست که شاخه &lt;em&gt;gh-pages&lt;/em&gt; را  بسازید. پس خط مربوط به ساخت این شاخه هم حذف می‌شود. محتویات این مخزن مستقیما در صفحه شما منتشر خواهد شد:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git clone https://github.com/mehdisadeghi/mehdisadeghi.github.io.git
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;mehdisadeghi.github.io/
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; “Hello World!” &amp;gt; index.html
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git add index.html
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git commit -m “First commit”
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git push origin master - دقت کنید که اینجا شاخه مستر را پوش می‌کنیم چون شاخه دیگری نساختیم&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;نام کاربری و کلمه عبور را وارد کنید و تمام. حالا صفحه شما در آدرس &lt;em&gt;http://username.github.io&lt;/em&gt; در دسترس خواهد بود (برای من می‌شود http://mehdisadeghi.github.io).&lt;/p&gt;
-
-&lt;h3 id=&quot;section-3&quot;&gt;نحوه بروزرسانی&lt;/h3&gt;
-&lt;p&gt;این قسمت لذت‌بخش‌ترین جای کار است! تغییرات را روی کامپیوتر خودتان انجام بدهید. کامیت کنید. پوش کنید و تمام. ظرف چند دقیقه وبسایت آپدیت خواهد شد. شما می‌تواید فایل‌های رایج وب را به مخزن خودتان اضافه کنید. در این باره در قسمت دوم بیشتر خواهیم گفت.&lt;/p&gt;
-
-&lt;p&gt;روشی که طی این مقاله شرح دادم بیشتر کاربران فعلی گیت‌هاب و برنامه‌نویسان را هدف قرار می‌دهد که با گیت‌ احساس راحتی می‌کنند و دوست دارند از آن همه جا استفاده کنند حتی برای وبسایتشان! برای من این روش خاص‌تر از سیستم‌های مدیریت محتواست و مثل یک سرگرمی و بازی می‌ماند. دست هم در تغییر محتوا باز است و روش انجام کار هم خیلی سرراست است. در قسمت دوم مقاله به موارد زیر خواهیم پرداخت:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;استفاده از دامنه دلخواه برای نمایش صفحات گیت‌هاب&lt;/li&gt;
-  &lt;li&gt;نحوه کار با جِکیل&lt;/li&gt;
-  &lt;li&gt;افزودن کامنت به سایت با کمک Disqus&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;section-4&quot;&gt;جِکیل&lt;/h3&gt;
-&lt;p&gt;صفحات‌گیت‌هاب علاوه بر پشتیبانی از فایل‌های HTML عادی، از Jekyll که یک مولّد صفحات ایستا است نیز پیشتبانی می‌کند. جکیل تمام امکانات لازم برای ساخت وبسایت را به صورت آفلاین در اختیار شما می‌گذارد، امکاناتی از قبیل تولید هدر و فوتر برای تمامی صفحات سایت بدون نیاز به تکرار آنها در صفحات مختلف و نیز پیشتبیانی از چند زبان الگو جهت نوشتن قالب ساخت. جکیل یک پروژه‌ی مستقل از گیت‌هاب است اما وب‌سرور صفحات گیت‌هاب قادر است پروژه‌های جکیل را بفهمد و آنها را به درستی نمایش بدهد.&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 30 Nov 2014 00:00:00 +0100</pubDate>
-        <link>http://mehdix.ir/weblog-with-jekyll-and-github.html</link>
-        <guid isPermaLink="true">http://mehdix.ir/weblog-with-jekyll-and-github.html</guid>
-        
-        <category>وبلاگ</category>
-        
-        <category>جکیل</category>
-        
-        <category>هکر</category>
-        
-        
-        <category>general</category>
-        
-      </item>
-    
-      <item>
-        <title>شبکه‌های اجتماعی نامتمرکز</title>
-        <description>&lt;p&gt;&lt;strong&gt;منتشر شده در شماره یک ماهنامه سلام‌دنیا&lt;/strong&gt; – موضوع این مقاله درباره شبکه‌های اجتماعی نامتمرکز است. در مقدمه از شبکه‌های مرکزگرا و کاستی‌های آن‌ها گفته می‌شود، سپس به علل ایجاد شبکه‌های نامتمرکز و نقاط قوت آن‌ها پرداخته خواهد شد. در ادامه بستر نرم‌افزاری جدیدی را که امکان ساخت این نوع شبکه‌ها را فراهم می‌کند معرفی خواهم کرد و در نهایت نیز ماجرای شبکه آیدنتیکا بیان می‌شود و این‌که چه اتفاقی برای این سرویس‌دهنده افتاده است که کمتر کاربر ایرانی به استفاده از آن ادامه می‌دهد. این مقاله با تغییراتی در شماره اول ماهنامه سلام‌دنیا منتشر شده است.&lt;/p&gt;
-
-&lt;h3 id=&quot;section&quot;&gt;مروری بر شبکه‌های اجتماعی مرکزگرا&lt;/h3&gt;
-&lt;p&gt;با ظهور وب ۲.۰ شبکه‌های اجتماعی متعددی به‌وجود آمد. فصل مشترک بیشتر این شبکه‌ها در مرکزگرا بودن آن‌هاست. بدین معنی که خدمات آن‌ها از یک نقطه مرکزی ارائه می‌شود و برای استفاده از خدمات ارائه شده توسط آن‌ها کاربران باید به عضویت آن وبسایت یا سرویس‌دهنده خاص درآیند و اطلاعات شخصی خود را در سرورهای آن‌ها ذخیره کنند. پس از آن برای هربار استفاده، کاربر باید به سرورهای متعلق به آن‌ها متصل شود تا بتواند با دوستان خود در تماس باشد.
-این نوع سرویس برای سال‌ها رایج بوده و همچنان پرطرفدارین شبکه‌های اجتماعی موجود، متعلق به این دسته هستند. این نوع شبکه‌ها معایب بزرگی دارند که در ادامه با آن‌ها آشنا می‌شوید.&lt;/p&gt;
-
-&lt;h3 id=&quot;section-1&quot;&gt;معایب شبکه‌های مرکزگرا&lt;/h3&gt;
-&lt;p&gt;در عالم نرم‌افزار اصطلاحی هست به نام Single Point of Failure که می‌توان آن را «نقطه آسیب‌پذیر مرکزی» ترجمه کرد. این قبیل شبکه‌ها به خاطر طراحی مرکزگرای خودشان بسیار آسیب‌پذیرند. آن‌ها داده‌های کاربران را که دست‌کم شامل رمز عبور، ایمیل، تصویر، ویدئو و نظرات آن‌هاست در سرورهای خود ذخیره می‌کنند، بنابراین دسترسی به داده‌های کاربران بسیار ساده می‌شود و این شرکت‌ها را تبدیل به هدف‌های بسیار جذابی برای هکرهای مختلف و دولت‌ها می‌کند.&lt;/p&gt;
-
-&lt;p&gt;این آسیب‌پذیری منحصر به داده‌های کاربران نیست، هرچند این مورد مهم‌ترین آن‌ها محسوب می‌شود. با این حال استفاده تجاری از داده‌های کاربران مساله دیگری است. از آن‌جایی که شرکت‌های تجاری به دنبال بیشترین سود هستند، داده‌های تولید شده از سوی کاربران، همچنین خود کاربران می‌توانند به منبع درآمدی برای شرکت سرویس‌دهنده تبدیل شوند. یعنی از روی رفتار کاربر و نیز داده‌های تولید شده توسط او می‌توان تبلیغات هدفمندی تولید کرد و کاربر را به خرید محصولات و سرویس‌هایی ترغیب کرد که احتمالا به آن‌ها علاقمند است؛ این امر در صورتی که کاربر از آن آگاه و راضی باشد می‌تواند به فعالیتی سودمند تبدیل شود. در این‌باره بهتر است به خاطر داشته باشیم که در اینترنت داده‌های ما می‌توانند برای همیشه ماندگار باشد پس مهم است بدانیم که شرکت‌ها با داده‌های ما چه می‌کنند. نقطه آسیب‌پذیر بعدی، خطاهای رایج در سرورهاست. وقتی سرویسی از طریق یک درگاه مرکزی ارائه می‌شود با وقوع هر گونه خطای مهلک دچار اختلال خواهد شد یا ممکن است از کار بیفتد.&lt;/p&gt;
-
-&lt;p&gt;اما این آخرین نقطه ضعف نیست. نکته بعدی که اهمیت بسزایی دارد، وابسته کردن کاربران به یک شرکت است. تصور کنید تمام خانواده و دوستان شما از یک سرویس‌دهنده خاص استفاده می‌کنند و طی مدت استفاده از آن سرویس، داده‌های فراوانی تولید کرده‌اند که روی سرورهای آن شرکت خاص ذخیره شده است، حال برای اینکه یک دوست جدید هم به این گروه ملحق شود ناچار است یک حساب کاربری نزد همان سرویس‌دهنده ایجاد کند و به سیاست‌های آن شرکت تن بدهد. شرکت‌های سوشیال بزرگ هریک به نوعی به دنبال ایجاد «مونوپولی»‌ یا «پادشاهی» خودشان هستند. به قول معروف چشم دیدن رقبا را ندارند و دوست دارند کاربران وابسته به آن‌ها باشند تا بتوانند اطلاعات بیشتری جمع‌آوری کرده و به خاطر این مونوپولی، کاربران را وادار به پذیرش سیاست‌های خود کنند. شما می‌توانید نکاتی که در بالا اشاره شد را درباره بزرگترین شبکه‌های اجتماعی فعلی یعنی فیسبوک، با کمی فاصله توییتر و با فاصله بیشتر، گوگل‌پلاس بررسی کنید.&lt;/p&gt;
-
-&lt;h3 id=&quot;section-2&quot;&gt;شکل‌گیری شبکه‌های اجتماعی نامتمرکز&lt;/h3&gt;
-&lt;p&gt;در پاسخ به کاستی‌هایی که به آن‌ها اشاره شد، مفهوم جدیدی بنام شبکه‌های نامتمرکز از سوی جامعه نرم‌افزارهای آزاد شکل گرفت. در این شبکه‌ها، طراحی بگونه‌ای بنیادین تغییر کرده است تا راه را بر ایرادهای گفته شده ببندد. ایده اصلی شبکه‌های نامتمرکز، ارائه یک سرویس بصورت توزیع شده است. در این حالت یک سرویس‌دهنده مرکزی در کار نیست و سرویس‌دهنده‌ها در پهنای اینترنت پخش شده‌اند. سایت‌های مختلفی می‌توانند به این شبکه ملحق شده یا از آن خارج شوند بدون اینکه شبکه از کار بیافتد. می‌توانید جزایری را تصور کنید که هر یک دارای کاربران و کامیونیتی‌های خاص خود هستند و پل‌هایی بین آن‌ها وجود دارد که نماینده پروتکل‌های آزادی هستند که ارتباط آن‌ها را با یکدیگر میسر می‌کند تا کاربران این جزایر با هم در ارتباط باشند.
-نکته مهم این است که هر وبسایت یا سروری که عضو یکی از این شبکه‌ها باشد داده‌های کاربرانش را خودش نگهداری می‌کند، یعنی وقتی شما عضو یکی از این سایت‌ها باشید قادر به اشتراک مطالب و پست‌های خودتان با کاربران سایر شبکه‌ها هستید اما این داده‌ها در سایت خودتان قرار دارد نه سایر سایت‌ها. به عنوان مثال تصور کنید لاگ تهران دارای یک سایت این چنینی باشد و لاگ زنجان هم همچنین. کاربر لاگ تهران بدون اینکه دارای حسابی در سایت لاگ زنجان باشد می‌تواند کاربران آن سایت را به اصطلاح «فالو» (Follow) یا دنبال کند و از آپدیت‌های آنان مطلع شود و بلعکس. در حالی که هر دو سایت کاملا مستقل از یکدیگر فعالیت و داده‌هایشان را نگهداری می‌کنند و خرابی یا آلودگی یکی، هیچ تاثیری بر دیگری ندارد.&lt;/p&gt;
-
-&lt;h3 id=&quot;section-3&quot;&gt;بستر نرم‌افزاری&lt;/h3&gt;
-&lt;p&gt;ایجاد شبکه‌های نامتمرکز بدون پروتکل‌هایی که چگونگی ارتباط بین جزیره‌ها را تعریف کرده باشد، میسر نیست. برخی از مهم‌ترین تکنولوژی‌هایی که این امکان را پدید آورده‌اند به شرح زیر است:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;oauth: احراز هویت کاربر به کمک حسابی که در یک سایت دیگر قرار دارد&lt;/li&gt;
-  &lt;li&gt;ActivityStreams: انتشار فیدها و آپدیت‌های هر کاربر در قالب JSON&lt;/li&gt;
-  &lt;li&gt;Ostatus: دریافت استتوس کاربر از یک سایت نامتمرکز دیگر&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;طی سال‌های گذشته تعدادی پلتفرم نرم‌افزاری برای تولید سایت‌هایی سازگار با پروتکل‌های نامتمرکز به وجود آمده‌اند که در این مقاله به آن‌ها پرداخته نمی‌شود بلکه به دو پروژه نرم‌افزاری دیگر پرداخته می‌شود که برای کاربران نرم‌افزارهای آزاد ایران جذاب‌تر و از موضوعات اصلی مقاله هستند: StatusNet و pump.io.&lt;/p&gt;
-
-&lt;h3 id=&quot;statusnet&quot;&gt;StatusNet&lt;/h3&gt;
-&lt;p&gt;نام جدید این پروژه GNUSocial‌ است که یک پلتفرم میکروبلاگینگ مشابه توئیتر است. این پروژه به زبان php نوشته شده است و از OStatus پشتیبانی می‌کند و امکان راه‌اندازی تعداد زیادی نودهای همکار را می‌دهد (البته فکر می‌کنم این ویژگی حتی برای کاربران سابق این سایت تازگی داشته باشد). این پروژه تا سال ۲۰۱۲ نرم‌افزار اصلی سایت identi.ca بود.&lt;/p&gt;
-
-&lt;h3 id=&quot;pumpio&quot;&gt;pump.io&lt;/h3&gt;
-&lt;p&gt;این پروژه، نرم‌افزار جایگزین StatusNet در سایت آیدنتیکا است. این پروژه امکان اشتراک انواع گوناگونی از داده‌ها را به کاربر می‌دهد و محدود به توئیت نیست و از سال ۲۰۱۲ جایگزین StatusNet در سایت آیدنتیکا شده است. سایت‌هایی که «پامپ» روی آن‌ها نصب شده به راحتی می‌توانند با یکدیگر تبادل داده کنند. برای نمونه، کاربری که در آیدنتیکا حساب کاربری دارد می‌تواند کاربری را از سایت مثلا pumpit.info «فالو» کند و بالعکس. pump.io یک وبسایت نیست بلکه یک فریم‌ورک توسعه وب محسوب می‌شود که امکان ایجاد شبکه‌‌های اجتماعی را فراهم می‌کند. با نصب «پامپ» یک وبسایت پیش‌فرض هم نصب می‌شود که امکان استفاده از API‌ آن را فراهم می‌کند. وبسایت تنها راه استفاده از پامپ نیست، بلکه هر برنامه‌ای می‌تواند از طریق رابط برنامه‌نویسی‌اش با آن ارتباط برقرار کند.
-پامپ توسط برنامه‌نویس کانادایی StatusNet با nodejs نوشته شده است.&lt;/p&gt;
-
-&lt;h3 id=&quot;impeller&quot;&gt;Impeller&lt;/h3&gt;
-&lt;p&gt;«ایمپلر» نام یک اپلیکیشن اندروید است که می‌تواند به سایت‌های مختلف پامپ به صورت همزمان متصل شود و امکان استفاده از خدمات سایت را فراهم کند. این برنامه نیز مانند پامپ رایگان و آزاد است. روش‌های دریافت و نصب ایمپلر &lt;a href=&quot;http://impeller.e43.eu/&quot;&gt;در وبسایت&lt;/a&gt; آن شرح داده شده است.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 16 Nov 2014 00:00:00 +0100</pubDate>
-        <link>http://mehdix.ir/decentralized-social-networks.html</link>
-        <guid isPermaLink="true">http://mehdix.ir/decentralized-social-networks.html</guid>
-        
-        <category>شبکه‌</category>
-        
-        <category>اجتماعی</category>
-        
-        
-        <category>network</category>
-        
-      </item>
-    
-  </channel>
-</rss>
+</feed>
