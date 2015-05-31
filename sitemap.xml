@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://mehdix.ir/rtl-feed.html</loc>
+    <lastmod>2015-05-31T00:00:00+02:00</lastmod>
+  </url>
+  <url>
     <loc>http://mehdix.ir/suse.html</loc>
     <lastmod>2015-05-25T00:00:00+02:00</lastmod>
   </url>
@@ -56,6 +60,6 @@
   </url>
   <url>
     <loc>http://mehdix.ir/googlea8513df1e5211230.html</loc>
-    <lastmod>2015-05-31T19:35:24+02:00</lastmod>
+    <lastmod>2015-05-31T19:35:49+02:00</lastmod>
   </url>
 </urlset>

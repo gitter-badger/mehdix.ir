@@ -3,7 +3,7 @@
 <title type="text" xml:lang="fa">مهدی صادقی</title>
 <link rel="alternate" type="text/html" href="http://mehdix.ir"/>
 <link rel="self" type="application/atom+xml" href="http://mehdix.ir/feed/"/>
-<updated>2015-05-31T19:35:49Z</updated>
+<updated>2015-05-31T19:48:46Z</updated>
 <id>urn:uuid:1e7d9dd8-29e4-475d-adc5-17494fb80445</id>
 <author>
 	<name>Mehdi Sadeghi</name>
@@ -11,6 +11,102 @@
 	<email>sadeghi@mehdix.org</email>
 </author>
 <rights>Commons Attribution 4.0 International</rights>
+
+	<entry>
+		<title>مهاجرت به اتم از سمت راست</title>
+		<link rel="alternate" type="text/html" href="http://mehdix.ir/rtl-feed.html"/>
+		<id>urn:uuid:19441379-708e-47d6-8f71-8fb322d315c7</id>
+		<updated>2015-05-31T00:00:00Z</updated>
+		<category term="atom"/><category term="خوراک"/><category term="rss"/><category term="rtl"/>
+			<content type="html">
+				<![CDATA[<div dir="rtl"><p>نمایش راست به چپ خوراک بسیاری از وبسایت‌های فارسی در خبرخوان‌ها درست نیست. بنابراین تصمیم گرفتم این مساله را بررسی کنم و حداقل از نمایش صحیح مطالب وبسایت خودم در خبرخوان‌ها اطمینان حاصل کنم.</p>
+
+<p>من برای مطالعه منابع مختلف اینترنتی از خبرخوان‌<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> استفاده می‌کنم. <a href="https://digg.com/reader">خبرخوان محبوب من</a> یک بدیل<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup> از گوگل‌ریدر مرحوم است که بخشی از سایت دیگ حساب می‌شود. من به طور معمول خوراک‌ها را به دیگ اضافه می‌کنم و همانجا هم می‌خوانم. مشکل اینجاست که درستی نمایش متن در وبسایت اصلی هیچ ربطی به نمایش در خوراک‌خوان ندارد. علت اینجاست که خوراک‌خوان متنی که معمولا توسط فایلی به feed.xml یا توسط feedburnder تولید می‌شود را دانلود و پردازش می‌کند و سعی می‌کند آن را به نحو صحیح نمایش بدهد.</p>
+
+<p>از جایی که مطالب من نیز در دیگ چپ به راست نمایش داده می‌شد اول به سراغ تعریفی<sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup> رفتم که خوراک سایتم مطابق آن تولید می‌شود. در وب دو استاندارد بسیار آشنا برای خروجی خوراک‌ها وجود دارد. اولی <sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup>RSS 2.0 و دیگری <sup id="fnref:5"><a href="#fn:5" class="footnote">5</a></sup>Atom 1.0 است. این دو تقریبا همه خوراک‌های موجود در وب را شامل می‌شوند. با جستجویی در تعریف آنها به این نتیجه رسیدم که امکان مشخص کردن جهت متن در تعریف آنها تعبیه نشده است (تا جایی که من جستجو کردم). بنابراین به دنبال راه حل دیگری برآمدم. با تغییر تگی که شامل محتوای هر پست است سعی کردم محتوای هر پست را در یک تگ html با استایل راست به چپ محصور کنم.</p>
+
+<figure class="center border">
+  <figcaption>
+نمایش نادرست نوشتار راست به چپ
+</figcaption>
+  <p><img src="assets/postimages/rtl-feed/before.png" alt="image not found" title="نمایش خوراک پیش از اعمال تغییرات" /></p>
+</figure>
+
+<p>تصویر بالا نشان می‌دهد که من در سایت دیگ چطور بیشتر مطالب فارسی را می‌بینم. من قالبی که مسئول تولید خوراک وبسایتم است به شیوه زیر تغییر دادم تا هم با فرمت Atom 1.0 سازگار شود و هم محتوای هر پست در یک تگ ’div’ محصور شود. در ضمن من می‌خواهم که یک خوراک معتبر داشته باشم که بدون مشکل در فید‌خوان‌های مختلف به نمایش دربیاید.</p>
+
+<div class="highlighter-coderay"><div class="CodeRay">
+  <div class="code"><pre>
+---
+---
+<span style="color:#579">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span>
+<span style="color:#070;font-weight:bold">&lt;feed</span> <span style="color:#b48">xmlns</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">http://www.w3.org/2005/Atom</span><span style="color:#710">&quot;</span></span><span style="color:#070;font-weight:bold">&gt;</span>
+<span style="color:#070;font-weight:bold">&lt;title</span> <span style="color:#b48">type</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">text</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">xml:lang</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">fa</span><span style="color:#710">&quot;</span></span><span style="color:#070;font-weight:bold">&gt;</span>{{ site.title }}<span style="color:#070;font-weight:bold">&lt;/title&gt;</span>
+<span style="color:#070;font-weight:bold">&lt;link</span> <span style="color:#b48">rel</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">alternate</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">type</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">text/html</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">href</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">{{ site.url }}</span><span style="color:#710">&quot;</span></span><span style="color:#070;font-weight:bold">/&gt;</span>
+<span style="color:#070;font-weight:bold">&lt;link</span> <span style="color:#b48">rel</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">self</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">type</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">application/atom+xml</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">href</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">{{ site.url }}/feed/</span><span style="color:#710">&quot;</span></span><span style="color:#070;font-weight:bold">/&gt;</span>
+<span style="color:#070;font-weight:bold">&lt;updated&gt;</span>{{ site.time | date: &quot;%Y-%m-%dT%H:%M:%SZ&quot; }}<span style="color:#070;font-weight:bold">&lt;/updated&gt;</span>
+<span style="color:#070;font-weight:bold">&lt;id&gt;</span>urn:uuid:1e7d9dd8-29e4-475d-adc5-17494fb80445<span style="color:#070;font-weight:bold">&lt;/id&gt;</span>
+<span style="color:#070;font-weight:bold">&lt;author&gt;</span>
+        <span style="color:#070;font-weight:bold">&lt;name&gt;</span>{{ site.author }}<span style="color:#070;font-weight:bold">&lt;/name&gt;</span>
+        <span style="color:#070;font-weight:bold">&lt;uri&gt;</span>{{ site.url }}<span style="color:#070;font-weight:bold">&lt;/uri&gt;</span>
+        <span style="color:#070;font-weight:bold">&lt;email&gt;</span>{{ site.email }}<span style="color:#070;font-weight:bold">&lt;/email&gt;</span>
+<span style="color:#070;font-weight:bold">&lt;/author&gt;</span>
+<span style="color:#070;font-weight:bold">&lt;rights&gt;</span>{{ site.copyright }}<span style="color:#070;font-weight:bold">&lt;/rights&gt;</span>
+{% for post in site.posts limit: 8 %}
+        <span style="color:#070;font-weight:bold">&lt;entry&gt;</span>
+                <span style="color:#070;font-weight:bold">&lt;title&gt;</span>{{ post.title }}<span style="color:#070;font-weight:bold">&lt;/title&gt;</span>
+                <span style="color:#070;font-weight:bold">&lt;link</span> <span style="color:#b48">rel</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">alternate</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">type</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">text/html</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">href</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">{{ site.url }}{{ post.url }}</span><span style="color:#710">&quot;</span></span><span style="color:#070;font-weight:bold">/&gt;</span>
+                <span style="color:#070;font-weight:bold">&lt;id&gt;</span>urn:uuid:{{ post.uuid }}<span style="color:#070;font-weight:bold">&lt;/id&gt;</span>
+                <span style="color:#070;font-weight:bold">&lt;updated&gt;</span>{{ post.date | date: &quot;%Y-%m-%dT%H:%M:%SZ&quot; }}<span style="color:#070;font-weight:bold">&lt;/updated&gt;</span>
+                {% for tag in post.tags %}<span style="color:#070;font-weight:bold">&lt;category</span> <span style="color:#b48">term</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">{{ tag }}</span><span style="color:#710">&quot;</span></span><span style="color:#070;font-weight:bold">/&gt;</span>{% endfor %}
+                        <span style="color:#070;font-weight:bold">&lt;content</span> <span style="color:#b48">type</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">html</span><span style="color:#710">&quot;</span></span><span style="color:#070;font-weight:bold">&gt;</span>
+                                <span style="font-weight:bold;color:#666">&lt;![CDATA[</span>&lt;div dir=&quot;rtl&quot;&gt;{{ post.content }}&lt;/div&gt;<span style="font-weight:bold;color:#666">]]&gt;</span>
+                        <span style="color:#070;font-weight:bold">&lt;/content&gt;</span>
+        <span style="color:#070;font-weight:bold">&lt;/entry&gt;</span>
+{% endfor %}
+<span style="color:#070;font-weight:bold">&lt;/feed&gt;</span>
+
+</pre></div>
+</div>
+</div>
+
+<h2 id="rss">اتم یا RSS؟</h2>
+<p>کدی که در بالا آمده مطابق با استاندارد اتم ۱.۰ است. پیش از این از RSS استفاده می‌کردم ولی متوجه شدم که فرمتی بسیار مبهم است و طراحی خوبی ندارد (مقاله خوبی در شرح این اشکالات و مقایسه اتم و RSS به زبان انگلیسی <a href="http://nullprogram.com/blog/2013/09/23/">در این سایت</a> وجود دارد). برای پشتبانی از اتم مجبور بودم به تمام مطالب قبلی وبسایت نیز یک uuid اختصاص بدهم و از این پس هم برای هر مطلب جدید اینکار را انجام بدهم، چرا که طبق اتم هر مطلب باید یک آی‌دی منحصر به فرد داشته باشد تا برای خوراک‌خوان‌ها تشخیص مطالب تکراری و یکتا امکانپذیر باشد.</p>
+
+<p>بهرحال با تغییر ساده‌ای که در بالا آمده اکنون خوراک وبسایت به درستی در خوراک‌خوان (الااقل دیگ) به نمایش درمی‌آید! در تصویر زیر این امر پیداست. هرچند عنوان مطلب همچنان در سمت چپ نمایش داده می‌شود که برای آن کاری از دستم ساخته نیست. البته خرده‌کاری‌هایی هم باقی مانده است. مثلا در حال حاضر کدهای داخل متن راست چین نمایش داده می‌شود که باید با اصلاح استایل‌ خوراک آن‌ها را درست کنم، اما باشد برای فرصتی دیگر.</p>
+
+<figure class="center border">
+  <figcaption>
+نمایش ‫‫بهتر متن راست به چپ پس از اعمال تغییرات
+</figcaption>
+  <p><img src="assets/postimages/rtl-feed/after.png" alt="image not found" title="نمایش خوراک پیش از اعمال تغییرات" /></p>
+</figure>
+
+<p>حسن ختام این پست نیز لینک به صفحه اعتبارسنجی خوراک وبسایت است!</p>
+
+<p class="center"><a href="http://validator.w3.org/feed/check.cgi?url=http%3A//mehdix.ir/feed.xml"><img src="assets/valid-atom.png" alt="[Valid Atom 1.0]" title="Validate my Atom 1.0 feed" /></a></p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Feed reader <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>Replica <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>Specifications <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:4">
+      <p>https://www.ietf.org/rfc/rfc4287.txt <a href="#fnref:4" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:5">
+      <p>http://cyber.law.harvard.edu/rss/rss.html <a href="#fnref:5" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+</div>]]>
+			</content>
+	</entry>
 
 	<entry>
 		<title>سوزه یا زوزه</title>
@@ -679,27 +775,6 @@ about.md  _config.yml  css  feed.xml  _includes  index.html  _layouts  _posts  _
 <p>و این هم رنگ خوش سبز <em>https</em> در کروم:</p>
 
 <p><img src="assets/postimages/https.png" alt="image" /></p>
-
-</div>]]>
-			</content>
-	</entry>
-
-	<entry>
-		<title>پلاگین تاریخ جلالی برای جکیل</title>
-		<link rel="alternate" type="text/html" href="http://mehdix.ir/jekyll-jalali-plugin.html"/>
-		<id>urn:uuid:3813a043-9697-4761-a72b-08612af533e6</id>
-		<updated>2014-12-09T00:00:00Z</updated>
-		<category term="اوپن‌سورس"/><category term="مشارکت"/>
-			<content type="html">
-				<![CDATA[<div dir="rtl"><p>همونطور که قبلا نوشته بودم بهترین روش مشارکت در عالم متن‌باز رو در نوشتن برنامه‌هایی دیدم که شخصا بهشون نیاز پیدا کردیم. من هم در راه‌ اندازی این وبلاگ به زبان فارسی مشکلاتی با جکیل داشتم. یکی از این موارد پشتیبانی از تاریخ هجری شمسی بود.</p>
-
-<p>جکیل به صورت پیش‌فرض امکانی برای اینکار نداره اما نوشتن پلاگین براش کار ساده‌ایه. پلاگین‌های جکیل به زبان روبی نوشته می‌شن و در فولدر <code>_plugins</code> ذخیره می‌شن. ابتدا جستجویی انجام دادم که در عالم روبی چه کتابخانه‌هایی برای پشتیبانی از تقویم جلالی نوشته شده، خوشبختانه قبلا اینکار انجام شده بود.<a href="https://github.com/aziz/jalalidate">کتابخانه</a> ظاهرا جامعی بنام <em>jalalidate</em> روی گیت‌هاب پیدا کردم. از این کتابخانه در پروژه سایت <em>nerdnews.ir</em> هم استفاده شده بود. بنابراین کار من ساده شد. یک فیلتر کوچک بنام <a href="https://github.com/mehdisadeghi/jekyll-jalali">Jekyll-jalali</a> برای جکیل نوشتم و با اضافه کردنش به جکیل روی ماشین خودم تاریخ‌های سایتم رو شمسی کردم. برای اینکار بجای <code>date</code> از فیلتر <code>jdate</code> که نوشته بودم استفاده کردم.</p>
-
-<p>الانه که بپرسید پس کو این تقویم شمسی؟ این پست که تاریخش هنوز میلادیه؟ خب، پلاگین بدون مشکل روی دستگاه من کارش رو انجام می‌ده اما مساله اینجاست که وقتی از گیت‌هاب برای تولید خروجی جکیل استفاده می‌کنیم در استفاده از پلاگین‌ها محدودیت داریم و فقط امکان استفاده از <a href="https://help.github.com/articles/using-jekyll-plugins-with-github-pages/">تعداد محدودی</a> از اونها وجود داره. بنابراین فعلا نتونستم از تقویم شمسی در وبلاگم استفاده کنم.</p>
-
-<p>نکته دیگر اینکه من بعد از نوشتن پلاگینم اون رو به فهرست پلاگین‌های جکیل اضافه کردم و برای پلاگین هم یک مخزن روی گیت‌هاب درست کردم و مجوز استفاده و حداقل مستندات لازم رو اونجا نوشتم. اینکار حتی برای پروژه‌های کوچک هم مفیده و اگر کسی قصد استفاده یا توسعه داشته باشه حتما بهش کمک می‌کنه.</p>
-
-<p>خلاصه همین!</p>
 
 </div>]]>
 			</content>
