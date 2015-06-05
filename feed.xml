@@ -3,7 +3,7 @@
 <title type="text" xml:lang="fa">مهدی صادقی</title>
 <link rel="alternate" type="text/html" href="http://mehdix.ir"/>
 <link rel="self" type="application/atom+xml" href="http://mehdix.ir/feed/"/>
-<updated>2015-06-04T16:34:24Z</updated>
+<updated>2015-06-05T18:13:55Z</updated>
 <id>urn:uuid:1e7d9dd8-29e4-475d-adc5-17494fb80445</id>
 <author>
 	<name>Mehdi Sadeghi</name>
@@ -11,6 +11,77 @@
 	<email>sadeghi@mehdix.org</email>
 </author>
 <rights>Commons Attribution 4.0 International</rights>
+
+	<entry>
+		<title>در ستایش اعداد</title>
+		<link rel="alternate" type="text/html" href="http://mehdix.ir/numbers.html"/>
+		<id>urn:uuid:64421da5-100c-4911-821d-299b92534131</id>
+		<updated>2015-06-05T00:00:00Z</updated>
+		<category term="عدد"/><category term="محاسبه"/><category term="اندازه‌گیری"/><category term="دقت"/><category term="فرهنگ"/>
+			<content type="html">
+				<![CDATA[<div dir="rtl"><p>من در گذشته اهمیت زیادی برای دقت ارقام در زندگی و کار و سرمایه‌ام قائل نبودم. در این نوشتار در مورد تاثیر بکارگیری اعداد و واحدها در زندگی روزمره‌مان می‌نویسم.</p>
+
+<h2 id="section">تقریبا یا دقیقا</h2>
+<p>در گذشته در محاوراتم خیلی از کلمات «تقریبا» و «حول و حوش» و فلان قدر و «خرده‌ای» استفاده می‌کردم. موضوع صحبت می‌توانست قیمت یک جنس یا حقوق دریافتی‌ام یا موجودی حساب بانکی‌ام یا مسافت بین دو شهر و یا میزان آرد لازم برای پختن یک کیک باشد. من دقیق نبودم و اهمیتی هم برای این موضوع قائل نمی‌شدم. مثلا چه نیازی داشتم بدانم چقدر دقیقا در حسابم دارم در حالی که هر لحظه می‌توانستم با مراجعه به خودپرداز یا اینترنت‌بانک و یا حتی موبایل‌بانک از موجودی‌ام مطلع شوم؟</p>
+
+<h2 id="section-1">واحدهای رایج اندازه‌گیری</h2>
+<p>حتما تابحال پیش‌آمده که تایر دوچرخه یا موتور یا خودرو را باد زده باشید. چطور چک می‌کنیم که میزان باد تایر کافی است؟ صدها بار این صحنه را دیده‌ایم، به جز خودرو در سایر موارد غالبا با فشار دادن تایر این کار را انجام می‌دهیم. تا اینجا ظاهرا مشکل بزرگی نیست. هرچند هرگز نمی‌توانیم به این طریق از میزان «دقیق» فشار باد تایر آگاه شویم. اما چه اهمیتی دارد؟</p>
+
+<blockquote>
+  <p>ارقام دروغ نمی‌گویند</p>
+</blockquote>
+
+<p>این روش مشکلاتی دارد. اول اینکه هرگز یاد نمی‌گیریم یک مشکل را به روشی که طی آزمایش و تحقیق بدست آمده است حل کنیم. مثلا برای فشار باد تایر دوچرخه کوهستان، دوچرخه کورسی، انواع موتورسیکلت و انواع خودرو مقادیری توسط سازندگان توصیه می‌شود که بکارگیری آنها بهترین نتیجه را در هنگام رانندگی و ترمز کردن بدست می‌دهد. دیگر اینکه یاد نمی‌گیریم از واحدهای اندازه‌گیری استفاده کنیم، مانند بار (bar) و پاسکال (pascal) و پاوند بر اینج مربع (psi). اینجا قصدم صحبت در مورد دستگاه بین‌المللی یکاها یا سیستم متریک نیست، بلکه منظورم هر واحدی است که در صنف مورد نظر ما رایج باشد. مثلا اگر مکانیک‌های کشور من از بار  استفاده می‌کنند من هم باید آن را بلد باشم و موقع مکالمه با آنها از لغت صحیح استفاده کنم.</p>
+
+<h2 id="section-2">اعداد و سرعت انتقال</h2>
+<p>نکته‌ای که از همه موارد بالا مهمتر است سرعت انتقال افکار و ایده‌ها و محاسبات به بکارگیری اعداد و واحدهای مناسب است. وقتی دو نفر مشغول صحبت و دیالوگ با یکدیگر هستند و یکی می‌خواهد مثلا میزان توصیه شده فشار باد تایر دوچرخه را به دیگری بگوید چطور باید این را انتقال بدهد؟ آیا می‌تواند تجربه‌ای که از فشار تایر باد شده دارد را بدون استفاده از اعداد منتقل کند؟ آیا اصلا راهی هست؟ واضح است که بکار بردن اعداد سرعت انتقال را به شکل غیر قابل باوری در این مورد بالا می‌برد. مثلا اگر من به شما بگویم که تایر دوچرخه کوهستان باید به میزان ۶ بار باد شود، مطلب ۱۰۰٪ منتقل شده است، فرقی هم نمی‌کند که این را رو در رو بگویم یا پشت تلفن یا روی کاغذ بیاورم.</p>
+
+<p>مثال دیگر در این مورد آشپزی است. بارها هنگام پرسش از دستورالعمل پخت یک غذا با واحدهایی نظیر «مشت» و «لیوان» و حتی «پیمانه» مواجه می‌شوم. در مورد مشت و لیوان به وضوح پیداست که اینها قابل اطمینان نیستند. حتی در مورد پیمانه هم مادامی که عنوان نشده باشد که در کدام سیستم اندازه‌گیری صحبت می‌کنیم قابل استناد نیست. مثلا یک پیمانه در ژاپن ۲۰۰ میلی‌لیتر و در آمریکا ۲۴۰ میلی‌لیتر حجم دارد‏<sup id="fnref:2"><a href="#fn:2" class="footnote">1</a></sup>.</p>
+
+<h2 id="section-3">هشیاری مالی</h2>
+<p>در گذشته مدیریت مالی نداشتم. از یک طرف در طول ماه/سال درآمدی داشتم که وارد حسابم می‌شد و از سوی دیگر هزینه‌ها قرار داشتند که موجودی حسابم را تخلیه می‌کردند. نسبت به میزان دقیق آنها هم اطلاعی نداشتم. اینکه سالیانه چقدر مالیات می‌دهم، چقدر بیمه پرداخت می‌کنم، مجموع کرایه سالیانه‌ام چقدر است، هزینه حمل و نقل من و خانواده‌ام چقدر است و مانند اینها. هر وقتی هم که کفگیر به ته دیگ نزدیک می‌شد وقت «صرفه‌جویی» فرا می‌رسید. اگر آن موقع کسی می‌پرسید که هزینه‌های سالیانه خودرو من چقدر است، یا سایر هزینه‌های من در سال چقدر است پاسخی نداشتم بدهم. اصولا نیازی احساس نمی‌کردم که پاسخ اینها را بدانم. دید من «کوتاه مدت» بود و در زندگی من همه چیز در «حال» خلاصه شده بود.</p>
+
+<p>این «ابهام» مالی اکنون به نظرم مثل زندگی در فضایی ابری و غبارآلود یا مثل شنا بدون عینک یا شنا در آب گل‌آلود می‌ماند. امروز بعد از سپری شدن سالها و بویژه چند سالی زندگی در کشور آلمان کم کم این رویکرد را کنار گذاشته‌ام. اندک اندک یاد گرفتم که بدانم چقدر هزینه می‌کنم و چقدر درآمد دارم. امروز میزان درآمدم را تا دو رقم اعشار به خاطر می‌سپارم چرا که گرد کردن دائمی آمار ذهنم را تنبل و راحت طلب می‌کند. شاید مسخره به نظر برسد، اما این تمرینی است برای «دقت» به آمار و ارقام. با بلندتر شدن دیدم دیگر حقوق/درآمدم را نیز ماهینانه محاسبه نمی‌کنم بلکه به سبک و سیاق کشورهای توسعه‌یافته آنرا «سالیانه» محاسبه می‌کنم چرا که می‌خواهم برای یکسال با تکیه بر درآمدم برنامه‌ریزی کنم. برنامه‌ریزی هم ممکن نیست مگر با دقت در «ارقام».</p>
+
+<blockquote>
+  <p>امروز میزان درآمدم را تا دو رقم اعشار به خاطر می‌سپارم چرا که گرد کردن دائمی آمار ذهنم را تنبل و راحت طلب می‌کند</p>
+</blockquote>
+
+<p>الان با این تجربه عادات حسنه‌ای پیدا کرده‌ام. مثلا همواره نسبت به موجودی و دارائی‌ام آگاهم. در صورتی که قصد هزینه‌ای داشته باشم با ملاحظه اینکار را می‌کنم. اگر هم قصد انجام کار یا خریدی دارم که هزینه قابل توجهی دارد از ماه‌ها پیش شروع به فکر و برنامه‌ریزی می‌کنم.</p>
+
+<h2 id="section-4">نتیجه‌گیری</h2>
+<p>امیدوارم توانسته باشم اهمیت ارقام و اعداد و بکارگیری دقیق آنها را بیان کرده باشم. ملتی که بتواند از اعداد و واحدهای مناسب در محاورات و اسناد خودش استفاده کند و همه افرادش این «سواد» مهم را داشته باشند می‌تواند با سرعت و دقت بسیار زیادی دست به انتقال دانش و تجربه بزند بدون اینکه دست به دامن سعی و خطا‏<sup id="fnref:1"><a href="#fn:1" class="footnote">2</a></sup> بشود و عمر و وقت گرانبها را بیهوده تلف بکند و آهنگ رشد خودش را کند کند.</p>
+
+<p>به عنوان حسن خطام این مطلب نموداری که از ورودی و خروجی حسابم ساختم رو اینجا اضافه می‌کنم. من اعداد رو در یک رقم دلخواه ضرب کردم تا رقم واقعی مشخص نشود. شما بررسی کنید که آیا این نمودار الگوی منظمی داره یا نه، من که نظمی نمی‌بینم.</p>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/dygraph/1.1.1/dygraph-combined.js"></script>
+
+<div id="graphdiv" class="center" style="margin:0 auto;direction:ltr;font-family:Times"></div>
+
+<script type="text/javascript">
+  g = new Dygraph(
+    document.getElementById("graphdiv"),
+    "assets/kontostats25.csv",
+    {
+    showRoller: true,
+rollPeriod: 15
+    }
+  );
+</script>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:2">
+      <p><a href="http://fa.wikipedia.org/wiki/پیمانه_(واحد)">پیمانه در ویکی‌پدیای فارسی</a> <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:1">
+      <p>Trial and error <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+</div>]]>
+			</content>
+	</entry>
 
 	<entry>
 		<title>مهاجرت به اتم از سمت راست</title>
@@ -677,105 +748,6 @@ about.md  _config.yml  css  feed.xml  _includes  index.html  _layouts  _posts  _
     </li>
   </ol>
 </div>
-</div>]]>
-			</content>
-	</entry>
-
-	<entry>
-		<title>طریقه نصب گواهینامه SSL روی سرور شخصی</title>
-		<link rel="alternate" type="text/html" href="http://mehdix.ir/installing-ssl-certificate.html"/>
-		<id>urn:uuid:e367a6cc-329f-4a68-a995-d7aa579db246</id>
-		<updated>2014-12-18T00:00:00Z</updated>
-		<category term="ssl"/><category term="امنیت"/>
-			<content type="html">
-				<![CDATA[<div dir="rtl"><p>امنیت رو باید جدی گرفت. هرچند من متخصص امنیت نیستم ولی برای درک اهمیت استفاده از پروتکل‌های امن نیازی به متخصص بودن نیست. اینکه اسم کاربری و کلمه عبور و سایر داده‌های حساس باید به شکل رمزگذاری شده ارسال بشوند دیگر چیزی بدیهی به نظر می‌رسد.</p>
-
-<p>بنابراین من تصمیم گرفتم به قول معروف برای «فال و تماشا» یک گواهینامه SSL برای دامنه <a href="mehdix.org">mehdix.org</a> تهیه و فعال کنم. دستورات این راهنما رو من از سایت ‎<a href="https://aralbalkan.com/scribbles/setting-up-ssl-with-nginx-using-a-namecheap-essentialssl-wildcard-certificate-on-digitalocean/">آرال بالکان</a> برداشتم.</p>
-
-<h1 id="section">بسته آموزشی گیت‌هاب</h1>
-<p>من در این راهنما از یک سرور شخصی روی <a href="https://digitalocean.com">DigitalOcean</a> و همچنین یک گواهینامه SSL از namecheap.com استفاده کردم. من برای تهیه اینها پولی پرداخت نکردم، بلکه اینها رو از طریق <a href="https://education.github.com">بسته آموزشی گیت‌هاب</a> بدست آوردم. برای اینکار فقط کافیه یک ایمیل دانشگاهی داشته باشید و در پروژه‌ی بالا ثبت نام کنید و به سرویس‌های مختلفی برای تقریبا یک سال به رایگان دسترسی پیدا کنید.</p>
-
-<p class="center"><img src="https://education.github.com/assets/sdp-backpack-6f872c4211af1bac3aef0c6e2b5fbb7a.png" alt="image" title="Github Developer Pack" /></p>
-
-<h1 id="section-1">خرید گواهینامه</h1>
-<p>من ابتدا یک گواهینامه <em>Positive SSL</em> از سایت <em>namecheap.com</em> برای دامنه‌ام خریداری کردم. بدون خرید گواهینامه هم می‌شه روی سرور شخصی اتصال <em>https</em> داشت اما توسط مرورگر تایید نمی‌شه و پیام هشدار دریافت می‌کنید. در حالی که گواهینامه بالا بعد از نصب به رنگ سبز در نوار آدرس کروم نمایش داده می‌شه. گواهینامه‌ای که من خریدم فقط برای یک دامنه تنها اعتبار داره و شامل زیردامنه‌ها نخواهد بود. برای اینکار باید از یک گواهینامه گرانتر بنام <em>Wildcard SSL Certificate</em> استفاده کرد.</p>
-
-<h1 id="section-2">تولید کلیدهای اولیه</h1>
-<p>اول به ماشین مورد نظر <em>ssh</em> می‌کنیم و دستور زیر رو جهت تولید یک کلید خصوصی وارد می‌کنیم:</p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">openssl genrsa <span class="m">2048</span> &gt; key.pem</code></pre></div>
-
-<p>فراموش نکنید که کلیدها رو به ماشین خودتون <em>scp</em> کنید. حالا یک <strong>درخواست گواهینامه</strong> تولید می‌کنیم:</p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">openssl req -new -key key.pem -out csr.pem</code></pre></div>
-
-<p>به سوالات پرسیده شده جواب بدین و برای گزینه <em>Common Name</em> اسم دامنه خودتون را با پسوندش وارد کنید (بدون پیشوند). لزومی به وارد <em>Challenge Password</em> نیست.</p>
-
-<p>در هنگام خرید گواهینامه در سایت صادرکننده از ما درخواست <em>csr</em> خواهد شد که مخفف کلمه <strong>Certificate Signing Request</strong> است. در آنجا جهت فعالسازی گواهینامه و انجام کامل عملیات صدور باید محتویات فایل <em>csr.pem</em> را کپی کنیم. بعد از این مرحله و تکمیل مراحل صدور یک فایل زیپ شده حاوی فایل‌های زیر برای ما ایمیل خواهد شد:</p>
-
-<ul>
-  <li>yourdomain_extension.crt</li>
-  <li>COMODORSADomainValidationSecureServerCA.crt</li>
-  <li>COMODORSAAddTrustCA.crt</li>
-  <li>AddTrustExternalCARoot.crt</li>
-</ul>
-
-<p>حال باید از روی اینها ما یک <em>Certificate Bundle</em> بسازیم:</p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">cat STAR_yourdomain_ext.crt COMODORSADomainValidationSecureServerCA.crt COMODORSAAddTrustCA.crt AddTrustExternalCARoot.crt &gt; bundle.cer</code></pre></div>
-
-<h1 id="section-3">کپی فایل‌های گواهینامه</h1>
-<p>من روی سرورم اوبونتو ۱۴.۰۴ نصب کردم و برای نصب nginx تنها کافی بود که دستور زیر رو وارد کنم:</p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">sudo apt-get install ngingx</code></pre></div>
-
-<p>برای کپی کردن فایل‌ها مراحل زیر رو انجام می‌دیم:</p>
-
-<ol>
-  <li><code>sudo mkdir /etc/nginx/ssl</code></li>
-  <li><code>sudo mv PATH_TO_BUNDLE_FILE /etc/nginx/ssl/</code></li>
-  <li><code>sudo mv PATH_TO_KEY.PEM_FILE /etc/nginx/ssl/</code></li>
-  <li><code>sudo chmod 600 /etc/nginx/ssl</code></li>
-</ol>
-
-<p>دستور آخر دسترسی به پوشه فوق رو محدود به مالک می‌کنه. چون من با کاربری غیر از روت به دستگاه وصل شدم و با کاربر روت این پوشه رو ساختم دیگر تنها روته که می‌تونه رو این پوشه بخونه و بنویسه.</p>
-
-<h1 id="nginx">تنظیم nginx</h1>
-<p>حالا <em>nginx</em> رو تنظیم می‌کنیم که همه ترافیک <em>http</em>‌ رو بفرسته روی <em>https</em>:</p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">sudo vim /etc/nginx/sites-available/default</code></pre></div>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">server <span class="o">{</span>
-        listen <span class="m">80</span> default_server<span class="p">;</span>
-
-        server_name mehdix.org<span class="p">;</span>
-
-        <span class="k">return</span>   <span class="m">301</span> https://<span class="nv">$server_name$request_uri</span><span class="p">;</span>
-<span class="o">}</span></code></pre></div>
-
-<p>روی پورت ۸۰ گوش کن و هرچه درخواست برای <em>mehdix.org</em> بدستت رسید بفرست با کد ۳۰۱ روی همین سرور ولی با <em>https</em>. حالا وقت تنظیمات خود <em>https</em> رسیده:</p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">server <span class="o">{</span>
-        listen 443<span class="p">;</span>
-
-        server_name mehdix.org<span class="p">;</span>
-
-        root /usr/share/nginx/html<span class="p">;</span>
-        index index.html index.htm<span class="p">;</span>
-
-        ssl on<span class="p">;</span>
-        ssl_certificate /etc/nginx/ssl/bundle.cer<span class="p">;</span>
-        ssl_certificate_key /etc/nginx/ssl/key.pem<span class="p">;</span>
-<span class="o">}</span></code></pre></div>
-
-<p>و یک ریستات و والسلام:</p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">sudo service nginx restart</code></pre></div>
-
-<p>و این هم رنگ خوش سبز <em>https</em> در کروم:</p>
-
-<p><img src="assets/postimages/https.png" alt="image" /></p>
-
 </div>]]>
 			</content>
 	</entry>
